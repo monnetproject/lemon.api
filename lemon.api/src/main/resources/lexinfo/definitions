@@ -1,0 +1,7 @@
+usageNote	http://www.lexinfo.net/ontology/2.0/lexinfo#usageNote
+etymology	http://www.lexinfo.net/ontology/2.0/lexinfo#etymology
+definition	http://www.monnet-project.eu/lemon#definition
+description	http://www.lexinfo.net/ontology/2.0/lexinfo#description
+explanation	http://www.lexinfo.net/ontology/2.0/lexinfo#explanation
+gloss	http://www.lexinfo.net/ontology/2.0/lexinfo#gloss
+note	http://www.lexinfo.net/ontology/2.0/lexinfo#note

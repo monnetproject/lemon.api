@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LexicalResource dtdVersion="16">
+    <GlobalInformation>
+        <feat att="label"          val="LIRICS test suites number 1 for French"/>
+        <feat att="comment"        val="Two adjectives are described: actif and inactif. Each of them has two meanings. Their meanings are linked together by an antonymy. These two adjectives are morphologically described by the same morphological pattern. These adjectives are described in syntax. And the lexicon states by a set of constraints that in French, adjectives vary in gender and number."/>
+        <feat att="author"         val="Gil Francopoulo"/>
+        <feat att="languageCoding" val="ISO 639-3"/>
+    </GlobalInformation>
+        <!--#######################################################core section -->
+    <Lexicon>
+        <feat att="language" val="fra"/>
+        <LexicalEntry morphologicalPatterns="AsPassif">
+            <feat att="partOfSpeech" val="adjective"/>
+            <Lemma>
+                 <feat att="writtenForm" val="actif"/>
+            </Lemma>
+            <Sense id="S1">
+                 <feat att="definition" val="Qui agit ou implique une activité"/>
+                 <SenseRelation targets="S3">
+                     <feat att="label" val="antonym"/>
+                     <feat att="comment" val="Actif est le contraire d'inactif"/>
+                 </SenseRelation>
+            </Sense>
+            <Sense id="S2">
+                 <feat att="definition" val="Propre à exprimer que le sujet est considéré comme agissant"/>
+                 <feat att="domain"     val="grammaire"/>
+            </Sense>
+            <SyntacticBehaviour subcategorizationFrameSets="SSRegPostAdj"/>
+        </LexicalEntry>
+        <LexicalEntry morphologicalPatterns="AsPassif">
+            <feat att="partOfSpeech" val="adjective"/>
+            <Lemma>
+                 <feat att="writtenForm" val="inactif"/>
+            </Lemma>
+            <Sense id="S3">
+                 <feat att="definition" val="Qui n'a pas d'activité"/>
+            </Sense>
+            <Sense id="S4">
+                 <feat att="definition" val="Qui n'a pas d'activité régulière, sans être chômeur"/>
+                 <feat att="domain"     val="juridique"/>
+            </Sense>
+            <SyntacticBehaviour subcategorizationFrameSets="SSRegPostAdj">
+            </SyntacticBehaviour>
+        </LexicalEntry>
+        <!--#######################################################syntax -->
+        <SubcategorizationFrameSet id="SSRegPostAdj" subcategorizationFrames="SFPostAdj SFAttr">
+            <feat att="comment" val="The adjective may be used after the noun or as an attribute"/>
+        </SubcategorizationFrameSet>
+        <SubcategorizationFrame id="SFPostAdj">
+            <feat att="syntacticConstituent" val="NP"/>
+            <feat att="comment"              val="The adjective can be used only after the noun"/>
+            <LexemeProperty>
+                 <feat att="position" val="1"/>
+                 <feat att="comment"  val="The current lexeme is after the noun"/>
+            </LexemeProperty>
+            <SyntacticArgument>
+                 <feat att="partOfSpeech" val="noun"/>
+            </SyntacticArgument>
+        </SubcategorizationFrame>
+        <SubcategorizationFrame id="SFAttr">
+            <feat att="syntacticConstituent" val="VP"/>
+            <feat att="comment"              val="Attributive formulation"/>
+            <LexemeProperty>
+                 <feat att="position" val="1"/>
+                 <feat att="comment"  val="The current lexeme is after the verb"/>
+            </LexemeProperty>
+            <SyntacticArgument>
+                 <feat att="partOfSpeech" val="verb"/>
+            </SyntacticArgument>
+        </SubcategorizationFrame>
+        <!--#######################################################paradigm patterns -->
+        <MorphologicalPattern id="AsPassif">
+            <feat att="comment"      val="Intended for adjectives with F ending"/>
+            <feat att="partOfSpeech" val="adjective"/>
+            <!--four values: the combination of masc/femi and sing/plur -->
+            <TransformSet>
+                <!-- masc/sing, the ending "f" is kept -->
+                <Process>
+                     <feat att="operator" val="addLemma"/>
+                </Process>
+                <GrammaticalFeatures>
+                     <feat att="grammaticalGender" val="masculine"/>
+                     <feat att="grammaticalNumber" val="singular"/>
+                </GrammaticalFeatures>
+            </TransformSet>
+            <TransformSet>
+                <!-- masc/plur, an "s" is added -->
+                <Process>
+                     <feat att="operator" val="addLemma"/>
+                </Process>
+                <Process>
+                     <feat att="operator" val="addAfter"/>
+                     <feat att="stringValue" val="s"/>
+                </Process>
+                <GrammaticalFeatures>
+                     <feat att="grammaticalGender" val="masculine"/>
+                     <feat att="grammaticalNumber" val="plural"/>
+                </GrammaticalFeatures>
+            </TransformSet>
+            <TransformSet>
+                <!-- femi/sing, the ending "f" is transformed into "ve"-->
+                <Process>
+                     <feat att="operator" val="addLemma"/>
+                </Process>
+                <Process>
+                     <feat att="operator" val="removeAfter"/>
+                     <feat att="numValue" val="1"/>
+                </Process>
+                <Process>
+                     <feat att="operator" val="addAfter"/>
+                     <feat att="stringValue" val="ve"/>
+                </Process>
+                <GrammaticalFeatures>
+                     <feat att="grammaticalGender" val="feminine"/>
+                     <feat att="grammaticalNumber" val="singular"/>
+                </GrammaticalFeatures>
+            </TransformSet>
+            <TransformSet>
+                <!-- femi/plur, the ending "f" is transformed into "ves"-->
+                <Process>
+                     <feat att="operator" val="addLemma"/>
+                </Process>
+                <Process>
+                     <feat att="operator" val="removeAfter"/>
+                     <feat att="numValue" val="1"/>
+                </Process>
+                <Process>
+                     <feat att="operator" val="addAfter"/>
+                     <feat att="stringValue" val="ves"/>
+                </Process>
+                <GrammaticalFeatures>
+                     <feat att="grammaticalGender" val="feminine"/>
+                     <feat att="grammaticalNumber" val="plural"/>
+                </GrammaticalFeatures>
+            </TransformSet>
+        </MorphologicalPattern>
+        <!--#######################################################constraints -->   
+        <ConstraintSet>
+            <feat att="label" val="grammaticalFeatureVariation"/>
+            <Constraint>
+                <feat att="label" val="forAdjectives"/>
+                <feat att="comment" val="Valid for all French qualifying adjectives: an adjective varies in gender and number"/>
+                <LogicalOperation>
+                     <feat att="operator" val="logicalAnd"/>
+                     <AttributeValuation>
+                          <feat att="partOfSpeech" val="adjective"/>
+                     </AttributeValuation>
+                     <Constraint>
+                          <feat att="label" val="genderNumber"/>
+                          <LogicalOperation>
+                               <feat att="operator" val="logicalOr"/>
+                               <AttributeValuation>
+                                    <feat att="grammaticalGender" val="masculine"/>
+                                    <feat att="grammaticalNumber" val="singular"/>
+                               </AttributeValuation>
+                               <AttributeValuation>
+                                    <feat att="grammaticalGender" val="masculine"/>
+                                    <feat att="grammaticalNumber" val="plural"/>
+                               </AttributeValuation>
+                               <AttributeValuation>
+                                    <feat att="grammaticalGender" val="feminine"/>
+                                    <feat att="grammaticalNumber" val="singular"/>
+                               </AttributeValuation>
+                               <AttributeValuation>
+                                    <feat att="grammaticalGender" val="feminine"/>
+                                    <feat att="grammaticalNumber" val="plural"/>
+                               </AttributeValuation>
+                          </LogicalOperation>
+                     </Constraint>
+                </LogicalOperation>
+            </Constraint>
+        </ConstraintSet>
+    </Lexicon>
+</LexicalResource>
+
+
+

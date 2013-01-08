@@ -1,0 +1,360 @@
+unclassifiedParticle	Particle that is not covered by other sorts of particle definitions.
+exclamativeDeterminer	Determiner expressing an emotional utterance and marked with a strong intonation.
+numeral	Part of speech that expresses a number or the relation to a number.
+animate	Perceived as alive.
+compound	A lexical unit that combines two or sometimes more different words, frequently such that the sense of the new lexical unit is not clearly derivable from the combination of its parts.
+copulativeArg	Used with copula constructions. This represents the subject/object in a copula construction. As such constructions are reversible this property is used instead of the usual verb subject/object. E,g.,Barack Obama is the president/The president is Barack Obama
+standardizedTerm	A term that has been standardized by a standardizing body.
+numeralFraction	Word used to denote the denominator of a fraction.
+comitativeCase	Case which expresses a meaning similar to 'along with' or 'accompagnied by'.
+definiteArticle	Article that allows the reference to a specific, identifiable entity (or class of entities).
+sociativeCase	Case related to the person in whose company the action is carried out, or to any belongings of people which take part in the action.
+absolutiveCase	Case for nouns in ergative-absolute languages that would generally be the subjects of intransitive verbs or the objects of transitive verbs in the translational equivalents of nominative-accusative languages such as English.
+etymologicalRoot	Morpheme that has a particular status with regards to the word's etymology.
+imperative	...
+imperative	Mood used to express an order.
+possessiveAdjective	An adjective derived from a noun and denoting possession by the object described by the noun.
+optionalElement	1951: An optional part of a headword.1951; examples? The question arises whether these are true options or whether the options reflect synonyms or hyponyms (e.g., barrage, barrage de retenue). The question is not whether 1951 should use this markup, but rather how to map this markup in a global environment.
+shortFormFor	A linking element used to identify a relation between a short form and its full or expanded form.
+copulativeSubject	Indicates the subject of a copula construction. It is assumed that by using this the copula construction is not reversible e.g.,He is happy/*happy is him
+fullArticle	For definiteness, when a specific form is the syntactic subject of the clause.
+inHouseRegister	The register of terms that are company-specific and not readily recognized outside this environment.
+inHouseRegister	Register of terms that are company-specific and not readily recognized outside this environment.
+initialismFor	A linking element used to identify a relation between an initialism and its full or expanded form.
+collectivePronoun	A pronoun that refers to all elements of a set.
+indefiniteMultiplicativeNumeral	A word indicating imprecise number of times something happened.
+legalTerm	A term that is legally defined and used in legally binding documents.
+animacy	The characteristic of a word indicating that in a given discourse community, its referent is considered to be alive or to possess a quality of volition or consciousness.
+suspensionPoints	Sequence of three dots having the same meaning as &quot;et cetera&quot; (full form) or &quot;etc&quot; (abbreviated form).
+InterrogativeInfinitiveFrame	Indicates the frame has an argument that is a clause with both an interrogative and the clause is in the infinitive form
+distinctiveParticle	distinctive particle
+FusedPreposition	A word that is a fusion of a preposition and some other word... examples include the German words "zum" and "daran"
+mood	In TEI: contains information about the grammatical mood of verbs (e.g. indicative, subjunctive, imperative).
+generalizationWord	A word that does not carry its own meaning but generalizes the meaning of a neighboring word, adding the &quot;etc.&quot; sense.
+vulgarRegister	Register of a term or text type that can be characterized as profane or socially unacceptable.
+vulgarRegister	The register of a term or text type that can be characterized as profane or socially unacceptable.
+temporalQualifier	An attribution of a term or lexeme with respect to its use over time.
+number	Grammatical category for the variation in form of nouns, pronouns, and any words agreeing with them, depending on how many persons or things are referred to.
+number	In many languages, the grammatical distinction that indicates the number of objects referred to by the term or word.
+superlative	Value used in a comparison between more than two entities.
+inchoative	Aspect that expresses the beginning of an event or state.
+adverbialPronoun	()
+aspect	Category associated to verbs and referring to the way the grammar marks the duration or type of temporal activity.
+benchLevelRegister	The register of terms used in applications-oriented as opposed to theoretical or academic levels of language.
+benchLevelRegister	Register of terms used in applications-oriented as opposed to theoretical or academic levels of language.
+masculine	Of, relating to, or constituting the gender that ordinarily includes most words or grammatical forms referring to males.
+translativeCase	Case indicating that the referent of the noun, or the quality of the adjective, that it marks is the result of a process of change.
+postModifier	Situation where the modifier is after the modified.
+DeclarativeFrame	Declarative frames take a clause as an argument, this argument is marker with the declarative conjunction ("that" in English)
+SubjunctiveClause	A subclause that is in the subjunctive mood
+punctuation	Graphical mark used either at word level to indicate an abbreviation or at a text level to separate phrases or sentences.
+inanimate	Perceived as not living.
+prepositionalAdverb	adverb which is very similar in its form to a preposition
+obliqueCase	Case that is used when a noun is the object of a verb or a proposition, except for nominative and vocative case.
+outdatedForm	A term or lexeme that has fallen from fashion, but the meaning of which is readily recognizable.
+pronominalAdverb	adverb formed in replacement of a preposition and a pronoun
+inflectionElement	An element of language used to change the form of a word (noun, adjective) by declension, and (verbs) by conjugation.
+Control	Control indicates how a an argument from a main clause will be utilized in a subclause. This class includes both control structures and raising structures
+personal	Property that refers to the person.
+ReflexiveDativeTransitiveFrame	ist diese frame echt?
+subjunctive	...
+subjunctive	Mood often used to express uncertainty, whishes or desires.
+adverb	Part of speech to refer to an heterogeneous group of words whose most frequent function is to specify the mode of action of the verb.
+interrogativeMultiplicativeNumeral	An interrogative/relative word used to ask about the number of times something happened.
+equation	An expression used to represent a concept based on a statement that two mathematical expressions are, for instance, equal as identified by the equal sign (=), or assigned to one another by a similar sign.
+comparativeParticle	Particle used to compare.
+superessiveCase	Case indicating location on top of something or on the surface of something.
+dating	Indication specifying whether the usage is old or modern.
+trial	Grammatical number referring to 'three things', as opposed to 'singular' and 'plural'.
+abbreviationFor	A linking element used to identify a relation between an abbreviation and its full or expanded form.
+morphologicalElement	Unit resulting from the division of words into their smallest meaningful parts.Note: moved to lexeme element from being an independent element; note that this is currently an independent element in 12620
+abbreviatedForm	A term or lexeme resulting from the omission of any part of the full term or lexeme while designating the same concept.
+DeclarativeClause	A clause beginning with the declarative conjunction ("that" in English)
+preferredTerm	A term rated according to the scale of a term acceptability rating as the primary term for a given concept.
+interrogativeOrdinalNumeral	An interrogative/relative word used to ask about numeric ranking.
+fusedPrepositionDeterminer	word resulting from the aggregation of a proposition and a determiner
+negativeParticle	Particle used to express negation.
+relativePronoun	Pronoun which introduces a relative clause and refers to something that has been said before.
+fusedPronounAuxiliary	word resulting from the aggregation of a pronoun and an auxiliary
+singular	The form of a term or word (usually of a noun) used to designate one object.
+singular	Value that expresses one element.
+partitiveArticle	Article expressing a part or quantity.
+yes	Positive value
+register	Classification indicating the relative level of language individually assigned to a lexeme or term or to a text type.
+string	A chunk of text used in a software interface, documentation, help file, or the like.
+cliticness	Categorization of the different types of clitics
+otherAnimacy	Perceived as related to animacy, but without specific reference to the previous items.
+circumposition	Adposition which consists of two parts which are positioned ahead and after the adpositional foci.
+middleVoice	Value for middle voice that expresses that the subject is both the agent and object, or that the subject is separate from the agent or that the receiver is the agent him/herself.
+impersonalPronoun	Pronoun lacking person referent.
+bound	Linked to a particular element.
+bullet	Sign used to mark an item in a list.
+expression	A significant word or phrase.
+ergativeCase	Case assigned to the subject of a transitive verb as opposed to absolutive case.
+root	base of a word
+terminativeCase	Case that indicates to what or where something ends.
+unaccomplished	aspect that expresses an event or state that is not finished.
+possessiveParticle	Particle expressing ownship.
+infinitiveParticle	Particle used to express infinitive.
+participleAdjective	Adjective based on a verb.
+indirectObject	An indirect object is a grammatical relation that is one means of expressing the semantic role of goal and other similar roles. It is proposed for languages in which the role is distinct from the direct object and the oblique object on the basis of multiple independent syntactic or morphological criteria, such as the following: - Having a particular case marking, commonly dative - Governing an agreement affix on the verb, such as person or number - Being distinct from oblique relations in that it may be relativized
+finite	Property applied to a verb form that can occur on its own in an independent sentence.
+infrequentlyUsed	Said of a term that does not appear frequently.
+allusivePronoun	Pronoun that refers to something characterized by allusions.
+openParenthesis	Beginning of a pair of parenthesis.
+IntransitiveInterrogativeFrame	he ASKED [what he should do]
+InfinitiveFrame	Infinitive frames take an infinitive clause as an argument
+fullFormFor	A linking element used to identify a relation between any full form of a term or lexical unit and its abbreviated form.
+description	A description in general prose text of the issues that are indicated by the context. The description field can occur at many different places in a component and profile.
+elativeCase	Case which expresses the meaning of motion 'away from' from the referent of the noun it marks.
+future	Verb tense that indicates action or state of being in the future.
+strongPersonalPronoun	Personal pronoun that can occupy the position after a preposition and/or reinforce a weak personal pronoun.
+otherNumber	Designation used to classify number-related grammatical information that can differ from the standard European classifications cited above.
+infinitive	Mood cited as unmarked or base form.
+definiteness	Property about the possiblity to identify an entity.
+gender	A grammatical category that indicates grammatical relationships between words in sentences.
+genericNumeral	A numeral used to indicate the number of sets/kinds of objects.
+transcribedForm	A form of a term or lexeme resulting from an operation whereby the characters of one writing system are represented by characters from another writing system, taking into account the pronunciation of the characters converted.
+commonGender	Indistinguished gender for epicenes.
+deprecatedTerm	A term rated according to the scale of a term acceptability rating as undesired.
+indefiniteCardinalNumeral	A word used to express imprecise quantity.
+indefiniteOrdinalNumeral	A word used to indicate imprecise rank of an object in a sequence.
+comma	Mark (,) used in writing to show a short pause or to separate items in a list.
+fullForm	The complete presentation of a term or lexeme for which there is an abbreviated form.
+explanation	A statement that describes and clarifies a concept and makes it understandable, but does not necessarily differentiate it from other concepts.
+diminutiveNoun	diminutive noun
+associativeRelation	A relation between two concepts having a non-hierarchical thematic connection by virtue of experience.
+conditionalParticle	conditional particule
+illativeCase	Case which expresses the meaning of 'motion into' or 'direction towards' the referent of the noun it marks.
+participleFormOf	Indicates that one lexical entry is the participle form of another, e.g., the adjective 'reassuring' is the participle of 'to reassure'
+dativeCase	Case that expresses an indirect object relationship or a range of meaning similar to that covered by 'to' or 'for' in English; but there is a great deal of variation between languages in the way this case is used.
+affixedPersonalPronoun	Personnal pronoun that is affixed, i.e. added as an affix to another word.
+comparative	Comparative is the comparison where only two entites are involved.
+presentParticipleAdjective	Adjective based on a present participle.
+pastParticipleAdjective	Adjective based on a past participle.
+case	In a given sentence, the way in which the form of a word changes in order to express a relationship with one or several words of the sentence. The morphological modification may apply to nouns, pronouns noun phrase constituents, such as adjectives or numerals.
+qualifierAdjective	Adjective used to qualify.
+nonFinite	Property related for verb forms occurring on their own only in dependent clauses and lacking tense and mood contrasts.
+InfinitiveClause	A clause whose main verb is infinitive
+negativePronoun	Pronoun used in a context of a negation or for expressing a negation.
+phraseologicalUnit	Any group of two or more words that form a unit, the meaning of which frequently cannot be deduced based on the combined sense of the words making up the phrase.
+accusativeCase	Case used to indicate direct object.
+lightVerb	verb participating in a complex predication that has little semantic content of its own.
+interrogativeCardinalNumeral	An interrogative/relative word used to ask about quantity.
+modificationType	Refers to the prenominal or postnominal positions of determiners which distinguish different forms.
+colon	Sign with two vertical points that is used in writing and printing to introduce an explanation, example or quotation.
+frequency	The relative commonness with which a term occurs.
+plural	The form of a term or word (usually of a noun) used to designate more than one object.
+plural	Value that expresses more than one element.
+logicalExpression	An expression used to represent a concept based on mathematical or logical relations, such as statements of inequality, set relationships, boolean operations, and the like.
+relatedTerm	A term connected to another term by a coordinate or associative relation.
+geographicalVariant	Description of a specific form used in a certain region as opposed to another form used in another region
+ordinalAdjective	Adjective/numeral/number expressing a numeric ranking.
+SententialFrame	Sentential frames take a clause as argument, no conjunction is used and the syntax of the clause is the same as a main clause
+pronunciation	The representation of the manner by which a term or word is articulated.
+verb	Element which, singly or in combination with other verbs is used as the minimal predicate of a sentence, co-occurring with a subject. If the predicate contains other elements (e.g. object, complement), then it is the verb which more than any other is the unit which influences the choice and extent of these elements.
+admittedTerm	A term rated according to the scale of a term acceptability rating as a synonym for a preferred term.
+contractionFor	The full form that corresponds to a contracted form.
+definite	Value referring to the capacity of identification of an entity.
+imperfective	Imperfective aspect is an aspect that expresses an event or state, with respect to its internal structure, instead of expressing it as a simple whole.
+closeParenthesis	End of a parenthesis pair.
+multiplicativeNumeral	A word that expresses the number of times something happened.
+supersededTerm	A term that is no longer preferred or admitted.
+sublativeCase	Case for a move of something to the surface of another object.
+ablativeCase	Case used to typically indicate locative or instrumental function.
+allativeCase	Case which expresses the meaning of motion 'to' or 'towards' the referent it marks.
+partNumber	A unique alphanumeric designation assigned to an object in a manufacturing system.
+obsoleteForm	A term or lexeme which is no longer in common use.
+participle	Term referring to a word derived from a verb and used as an adjective.
+locativeCase	Case that indicates a final location of action or a time of the action.
+homophone	Word that sounds like another word, but is different in writiing or meaning.
+homophone	A word that is pronounced in the same way as another word but that is spelled differently.
+commonName	A synonym for an international scientific term that is used in general discourse in a given language.
+etymology	Information on the origin of a word and the development of its meaning.
+presentativePronoun	pronoun that identify the current locative or temporal situation
+otherGender	A grammatical category that indicates grammatical relationships between words in sentences.
+adjective	Part of speech related to attributes of noun.
+archaicForm	A term or lexeme no longer in ordinary use, though retained for special purposes.
+relativeDeterminer	Determiner related to a referent.
+preModifier	Situation where the modifier is before the modified.
+syllable	A unit of spoken language that is next bigger than a speech sound and consists of one or more vowel sounds alone or of a syllabic consonant alone or of either with one or more consonant sounds preceding or following.
+finiteness	Property referring to finite and non-finite status of a verbal form.
+cardinalNumeral	A word denoting a number.
+internationalScientificTerm	A term that is part of an international scientific nomenclature as adopted by an appropriate scientific body.
+determiner	Word or affix that belongs to a class of noun modifiers that expresses the reference, including quantity, of a noun.
+commonlyUsed	Said of a term that appears frequently.
+properNoun	Noun that is the name of a specific individual, place, or object.
+properNoun	A noun or adjective denoting a single object.
+cessative	Aspect that expresses the cessation of an event or state.
+person	Indication of grammatical person (1st, 2nd, 3rd, etc.) associated with a given inflected form.
+no	Value for negation.
+idiom	A group of words in a fixed order that have a particular meaning that is different from the meanings of each word understood on its own.
+subordinatingConjunction	Conjunction that links constructions by making one of them a constituent of another. The subordinating conjunction typically marks the incorporated constituent.
+demonstrativePronoun	Pronoun used to point to an entity in the situation or elsewhere in a sentence.
+secondPerson	Second person deixis is deictic reference to a person or persons identified as addressee.
+activeVoice	Value that expresses the situation where the grammatical subject is also the semantic actor of the verb.
+generalAdverb	Adverb belonging to the general class of adverbs
+possessive	Relative to the possession or association.
+interrogativeParticle	Particle used to express a question.
+affirmativeParticle	Particle used to express affirmation.
+partitiveRelation	A relation between two concepts where one of the concepts constitutes the whole and the other concept a part of that whole.
+standardText	A fixed chunk of recurring text.
+InterrogativeClause	A subclause that begins interrogative construction ("wh"-word in English)
+approximate	Property used to qualify something similar but not exactly the same
+emphaticPronoun	An emphatic pronoun is a personal pronoun that is used to emphasize its referent.
+abessiveCase	Case that expresses the lack or absence of the referent of the noun it marks.
+referentType	Type of concrete object or concept (the referent) that an expression represents (the reference).
+invertedComma	Inverted comma.
+CJK_compound	A lexical unit in a CJKV language that is represented by at least two CJKV characters.
+homonym	A word that is pronounced like another word and that can be spelled the same way (homograph) or can merely sound the same (homophone).
+homonym	Word that sounds the same and is written the same as another word but is different in meaning.
+genitiveCase	Case which expresses a possessive relationship (e.g. the boy's book) or some other similarly close connection (e.g. a summer's day).
+demonstrativeDeterminer	Determiner used to point to an entity in the situation or elsewhere in a sentence.
+neutralRegister	The register appropriate to general texts or discourse.
+present	Verb tense that indicates action or state of being in the present.
+coordinationParticle	particle for coordination
+reciprocalPronoun	Pronoun expressing mutual relationship.
+quadrial	Property related to four elements.
+clippedTerm	An abbreviation formed by truncating a part of a simple term.
+postposition	Adposition that appears at the end of the noun phrase.
+aditiveCase	Case expressing &quot;to&quot; in Basque studies.
+termElement	Any logically significant portion of a larger term or lexeme.
+possessivePronoun	Pronoun that expresses ownership and relationships like ownership, such as kinship, and other forms of association.
+conditionalPronoun	conditional pronoun
+relationNoun	relation noun
+irreflexivePersonalPronoun	personal pronoun which is not reflexive
+ArbitraryControl	Indicates either the subject or object of the main clause may be the omitted argument of the subclause
+usageNote	A note containing information on the usage of the associated word or term.
+shortForm	A variant of a multiword term or lexeme that includes fewer words than the full form.
+partitiveCase	Case that expresses the partial nature of the referent of the noun it marks, as opposed to expressing the whole unit or class of which the referent is a part.
+subject	relation between a phrase and a verb, that represents the person or thing that performs the action or about which something is stated
+copula	Special word that combines the subject of a sentence and its description.
+fusedPrepositionPronoun	word resulting from the aggregation of a preposition and a pronoun
+benefactiveCase	Case that expresses that the referent of the noun it marks receives the benefit of the situation expressed by the clause.
+PrepositionalFrame	Abstract frame for words that take a prepositional phrase as an argument
+antonym	A term or lexeme whose concept or sense constitutes the opposite of the concept represented by a second term or lexeme.
+SubjectControl	Indicates the subject of the main clause is the (omitted) subject of the subclause
+GerundFrame	Indicates one of the arguments is a gerund clause
+modern	Currently in use.
+dual	The form used in some languages to designate two persons or things.
+dual	Form used in some languages to designate two persons or things.
+essiveCase	Case which expresses a state of being.
+relativeParticle	relative particle
+questionMark	Sign used to express a question.
+particle	Word that does not belong to one of the main classes of words, is invariable in form, and typically has grammatical or pragmatic meaning.
+interjection	Word or sound that expresses an emotion.
+romanization	Transcription or transliteration from non-Latin script into Latin script.
+appellation	A designation that represents an individual concept.
+feminine	Of, relating to, or constituting the gender that ordinarily includes most words or grammatical forms referring to females.
+firstPerson	First person deixis is deictic reference that refers to the speaker, or both the speaker and referents grouped with the speaker
+radical	A basic identifiable component of every CJKV character, often found on the left side of the character, that sometimes gives a rough indication of meaning and is used for collating lexical and terminological resources.
+modal	Verb form that is usually used with another verb to express ideas such as possibilities, permission, or intention.
+note	A statement that provides further information on any part of a language resource entry.
+wordElement	Any lexeme element in a compound lexical unit that is itself a word.
+stringCategory	A type value assigned to a string.
+slash	The punctuation sign /
+fusedPreposition	Preposition that is the result of a morphological merge from at least two words.
+superlativeParticle	Particle expressing superlative degree. Superlative is the comparison between more than two entities and contrasts with comparative where only two entities are involved and positive where no comparison is implied.
+passiveVoice	Term referring to a situation where the grammatical subject is typically the recipient or goal of the action denoted by the verb.
+gloss	In TEI: A phrase or word used to provide a gloss or definition for some other word or phrase.In 1951: Any editorial comment.
+point	Sign (.) used to expresses the end of a sentence or an abbreviation.
+mainVerb	Main verb in contrast to a modal or an auxiliary.
+degree	Property concerning comparison.
+article	...
+article	Term used in the grammatical classification of words referring to a subclass of determiners which displays a primary role in differentiating the uses of nouns.
+delativeCase	Case which expresses motion downward from the referent of the noun it marks.
+noun	Part of speech used to express the name of a person, place, action or thing.
+baseElement	The root form of a word or term that is used as the formal dictionary entry for the term.
+commonNoun	A noun or adjective denoting a class of objects.
+commonNoun	Noun that signifies a non-specific member of a group.
+clippedTermFor	A linking element used to identify a relation between a clipped term and its full or expanded form.
+nucleus	The component of a multiword or multi-morphemic compound term that is determined or modified by the other components making up the term.
+nominativeCase	Case used to indicate the subject of a verb.
+interrogativeDeterminer	Determiner used to express a question.
+partOfSpeech	Term used to describe how a particular word is used in a sentence.
+partOfSpeech	A category assigned to a word based on its grammatical and semantic properties.
+vocativeCase	Case used to indicate direct address.
+plainVerb	verb which has its own semantics
+possessiveRelativePronoun	A relative pronoun whose antecedent is the possessor of the subject or object in the relative clause.
+old	Used in the past.
+thirdPerson	Third person deixis is deictic reference to a referent(s) not identified as the speaker or addressee.
+indicative	...
+indicative	Mood value used in the expression of statements and questions.
+acronymFor	A linking element used to identify a relation between an acronym and its full or expanded form.
+indefinite	Value related to an entity in a situation where the identification of this entity is not clear cut.
+proverb	A brief popular axiom or saying.
+adessiveCase	Case which expresses the meaning of presence 'at' or 'near' a place.
+segmentation	Specification of the pointers in time or sequence that indicates the segmentation process.
+exclamativePronoun	Pronoun marked with an emotional utterance and/or a strong intonation.
+exact	Completely correct in every detail
+reflexiveDeterminer	Determiner that refers to the same entity.
+positive	Value used in a comparison relationship when no comparison is involved.
+postPositiveArg	Indicates an argument of an adjective indicated by post-positive modification. An example in english would be that "that is something interesting", where the adjective interesting post-postively modifies something
+initialism	An abbreviation made up of the initial letters of the components of the full form of the designation or from syllables of the full form and pronounced letter by letter.
+pronoun	Word used in place of a noun or a noun phrase.
+Gerund	A clause, whose head is a non-finite verb form, which is used in place of an argument. In English these use the "-ing" suffix
+collective	A collective number is a number referring to 'a set of things'. Languages that have this feature can use it to get a phrase like 'flock of sheeps' by using 'sheep' in collective number.
+InterrogativeFrame	Indicates the frame has a subframe indicated with the appropriate interrogative (e.g., "who", "where", "how")
+sku	An inventory item identified by a unique alphanumeric designation assigned to an object in an inventory control system.
+setPhrase	A fixed, lexicalized phrase.
+preposition	Adposition placed at the beginning of a noun phrase.
+deficientVerb	verb lacking certain morphosyntactic properties
+slangRegister	An extremely informal register of a word, term, or text that is used in spoken and everyday language and less commonly in documents.
+indefiniteDeterminer	Determiner not capable of identification.
+paucal	Number that specifies 'a few' things.
+internationalism	A term that has the same or nearly identical orthographic or phonemic form in many languages.
+perfective	Perfective aspect is an aspect that expresses a temporal view of an event or state as a simple whole, apart from the consideration of the internal structure of the time in which it occurs.
+causallyRelatedConcept	A concept that is related to another concept by virtue of the fact that it plays a causative role with respect to that concept.
+conditional	A conditional relation is a logical relation in which the illocutionary act employing one of a pair of propositions is expressed or implied to be true or in force if the other proposition is true.
+reflexivePersonalPronoun	personal pronoun which is reflexive
+voice	Way sentences may alter the relationship between the subject and object of a verb, without changing the meaning of the sentence.
+homograph	Word that is written like another, but that has a different pronunciation, meaning, and/or origin.
+homograph	A word that is spelled like another, but that has a different pronunciation, meaning, and/or origin.
+equativeCase	Case that expresses likeness or identity to the referent of the noun it marks. It can have meaning, such as: 'as', 'like', or 'in the capacity of'.
+verbFormMood	One of a set of distinctive forms that are used to signal modality. Modality is a facet of illocutionary point or general intent of a speaker, or a speaker's degree of commitment to the expressed proposition's believability, obligatoriness, desirability or reality.
+personalPronoun	Pronoun referring a person.
+conjunction	Word that syntactically links words or constituents, and expresses a semantic relationship between them.
+exclamativePoint	Special sign (!) usually used in writing to mark exclamation.
+indefiniteArticle	Article not capable of expressing identification.
+possessiveDeterminer	Determiner that expresses ownership.
+complement	A noun phrase that follows a copula or similar verb, as for example an idiot in the sentence He is an idiot. - A clause that serves as the subject or direct object of a verb or the direct object of a preposition, as for example that he would be early in the sentence I hoped that he would be early
+imperfect	Verb tense that refers to action in the past that is incomplete or ongoing.
+prolativeCase	Case for a noun or a pronoun that expresses motion within a place or a period of time needed for an event.
+weakPersonalPronoun	Personal pronoun that cannot occupy the position after a preposition and/or reinforce a strong personal pronoun.
+termType	An attribute assigned to a lexeme or a term.
+technicalRegister	The register appropriate to scientific texts or special languages.
+adposition	Part of speech that occurs before/inside/after a complement composed of a noun phrase, noun, pronoun or clause that functions as a noun phrase and form a single structure with the complement to express its grammatical and semantic relation to another unit.
+shortArticle	For definiteness, when a specific form is not the syntactic subject of the clause.
+regulatedTerm	A term defined by law or government regulation.
+indifferent	Markup to express that there is not any pertinence.
+lativeCase	Case which expresses motion to a location.
+indefinitePronoun	Pronoun that does not allow reference.
+reflexivePossessivePronoun	A possessive pronoun that refers to the subject as the possessor.
+coordinatingConjunction	Conjunction that links constituents.
+instrumentalCase	Case indicating that the referent of the noun it marks is the means of the accomplishment of the action expressed by the clause.
+compoundPreposition	Preposition that is a aggregation of words
+neuter	Of, relating to, or constituting the gender that ordinarily includes most words or grammatical forms referring to objects that are not characterized as male or female.
+futureParticle	Particle used in order to express future.
+acronym	An abbreviation made up of the initial letters of the components of the full form of the designation or from syllables of the full form and pronounced syllabically.
+inessiveCase	Case which expresses the meaning of location or position within a place.
+tense	Property referring to the way the grammar marks the time at which the action denoted by the verb took place.
+directObject	relation between a phrase and a verb, in which the relation is central to the verb
+interrogativeRelativePronoun	pronoun which may act as a relative pronoun or an interrogative one
+past	Past tense is an absolute tense that refers to a time before the moment of utterance.
+interrogativePronoun	Pronoun used to express a question.
+coordinateConcept	A subordinate concept having the same nearest superordinate concept and same criterion of subdivision as some other concept in a given concept system.
+RaisingSubject	Indicates the syntactic subject of the main clause is in fact the subject of the subclause. The main clause should then be interpreted as being impersonal.
+massNoun	Designation of a term or word that is not countable and cannot generally be used with the indefinite article or in the plural.
+rarelyUsed	Said of a term that is almost never used.
+ObjectControl	Indicates the object of the main clause is also the (omitted) object of the subclause
+AdjectivePredicateFrame	Note this frame should be used when both attributive and predicative use of the adjective is allowed
+contraction	A lexical unit formed by a shortening of a word, syllable, or word group by omission of a sound or letter.
+entryTerm	A term that heads a terminological entry.
+semiColon	Sign (;) usually used to separate phrases.
+normativeAuthorization	A term status qualifier assigned by an authoritative body, such as a standards body or a governmental entity with a regulatory function.
+transliteration	Form resulting from the conversion of one writing system into another
+negative	denotes the negation or the absence
+causativeCase	Case which expresses that the referent of the noun it marks is the cause of the situation expressed by the clause.
+productName	An attribute assigned to a term indicating that that term is the official designator for a product.
+existentialPronoun	pronoun that indicates the existence of something or someone
+formula	Figures, symbols or the like used to express a concept briefly, such as a mathematical or chemical formula.

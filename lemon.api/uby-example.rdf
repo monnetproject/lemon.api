@@ -1,0 +1,857 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:lemon="http://www.monnet-project.eu/lemon#" xmlns:uby="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#" xmlns:dcr="http://www.isocat.org/ns/dcr.rdf#" xmlns:owl="http://www.w3.org/2002/07/owl#">
+  <rdf:Description rdf:about="#GlobalInformation"/>
+  <lemon:Lexicon rdf:ID="VN_Lexicon_0">
+    <lemon:language>en</lemon:language>
+    <rdfs:label>VerbNet</rdfs:label>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:ID="VN_LexicalEntry_0">
+        <uby:partOfSpeech rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#verbMain"/>
+        <lemon:canonicalForm>
+          <lemon:Form>
+            <lemon:writtenRep xml:lang="en">question</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="VN_Sense_0">
+            <uby:index>0</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <lemon:value>transfer_info(during(E), Agent, Recipient, Topic) AND cause(Agent, E)</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <lemon:semArg>
+              <lemon:Argument rdf:ID="VN_SemanticArgument_5">
+                <uby:semanticRole>Agent</uby:semanticRole>
+                <uby:semanticLabel>[+animate|+organization]</uby:semanticLabel>
+                <uby:semanticLabelType>selectionalPreference</uby:semanticLabelType>
+              </lemon:Argument>
+            </lemon:semArg>
+            <lemon:semArg>
+              <lemon:Argument rdf:ID="VN_SemanticArgument_6">
+                <uby:semanticRole>Recipient</uby:semanticRole>
+                <uby:semanticLabel>[+animate|+organization]</uby:semanticLabel>
+                <uby:semanticLabelType>selectionalPreference</uby:semanticLabelType>
+              </lemon:Argument>
+            </lemon:semArg>
+            <lemon:semArg>
+              <lemon:Argument rdf:ID="VN_SemanticArgument_7">
+                <uby:semanticRole>Topic</uby:semanticRole>
+              </lemon:Argument>
+            </lemon:semArg>
+            <lemon:example>
+              <lemon:UsageExample rdf:ID="VN_SenseExample_0">
+                <uby:exampleType rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#subcatFrame"/>
+                <lemon:value>I interrogated him about the incident.</lemon:value>
+              </lemon:UsageExample>
+            </lemon:example>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>VerbNet v3.1</uby:externalSystem>
+                <uby:externalReference>question_interrogate-37.1.3</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:semanticLabel>interrogate-37.1.3</uby:semanticLabel>
+            <uby:semanticLabelType>VerbNet alternation class</uby:semanticLabelType>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="VN_Sense_1">
+            <uby:index>1</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <lemon:value>transfer_info(during(E), Agent, Recipient, ?Topic) AND cause(Agent, E)</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <lemon:semArg>
+              <lemon:Argument rdf:ID="VN_SemanticArgument_0">
+                <uby:semanticRole>Agent</uby:semanticRole>
+                <uby:semanticLabel>[+animate|+organization]</uby:semanticLabel>
+                <uby:semanticLabelType>selectionalPreference</uby:semanticLabelType>
+              </lemon:Argument>
+            </lemon:semArg>
+            <lemon:semArg>
+              <lemon:Argument rdf:ID="VN_SemanticArgument_1">
+                <uby:semanticRole>Recipient</uby:semanticRole>
+                <uby:semanticLabel>[+animate|+organization]</uby:semanticLabel>
+                <uby:semanticLabelType>selectionalPreference</uby:semanticLabelType>
+              </lemon:Argument>
+            </lemon:semArg>
+            <lemon:example>
+              <lemon:UsageExample rdf:ID="VN_SenseExample_1">
+                <uby:exampleType rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#subcatFrame"/>
+                <lemon:value>I interrogated him.</lemon:value>
+              </lemon:UsageExample>
+            </lemon:example>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>VerbNet v3.1</uby:externalSystem>
+                <uby:externalReference>question_interrogate-37.1.3</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:semanticLabel>interrogate-37.1.3</uby:semanticLabel>
+            <uby:semanticLabelType>VerbNet alternation class</uby:semanticLabelType>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="VN_Sense_2">
+            <uby:index>2</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <lemon:value>transfer_info(during(E), Agent, Recipient, ?Topic, Predicate) AND cause(Agent, E)</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <lemon:semArg>
+              <lemon:Argument rdf:ID="VN_SemanticArgument_2">
+                <uby:semanticRole>Agent</uby:semanticRole>
+                <uby:semanticLabel>[+animate|+organization]</uby:semanticLabel>
+                <uby:semanticLabelType>selectionalPreference</uby:semanticLabelType>
+              </lemon:Argument>
+            </lemon:semArg>
+            <lemon:semArg>
+              <lemon:Argument rdf:ID="VN_SemanticArgument_3">
+                <uby:semanticRole>Recipient</uby:semanticRole>
+                <uby:semanticLabel>[+animate|+organization]</uby:semanticLabel>
+                <uby:semanticLabelType>selectionalPreference</uby:semanticLabelType>
+              </lemon:Argument>
+            </lemon:semArg>
+            <lemon:semArg>
+              <lemon:Argument rdf:ID="VN_SemanticArgument_4">
+                <uby:semanticRole>Predicate</uby:semanticRole>
+              </lemon:Argument>
+            </lemon:semArg>
+            <lemon:example>
+              <lemon:UsageExample rdf:ID="VN_SenseExample_2">
+                <uby:exampleType rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#subcatFrame"/>
+                <lemon:value>I interrogated him as a suspect.</lemon:value>
+              </lemon:UsageExample>
+            </lemon:example>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>VerbNet v3.1</uby:externalSystem>
+                <uby:externalReference>question_interrogate-37.1.3</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:semanticLabel>interrogate-37.1.3</uby:semanticLabel>
+            <uby:semanticLabelType>VerbNet alternation class</uby:semanticLabelType>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:synBehavior rdf:resource="#VN_SubcategorizationFrame_2"/>
+        <!--Different senses do not have different subcategorizations in lemon.-->
+        <lemon:synBehavior rdf:resource="#VN_SubcategorizationFrame_0"/>
+        <!--Different senses do not have different subcategorizations in lemon.-->
+        <lemon:synBehavior rdf:resource="#VN_SubcategorizationFrame_1"/>
+        <!--Different senses do not have different subcategorizations in lemon.-->
+      </lemon:LexicalEntry>
+    </lemon:entry>
+  </lemon:Lexicon>
+  <lemon:Frame rdf:ID="VN_SubcategorizationFrame_0">
+    <lemon:synArg>
+      <lemon:Argument rdf:ID="VN_SyntacticArgument_0">
+        <uby:grammaticalFunction rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#subject"/>
+        <uby:syntacticCategory rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#nounPhrase"/>
+      </lemon:Argument>
+    </lemon:synArg>
+    <lemon:synArg>
+      <lemon:Argument rdf:ID="VN_SyntacticArgument_1">
+        <uby:grammaticalFunction rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#complement"/>
+        <uby:syntacticCategory rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#nounPhrase"/>
+      </lemon:Argument>
+    </lemon:synArg>
+  </lemon:Frame>
+  <lemon:Frame rdf:ID="VN_SubcategorizationFrame_1">
+    <lemon:synArg>
+      <lemon:Argument rdf:ID="VN_SyntacticArgument_2">
+        <uby:grammaticalFunction rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#subject"/>
+        <uby:syntacticCategory rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#nounPhrase"/>
+      </lemon:Argument>
+    </lemon:synArg>
+    <lemon:synArg>
+      <lemon:Argument rdf:ID="VN_SyntacticArgument_3">
+        <uby:grammaticalFunction rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#complement"/>
+        <uby:syntacticCategory rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#nounPhrase"/>
+      </lemon:Argument>
+    </lemon:synArg>
+    <lemon:synArg>
+      <lemon:Argument rdf:ID="VN_SyntacticArgument_4">
+        <uby:grammaticalFunction rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#complement"/>
+        <uby:syntacticCategory rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#prepositionalPhrase"/>
+        <uby:preposition>as</uby:preposition>
+      </lemon:Argument>
+    </lemon:synArg>
+  </lemon:Frame>
+  <lemon:Frame rdf:ID="VN_SubcategorizationFrame_2">
+    <lemon:synArg>
+      <lemon:Argument rdf:ID="VN_SyntacticArgument_5">
+        <uby:grammaticalFunction rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#subject"/>
+        <uby:syntacticCategory rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#nounPhrase"/>
+      </lemon:Argument>
+    </lemon:synArg>
+    <lemon:synArg>
+      <lemon:Argument rdf:ID="VN_SyntacticArgument_6">
+        <uby:grammaticalFunction rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#complement"/>
+        <uby:syntacticCategory rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#nounPhrase"/>
+      </lemon:Argument>
+    </lemon:synArg>
+    <lemon:synArg>
+      <lemon:Argument rdf:ID="VN_SyntacticArgument_7">
+        <uby:grammaticalFunction rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#complement"/>
+        <uby:syntacticCategory rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#prepositionalPhrase"/>
+        <uby:preposition>about</uby:preposition>
+      </lemon:Argument>
+    </lemon:synArg>
+  </lemon:Frame>
+  <rdf:Description rdf:ID="VN_SyntacticArgument_5">
+    <owl:sameAs rdf:resource="#VN_SemanticArgument_5"/>
+  </rdf:Description>
+  <rdf:Description rdf:ID="VN_SyntacticArgument_6">
+    <owl:sameAs rdf:resource="#VN_SemanticArgument_6"/>
+  </rdf:Description>
+  <rdf:Description rdf:ID="VN_SyntacticArgument_7">
+    <owl:sameAs rdf:resource="#VN_SemanticArgument_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:ID="VN_SyntacticArgument_0">
+    <owl:sameAs rdf:resource="#VN_SemanticArgument_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:ID="VN_SyntacticArgument_1">
+    <owl:sameAs rdf:resource="#VN_SemanticArgument_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:ID="VN_SyntacticArgument_2">
+    <owl:sameAs rdf:resource="#VN_SemanticArgument_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:ID="VN_SyntacticArgument_3">
+    <owl:sameAs rdf:resource="#VN_SemanticArgument_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:ID="VN_SyntacticArgument_4">
+    <owl:sameAs rdf:resource="#VN_SemanticArgument_4"/>
+  </rdf:Description>
+  <lemon:Lexicon rdf:ID="WN_Lexicon_0">
+    <lemon:language>en</lemon:language>
+    <rdfs:label>WordNet</rdfs:label>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:ID="WN_LexicalEntry_8251">
+        <uby:partOfSpeech rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#verb"/>
+        <lemon:canonicalForm>
+          <lemon:Form>
+            <lemon:writtenRep xml:lang="en">question</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <uby:derivative rdf:resource="#WN_LexicalEntry_31301"/>
+        <!--Linked to sense WN_Sense_6-->
+        <uby:derivative rdf:resource="#WN_LexicalEntry_31301"/>
+        <!--Linked to sense WN_Sense_7-->
+        <uby:derivative rdf:resource="#WN_LexicalEntry_31301"/>
+        <!--Linked to sense WN_Sense_8-->
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WN_Sense_1">
+            <uby:index>0</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <lemon:value xml:lang="en">challenge the accuracy, probity, or propriety of; "We must question your judgment in this matter"challenge the accuracy, probity, or propriety of; "We must question your judgment in this matter"</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and synset offset</uby:externalSystem>
+                <uby:externalReference>[POS: verb] 867409</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and sense key</uby:externalSystem>
+                <uby:externalReference>[POS: verb] question%2:32:01::</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:semanticLabel>verb.communication</uby:semanticLabel>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WN_Sense_2">
+            <uby:index>1</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <lemon:value xml:lang="en">pose a series of questions to; "The suspect was questioned by the police"; "We questioned the survivor about the details of the explosion"pose a series of questions to; "The suspect was questioned by the police"; "We questioned the survivor about the details of the explosion"</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and synset offset</uby:externalSystem>
+                <uby:externalReference>[POS: verb] 788184</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and sense key</uby:externalSystem>
+                <uby:externalReference>[POS: verb] question%2:32:03::</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:semanticLabel>verb.communication</uby:semanticLabel>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WN_Sense_3">
+            <uby:index>2</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <lemon:value xml:lang="en">pose a questionpose a question</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and synset offset</uby:externalSystem>
+                <uby:externalReference>[POS: verb] 785008</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and sense key</uby:externalSystem>
+                <uby:externalReference>[POS: verb] question%2:32:00::</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:semanticLabel>verb.communication</uby:semanticLabel>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:ID="WN_LexicalEntry_31301">
+        <uby:partOfSpeech rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#noun"/>
+        <lemon:canonicalForm>
+          <lemon:Form>
+            <lemon:writtenRep xml:lang="en">question</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <uby:derivative rdf:resource="#WN_LexicalEntry_8251"/>
+        <!--Linked to sense WN_Sense_1-->
+        <uby:derivative rdf:resource="#WN_LexicalEntry_8251"/>
+        <!--Linked to sense WN_Sense_3-->
+        <uby:derivative rdf:resource="#WN_LexicalEntry_8251"/>
+        <!--Linked to sense WN_Sense_2-->
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WN_Sense_6">
+            <uby:index>0</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <lemon:value xml:lang="en">uncertainty about the truth or factuality or existence of something; "the dubiousness of his claim"; "there is no question about the validity of the enterprise"uncertainty about the truth or factuality or existence of something; "the dubiousness of his claim"; "there is no question about the validity of the enterprise"</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and synset offset</uby:externalSystem>
+                <uby:externalReference>[POS: noun] 4757522</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and sense key</uby:externalSystem>
+                <uby:externalReference>[POS: noun] question%1:07:00::</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:semanticLabel>noun.attribute</uby:semanticLabel>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WN_Sense_8">
+            <uby:index>1</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <lemon:value xml:lang="en">an instance of questioning; "there was a question about my training"; "we made inquiries of all those who were present"an instance of questioning; "there was a question about my training"; "we made inquiries of all those who were present"</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and synset offset</uby:externalSystem>
+                <uby:externalReference>[POS: noun] 7193596</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:complementary rdf:resource="#WN_Sense_151518"/>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and sense key</uby:externalSystem>
+                <uby:externalReference>[POS: noun] question%1:10:00::</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:semanticLabel>noun.communication</uby:semanticLabel>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WN_Sense_7">
+            <uby:index>2</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <lemon:value xml:lang="en">a sentence of inquiry that asks for a reply; "he asked a direct question"; "he had trouble phrasing his interrogations"a sentence of inquiry that asks for a reply; "he asked a direct question"; "he had trouble phrasing his interrogations"</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and synset offset</uby:externalSystem>
+                <uby:externalReference>[POS: noun] 7196682</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and sense key</uby:externalSystem>
+                <uby:externalReference>[POS: noun] question%1:10:03::</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:semanticLabel>noun.communication</uby:semanticLabel>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:ID="WN_LexicalEntry_114653">
+        <uby:partOfSpeech rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#noun"/>
+        <lemon:canonicalForm>
+          <lemon:Form>
+            <lemon:writtenRep xml:lang="en">answer</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WN_Sense_151518">
+            <uby:index>0</uby:index>
+            <uby:complementary rdf:resource="#WN_Sense_8"/>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>WordNet 3.0 part of speech and sense key</uby:externalSystem>
+                <uby:externalReference>[POS: noun] answer%1:10:00::</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+            <uby:semanticLabel>noun.communication</uby:semanticLabel>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+  </lemon:Lexicon>
+  <lemon:Lexicon rdf:ID="WktEn_Lexicon_1">
+    <lemon:language>en</lemon:language>
+    <rdfs:label>Wiktionary</rdfs:label>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:ID="WktEn_lexicalEntry_18566">
+        <uby:partOfSpeech rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#verb"/>
+        <lemon:canonicalForm>
+          <lemon:Form>
+            <lemon:writtenRep xml:lang="en">question</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WktEn_sense_1">
+            <uby:index>0</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <uby:definitionType>intensionalDefinition</uby:definitionType>
+                <lemon:value xml:lang="en">To ask questions of; interrogate; enquire; ask for information.To ask questions of; interrogate; enquire; ask for information.</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:translation>
+              <lemon:LexicalSense>
+                <lemon:isSenseOf>
+                  <lemon:LexicalEntry>
+                    <lemon:canonicalForm>
+                      <lemon:Form>
+                        <lemon:writtenRep xml:lang="nl">ondervragen</lemon:writtenRep>
+                      </lemon:Form>
+                    </lemon:canonicalForm>
+                  </lemon:LexicalEntry>
+                </lemon:isSenseOf>
+              </lemon:LexicalSense>
+            </uby:translation>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>Wiktionary sense key</uby:externalSystem>
+                <uby:externalReference>49890:1:1</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WktEn_sense_2">
+            <uby:index>1</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <uby:definitionType>intensionalDefinition</uby:definitionType>
+                <lemon:value xml:lang="en">To raise doubts about; have doubts about.To raise doubts about; have doubts about.</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:translation>
+              <lemon:LexicalSense>
+                <lemon:isSenseOf>
+                  <lemon:LexicalEntry>
+                    <lemon:canonicalForm>
+                      <lemon:Form>
+                        <lemon:writtenRep xml:lang="nl">in vraag stellen</lemon:writtenRep>
+                      </lemon:Form>
+                    </lemon:canonicalForm>
+                  </lemon:LexicalEntry>
+                </lemon:isSenseOf>
+              </lemon:LexicalSense>
+            </uby:translation>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>Wiktionary sense key</uby:externalSystem>
+                <uby:externalReference>49890:1:2</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:ID="WktEn_lexicalEntry_18565">
+        <uby:partOfSpeech rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#noun"/>
+        <lemon:canonicalForm>
+          <lemon:Form>
+            <lemon:writtenRep xml:lang="en">question</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WktEn_sense_3">
+            <uby:index>0</uby:index>
+            <lemon:example>
+              <lemon:UsageExample rdf:ID="WktEN_SenseExample_13039">
+                <lemon:value xml:lang="en">What is your questionWhat is your question</lemon:value>
+              </lemon:UsageExample>
+            </lemon:example>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <uby:definitionType>intensionalDefinition</uby:definitionType>
+                <lemon:value xml:lang="en">A sentence, phrase or word which asks for information, reply or response; an interrogative.A sentence, phrase or word which asks for information, reply or response; an interrogative.</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:translation>
+              <lemon:LexicalSense>
+                <lemon:isSenseOf>
+                  <lemon:LexicalEntry>
+                    <lemon:canonicalForm>
+                      <lemon:Form>
+                        <lemon:writtenRep xml:lang="nl">vraag</lemon:writtenRep>
+                      </lemon:Form>
+                    </lemon:canonicalForm>
+                  </lemon:LexicalEntry>
+                </lemon:isSenseOf>
+              </lemon:LexicalSense>
+            </uby:translation>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>Wiktionary sense key</uby:externalSystem>
+                <uby:externalReference>49890:0:1</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WktEn_sense_4">
+            <uby:index>2</uby:index>
+            <lemon:example>
+              <lemon:UsageExample rdf:ID="WktEN_SenseExample_13040">
+                <lemon:value xml:lang="de">The question of seniority will be discussed at the meeting.The question of seniority will be discussed at the meeting.</lemon:value>
+              </lemon:UsageExample>
+            </lemon:example>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <uby:definitionType>intensionalDefinition</uby:definitionType>
+                <lemon:value xml:lang="en">A subject or topic for consideration or investigation.A subject or topic for consideration or investigation.</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:translation>
+              <lemon:LexicalSense>
+                <lemon:isSenseOf>
+                  <lemon:LexicalEntry>
+                    <lemon:canonicalForm>
+                      <lemon:Form>
+                        <lemon:writtenRep xml:lang="nl">thema</lemon:writtenRep>
+                      </lemon:Form>
+                    </lemon:canonicalForm>
+                  </lemon:LexicalEntry>
+                </lemon:isSenseOf>
+              </lemon:LexicalSense>
+            </uby:translation>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>Wiktionary sense key</uby:externalSystem>
+                <uby:externalReference>49890:0:2</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WktEn_sense_5">
+            <uby:index>3</uby:index>
+            <lemon:example>
+              <lemon:UsageExample rdf:ID="WktEN_SenseExample_13041">
+                <lemon:value xml:lang="de">There was a question of which material to use.There was a question of which material to use.</lemon:value>
+              </lemon:UsageExample>
+            </lemon:example>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <uby:definitionType>intensionalDefinition</uby:definitionType>
+                <lemon:value xml:lang="en">An unknown.An unknown.</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:translation>
+              <lemon:LexicalSense>
+                <lemon:isSenseOf>
+                  <lemon:LexicalEntry>
+                    <lemon:canonicalForm>
+                      <lemon:Form>
+                        <lemon:writtenRep xml:lang="nl">vraag</lemon:writtenRep>
+                      </lemon:Form>
+                    </lemon:canonicalForm>
+                  </lemon:LexicalEntry>
+                </lemon:isSenseOf>
+              </lemon:LexicalSense>
+            </uby:translation>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>Wiktionary sense key</uby:externalSystem>
+                <uby:externalReference>49890:0:3</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+  </lemon:Lexicon>
+  <lemon:Lexicon rdf:ID="WikiEn_Lexicon_1">
+    <lemon:language>en</lemon:language>
+    <rdfs:label>Wikipedia</rdfs:label>
+    <lemon:entry>
+      <lemon:LexicalEntry rdf:ID="WikiEn_lexicalEntry_161689">
+        <uby:partOfSpeech rdf:resource="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#noun"/>
+        <lemon:canonicalForm>
+          <lemon:Form>
+            <lemon:writtenRep xml:lang="en">Question</lemon:writtenRep>
+          </lemon:Form>
+        </lemon:canonicalForm>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WikiEn_sense_1">
+            <uby:index>0</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <uby:definitionType>intensionalDefinition</uby:definitionType>
+                <lemon:value>The Question is the name used by a number of comic book superheroes in the DC Comics universe. The original one was created by Steve Ditko, and first appeared in Blue Beetle #1 (June 1967). Originally created for Charlton Comics, he was acquired by DC Comics in the early 1980s and incorporated into the DC Universe.</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>Wikipedia sense key</uby:externalSystem>
+                <uby:externalReference>Question (comics)</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WikiEn_sense_2">
+            <uby:index>0</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <uby:definitionType>intensionalDefinition</uby:definitionType>
+                <lemon:value>A question may be either a linguistic expression used to make a request for information, or else the request itself made by such an expression. This information is provided with an answer.</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>Wikipedia sense key</uby:externalSystem>
+                <uby:externalReference>Question</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WikiEn_sense_3">
+            <uby:index>0</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <uby:definitionType>intensionalDefinition</uby:definitionType>
+                <lemon:value>Question is a science fiction short story by Isaac Asimov. The story first appeared in the March 1955 issue of Computers and Automation, and was reprinted in the April 30, 1957 issue of Science World. It is the first of a loosely connected series of stories concerning a fictional supercomputer called Multivac.</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>Wikipedia sense key</uby:externalSystem>
+                <uby:externalReference>Question (short story)</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+          </lemon:LexicalSense>
+        </lemon:sense>
+        <lemon:sense>
+          <lemon:LexicalSense rdf:ID="WikiEn_sense_4">
+            <uby:index>0</uby:index>
+            <lemon:definition>
+              <lemon:SenseDefinition>
+                <uby:definitionType>intensionalDefinition</uby:definitionType>
+                <lemon:value>Question is a 1970 single by the English progressive rock band The Moody Blues.  It was written by guitarist Justin Hayward, who provides lead vocals.  Question was first released as a single in April of 1970, and was later featured as the lead track on the 1970 album A Question of Balance.</lemon:value>
+              </lemon:SenseDefinition>
+            </lemon:definition>
+            <uby:monolingualExternalRef>
+              <rdf:Description>
+                <uby:externalSystem>Wikipedia sense key</uby:externalSystem>
+                <uby:externalReference>Question (song)</uby:externalReference>
+              </rdf:Description>
+            </uby:monolingualExternalRef>
+          </lemon:LexicalSense>
+        </lemon:sense>
+      </lemon:LexicalEntry>
+    </lemon:entry>
+  </lemon:Lexicon>
+  <rdf:Description rdf:ID="WktEn_sense_3">
+    <uby:monolingualSenseAlignment rdf:resource="#WN_Sense_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:ID="WN_Sense_2">
+    <uby:monolingualSenseAlignment rdf:resource="#VN_Sense_20"/>
+  </rdf:Description>
+  <rdf:Description rdf:ID="WN_Sense_2">
+    <uby:monolingualSenseAlignment rdf:resource="#VN_Sense_21"/>
+  </rdf:Description>
+  <rdf:Description rdf:ID="WN_Sense_2">
+    <uby:monolingualSenseAlignment rdf:resource="#VN_Sense_22"/>
+  </rdf:Description>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#partOfSpeech">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-396"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#grammaticalNumber">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-251"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#grammaticalGender">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-3217"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#case">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-2720"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#person">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-3385"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#tense">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-3519"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#verbFormMood">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1427"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#degree">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-2779"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#grammaticalFunction">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1296"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#syntacticCategory">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1506"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#determiner">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-3159"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#verbForm">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1427"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#complementizer">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-3124"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#coreType">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-4461"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#exampleType">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#syntacticProperty">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#property"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#phoneticForm">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#representation"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1837"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#sound">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#representation"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-2250"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#hyphenation">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#representation"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-264"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#etymology">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#lexicalVariant"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-221"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#compound">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#lexicalVariant"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-3127"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#compoundRoot">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#lexicalVariant"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-357"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#derivative">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#lexicalVariant"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-4611"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#derivationBase">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#lexicalVariant"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-4612"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#derivationBaseNoun">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#lexicalVariant"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-4615"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#derivationBaseVerb">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#lexicalVariant"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-4614"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#derivationBaseAdj">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#lexicalVariant"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-4616"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#loanWord">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#lexicalVariant"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-511"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#supports">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#lexicalVariant"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-3003"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#taxonomic">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#senseRelation"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-4039"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#partWhole">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#senseRelation"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-397"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#assocation">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#senseRelation"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-438"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#complementary">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#senseRelation"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-83"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#translation">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#senseRelation"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-4020"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#label">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#senseRelation"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-1857"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#labelOmegaWiki">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#senseRelation"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#predicative">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#senseRelation"/>
+    <dcr:datcat rdf:resource="http://www.isocat.org/datcat/DC-3415"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/uby/ubyLmfDTD_1_0.dtd#predicativeOmegaWiki">
+    <rdfs:subPropertyOf rdf:resource="http://www.monnet-project.eu/lemon#senseRelation"/>
+  </rdf:Property>
+</rdf:RDF>

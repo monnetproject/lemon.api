@@ -1,0 +1,6911 @@
+<api>
+<package name="eu.monnetproject.lemon.impl.oils"
+>
+<class name="ContravariantScalarImpl"
+ extends="eu.monnetproject.lemon.impl.oils.ScalarImpl"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.oils.ContravariantScalar">
+</implements>
+<constructor name="ContravariantScalarImpl"
+ type="eu.monnetproject.lemon.impl.oils.ContravariantScalarImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="clazz" type="eu.monnetproject.ontology.Class">
+</parameter>
+<parameter name="ontology" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+</constructor>
+</class>
+<class name="CovariantScalarImpl"
+ extends="eu.monnetproject.lemon.impl.oils.ScalarImpl"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.oils.CovariantScalar">
+</implements>
+<constructor name="CovariantScalarImpl"
+ type="eu.monnetproject.lemon.impl.oils.CovariantScalarImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="clazz" type="eu.monnetproject.ontology.Class">
+</parameter>
+<parameter name="ontology" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+</constructor>
+</class>
+<class name="LemonOilsImpl"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="LemonOilsImpl"
+ type="eu.monnetproject.lemon.impl.oils.LemonOilsImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="makeContravariantScalar"
+ return="eu.monnetproject.lemon.oils.ContravariantScalar"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="ontlg" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="dp" type="eu.monnetproject.ontology.DatatypeProperty">
+</parameter>
+<parameter name="degree" type="eu.monnetproject.lemon.oils.Scalar.Degree">
+</parameter>
+</method>
+<method name="makeContravariantScalar"
+ return="eu.monnetproject.lemon.oils.ContravariantScalar"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="ontlg" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="dp" type="eu.monnetproject.ontology.DatatypeProperty">
+</parameter>
+<parameter name="degree" type="eu.monnetproject.lemon.oils.Scalar.Degree">
+</parameter>
+<parameter name="op" type="eu.monnetproject.ontology.ObjectProperty">
+</parameter>
+</method>
+<method name="makeContravariantScalar"
+ return="eu.monnetproject.lemon.oils.ContravariantScalar"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="ontlg" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="dp" type="eu.monnetproject.ontology.DatatypeProperty">
+</parameter>
+<parameter name="lv" type="eu.monnetproject.ontology.LiteralValue">
+</parameter>
+</method>
+<method name="makeContravariantScalar"
+ return="eu.monnetproject.lemon.oils.ContravariantScalar"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="ontlg" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="dp" type="eu.monnetproject.ontology.DatatypeProperty">
+</parameter>
+<parameter name="lv" type="eu.monnetproject.ontology.LiteralValue">
+</parameter>
+<parameter name="op" type="eu.monnetproject.ontology.ObjectProperty">
+</parameter>
+</method>
+<method name="makeCovariantScalar"
+ return="eu.monnetproject.lemon.oils.CovariantScalar"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="ontlg" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="dp" type="eu.monnetproject.ontology.DatatypeProperty">
+</parameter>
+<parameter name="degree" type="eu.monnetproject.lemon.oils.Scalar.Degree">
+</parameter>
+</method>
+<method name="makeCovariantScalar"
+ return="eu.monnetproject.lemon.oils.CovariantScalar"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="ontlg" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="dp" type="eu.monnetproject.ontology.DatatypeProperty">
+</parameter>
+<parameter name="degree" type="eu.monnetproject.lemon.oils.Scalar.Degree">
+</parameter>
+<parameter name="op" type="eu.monnetproject.ontology.ObjectProperty">
+</parameter>
+</method>
+<method name="makeCovariantScalar"
+ return="eu.monnetproject.lemon.oils.CovariantScalar"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="ontlg" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="dp" type="eu.monnetproject.ontology.DatatypeProperty">
+</parameter>
+<parameter name="lv" type="eu.monnetproject.ontology.LiteralValue">
+</parameter>
+</method>
+<method name="makeCovariantScalar"
+ return="eu.monnetproject.lemon.oils.CovariantScalar"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="ontlg" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="dp" type="eu.monnetproject.ontology.DatatypeProperty">
+</parameter>
+<parameter name="lv" type="eu.monnetproject.ontology.LiteralValue">
+</parameter>
+<parameter name="op" type="eu.monnetproject.ontology.ObjectProperty">
+</parameter>
+</method>
+<method name="makeMultivariateRelationship"
+ return="eu.monnetproject.lemon.oils.MultivariateRelationship"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="ontlg" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="ops" type="eu.monnetproject.ontology.ObjectProperty...">
+</parameter>
+</method>
+<method name="toMultivariateRelationship"
+ return="eu.monnetproject.lemon.oils.MultivariateRelationship"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="type" type="eu.monnetproject.ontology.Class">
+</parameter>
+</method>
+<method name="toScalar"
+ return="eu.monnetproject.lemon.oils.Scalar"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="type" type="eu.monnetproject.ontology.Class">
+</parameter>
+</method>
+<field name="LEMON_OILS"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;http://www.monnetproject.eu/lemon-oils#&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="MultivariateRelationshipImpl"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.oils.MultivariateRelationship">
+</implements>
+<constructor name="MultivariateRelationshipImpl"
+ type="eu.monnetproject.lemon.impl.oils.MultivariateRelationshipImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="clazz" type="eu.monnetproject.ontology.Class">
+</parameter>
+</constructor>
+<method name="asClass"
+ return="eu.monnetproject.ontology.Class"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRoles"
+ return="java.util.Collection&lt;eu.monnetproject.ontology.Property&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<class name="ScalarImpl"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.oils.Scalar">
+</implements>
+<constructor name="ScalarImpl"
+ type="eu.monnetproject.lemon.impl.oils.ScalarImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="clazz" type="eu.monnetproject.ontology.Class">
+</parameter>
+<parameter name="ontology" type="eu.monnetproject.ontology.Ontology">
+</parameter>
+</constructor>
+<method name="asClass"
+ return="eu.monnetproject.ontology.Class"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getBoundTo"
+ return="eu.monnetproject.ontology.DatatypeProperty"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getComparator"
+ return="eu.monnetproject.ontology.ObjectProperty"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDegree"
+ return="eu.monnetproject.lemon.oils.Scalar.Degree"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getThreshold"
+ return="eu.monnetproject.ontology.LiteralValue"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+</package>
+<package name="eu.monnetproject.lemon.impl.repo"
+>
+<class name="ArgumentImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Argument">
+</implements>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getMarker"
+ return="eu.monnetproject.lemon.SyntacticRoleMarker"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setMarker"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="marker" type="eu.monnetproject.lemon.SyntacticRoleMarker">
+</parameter>
+</method>
+</class>
+<class name="ComponentImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Component">
+</implements>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getElement"
+ return="eu.monnetproject.lemon.LexicalEntry"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setElement"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="element" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+</class>
+<class name="ConditionImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalCondition">
+</implements>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+</class>
+<class name="ConnectionManager"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="ConnectionManager"
+ type="eu.monnetproject.lemon.impl.repo.ConnectionManager"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="repository" type="org.openrdf.repository.Repository">
+</parameter>
+<parameter name="context" type="org.openrdf.model.Resource">
+</parameter>
+</constructor>
+<method name="close"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="get"
+ return="eu.monnetproject.lemon.impl.repo.ConnectionManager.RepositoryConnection2"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="unget"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<field name="context"
+ type="org.openrdf.model.Resource"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="factory"
+ type="org.openrdf.model.ValueFactory"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="ConnectionManager.RepositoryConnection2"
+ extends="java.lang.Object"
+ abstract="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="ConnectionManager.RepositoryConnection2"
+ type="eu.monnetproject.lemon.impl.repo.ConnectionManager.RepositoryConnection2"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="conn" type="org.openrdf.repository.RepositoryConnection">
+</parameter>
+<parameter name="context" type="org.openrdf.model.Resource">
+</parameter>
+</constructor>
+<method name="add"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="subject" type="org.openrdf.model.Resource">
+</parameter>
+<parameter name="predicate" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="object" type="org.openrdf.model.Value">
+</parameter>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="add"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="stat" type="org.openrdf.model.Statement">
+</parameter>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="getNamespaces"
+ return="org.openrdf.repository.RepositoryResult&lt;org.openrdf.model.Namespace&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="getStatements"
+ return="org.openrdf.repository.RepositoryResult&lt;org.openrdf.model.Statement&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="subj" type="org.openrdf.model.Resource">
+</parameter>
+<parameter name="pred" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="obj" type="org.openrdf.model.Value">
+</parameter>
+<parameter name="includeInferred" type="boolean">
+</parameter>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="getValueFactory"
+ return="org.openrdf.model.ValueFactory"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="hasStatement"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="subj" type="org.openrdf.model.Resource">
+</parameter>
+<parameter name="pred" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="obj" type="org.openrdf.model.Value">
+</parameter>
+<parameter name="includeInferred" type="boolean">
+</parameter>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="hasStatement"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="stat" type="org.openrdf.model.Statement">
+</parameter>
+<parameter name="includeInferred" type="boolean">
+</parameter>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="remove"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="stat" type="java.util.List&lt;org.openrdf.model.Statement&gt;">
+</parameter>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="remove"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="subject" type="org.openrdf.model.Resource">
+</parameter>
+<parameter name="predicate" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="object" type="org.openrdf.model.Value">
+</parameter>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="remove"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="stat" type="org.openrdf.model.Statement">
+</parameter>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<field name="conn"
+ type="org.openrdf.repository.RepositoryConnection"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="ConstituentImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Constituent">
+</implements>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+</class>
+<class name="ContextImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalContext">
+</implements>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+</class>
+<class name="DefinitionImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Definition">
+</implements>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getValue"
+ return="eu.monnetproject.lemon.Text"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setValue"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="value" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+</class>
+<class name="ElementWriter"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="getStatementsForEntry"
+ return="java.util.Iterator&lt;org.openrdf.model.Statement&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager.RepositoryConnection2">
+</parameter>
+<parameter name="entry" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+<parameter name="lingOnto" type="eu.monnetproject.lemon.LinguisticOntology">
+</parameter>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+<method name="getStatementsForLexicon"
+ return="java.util.Iterator&lt;org.openrdf.model.Statement&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager.RepositoryConnection2">
+</parameter>
+<parameter name="lexicon" type="eu.monnetproject.lemon.Lexicon">
+</parameter>
+<parameter name="lingOnto" type="eu.monnetproject.lemon.LinguisticOntology">
+</parameter>
+<exception name="RepositoryException" type="org.openrdf.repository.RepositoryException">
+</exception>
+</method>
+</class>
+<class name="ExampleImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Example">
+</implements>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getValue"
+ return="eu.monnetproject.lemon.Text"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setValue"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="value" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+</class>
+<class name="FormImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalForm">
+</implements>
+<method name="addFormVariant"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="formVariant" type="eu.monnetproject.lemon.FormVariant">
+</parameter>
+<parameter name="formVariantVal" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="addRepresentation"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="representation" type="eu.monnetproject.lemon.Representation">
+</parameter>
+<parameter name="representationVal" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getFormVariant"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalForm&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="formVariant" type="eu.monnetproject.lemon.FormVariant">
+</parameter>
+</method>
+<method name="getFormVariants"
+ return="java.util.Map&lt;eu.monnetproject.lemon.FormVariant, java.util.Collection&lt;eu.monnetproject.lemon.LexicalForm&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRepresentation"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Text&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="representation" type="eu.monnetproject.lemon.Representation">
+</parameter>
+</method>
+<method name="getRepresentations"
+ return="java.util.Map&lt;eu.monnetproject.lemon.Representation, java.util.Collection&lt;eu.monnetproject.lemon.Text&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getWrittenRep"
+ return="eu.monnetproject.lemon.Text"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="removeFormVariant"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="formVariant" type="eu.monnetproject.lemon.FormVariant">
+</parameter>
+<parameter name="formVariantVal" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="removeRepresentation"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="representation" type="eu.monnetproject.lemon.Representation">
+</parameter>
+<parameter name="representationVal" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+<method name="setWrittenRep"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="writtenRep" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+</class>
+<class name="FrameImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Frame">
+</implements>
+<method name="addDecomposition"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="comps" type="java.util.List&lt;eu.monnetproject.lemon.Component&gt;">
+</parameter>
+</method>
+<method name="addSynArg"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="synArg" type="eu.monnetproject.lemon.SynArg">
+</parameter>
+<parameter name="synArgVal" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="addTree"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="node" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getDecompositions"
+ return="java.util.Collection&lt;java.util.List&lt;eu.monnetproject.lemon.Component&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSynArg"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Argument&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="synArg" type="eu.monnetproject.lemon.SynArg">
+</parameter>
+</method>
+<method name="getSynArgs"
+ return="java.util.Map&lt;eu.monnetproject.lemon.SynArg, java.util.Collection&lt;eu.monnetproject.lemon.Argument&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getTrees"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Node&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="removeDecomposition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="comps" type="java.util.List&lt;eu.monnetproject.lemon.Component&gt;">
+</parameter>
+</method>
+<method name="removeSynArg"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="synArg" type="eu.monnetproject.lemon.SynArg">
+</parameter>
+<parameter name="synArgVal" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="removeTree"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="node" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+</class>
+<class name="LemonElementRepoProxy"
+ extends="eu.monnetproject.lemon.URIElement"
+ abstract="true"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="LemonElementRepoProxy"
+ type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="res" type="org.openrdf.model.BNode">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</constructor>
+<constructor name="LemonElementRepoProxy"
+ type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="res" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</constructor>
+<method name="addPredElem"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="eu.monnetproject.lemon.LemonPredicate">
+</parameter>
+<parameter name="e" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+<parameter name="lemonProp" type="org.openrdf.model.URI">
+</parameter>
+</method>
+<method name="addStat"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="res" type="org.openrdf.model.Resource">
+</parameter>
+<parameter name="prop" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="obj" type="org.openrdf.model.Value">
+</parameter>
+</method>
+<method name="addStrElem"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="java.lang.String">
+</parameter>
+<parameter name="e" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="confirmType"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getPredElem"
+ return="java.util.Collection&lt;Elem&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="eu.monnetproject.lemon.LemonPredicate">
+</parameter>
+<parameter name="elemFactory" type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.ElementFactory&lt;Elem&gt;">
+</parameter>
+</method>
+<method name="getPredElems"
+ return="java.util.Map&lt;Pred, java.util.Collection&lt;Elem&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="predStr" type="java.lang.String">
+</parameter>
+<parameter name="predFactory" type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.PredicateFactory&lt;Pred&gt;">
+</parameter>
+<parameter name="elemFactory" type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.ElementFactory&lt;Elem&gt;">
+</parameter>
+</method>
+<method name="getStrElem"
+ return="Elem"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="java.lang.String">
+</parameter>
+<parameter name="factory" type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.ElementFactory&lt;Elem&gt;">
+</parameter>
+</method>
+<method name="getStrElems"
+ return="java.util.Collection&lt;Elem&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+<parameter name="elemFactory" type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.ElementFactory&lt;Elem&gt;">
+</parameter>
+</method>
+<method name="getStrText"
+ return="eu.monnetproject.lemon.Text"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="java.lang.String">
+</parameter>
+</method>
+<method name="removePredElem"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="eu.monnetproject.lemon.LemonPredicate">
+</parameter>
+<parameter name="e" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="removeStat"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="res" type="org.openrdf.model.Resource">
+</parameter>
+<parameter name="prop" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="obj" type="org.openrdf.model.Value">
+</parameter>
+</method>
+<method name="removeStrElem"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="java.lang.String">
+</parameter>
+<parameter name="e" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="setStrElem"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="java.lang.String">
+</parameter>
+<parameter name="elem" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="setStrText"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="java.lang.String">
+</parameter>
+<parameter name="txt" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+<method name="unmake"
+ return="org.openrdf.model.Resource"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="elem" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="unmake"
+ return="org.openrdf.model.URI"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="pred" type="eu.monnetproject.lemon.LemonPredicate">
+</parameter>
+</method>
+<method name="unmake"
+ return="org.openrdf.model.Literal"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="text" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+<field name="LEMON"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;http://www.monnet-project.eu/lemon#&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</field>
+<field name="RDFS_SUBPROP"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;http://www.w3.org/2000/01/rdf-schema#subPropertyOf&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</field>
+<field name="RDF_TYPE"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</field>
+<field name="conn"
+ type="eu.monnetproject.lemon.impl.repo.ConnectionManager"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="true"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</field>
+<field name="res"
+ type="org.openrdf.model.Resource"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="true"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</field>
+</class>
+<interface name="LemonElementRepoProxy.ElementFactory"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="get"
+ return="Elem"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="res" type="org.openrdf.model.BNode">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</method>
+<method name="get"
+ return="Elem"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="res" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</method>
+</interface>
+<interface name="LemonElementRepoProxy.MakeStats"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<method name="makeStatements"
+ return="org.openrdf.repository.RepositoryResult&lt;org.openrdf.model.Statement&gt;"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</interface>
+<interface name="LemonElementRepoProxy.PredicateFactory"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="get"
+ return="Pred"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="res" type="org.openrdf.model.URI">
+</parameter>
+</method>
+</interface>
+<class name="LemonElementRepoProxy.StatementQueue"
+ extends="java.util.AbstractCollection"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<constructor name="LemonElementRepoProxy.StatementQueue"
+ type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.StatementQueue"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="makeStats" type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.MakeStats">
+</parameter>
+<parameter name="elemFactory" type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.ElementFactory&lt;E&gt;">
+</parameter>
+</constructor>
+<method name="iterator"
+ return="java.util.Iterator&lt;E&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="size"
+ return="int"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<class name="LemonPredicateRepoProxy"
+ extends="eu.monnetproject.lemon.URIValue"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LemonPredicate">
+</implements>
+<constructor name="LemonPredicateRepoProxy"
+ type="eu.monnetproject.lemon.impl.repo.LemonPredicateRepoProxy"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="res" type="org.openrdf.model.URI">
+</parameter>
+</constructor>
+</class>
+<class name="LemonRepoException"
+ extends="java.lang.RuntimeException"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="LemonRepoException"
+ type="eu.monnetproject.lemon.impl.repo.LemonRepoException"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="message" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor name="LemonRepoException"
+ type="eu.monnetproject.lemon.impl.repo.LemonRepoException"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="cause" type="java.lang.Throwable">
+</parameter>
+</constructor>
+</class>
+<class name="LexicalEntryImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalEntry">
+</implements>
+<constructor name="LexicalEntryImpl"
+ type="eu.monnetproject.lemon.impl.repo.LexicalEntryImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="id" type="org.openrdf.model.BNode">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</constructor>
+<constructor name="LexicalEntryImpl"
+ type="eu.monnetproject.lemon.impl.repo.LexicalEntryImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</constructor>
+<method name="addAbstractForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="abstractForm" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="addDecomposition"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="comps" type="java.util.List&lt;eu.monnetproject.lemon.Component&gt;">
+</parameter>
+</method>
+<method name="addForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="form" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="addLexicalVariant"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexicalVariant" type="eu.monnetproject.lemon.LexicalVariant">
+</parameter>
+<parameter name="lexicalVariantVal" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+<method name="addOtherForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="otherForm" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="addPhraseRoot"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="phraseRoot" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+<method name="addSense"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="sense" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="addSynBehavior"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="synBehavior" type="eu.monnetproject.lemon.Frame">
+</parameter>
+</method>
+<method name="addTopic"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="topic" type="eu.monnetproject.lemon.LexicalTopic">
+</parameter>
+</method>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getAbstractForms"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalForm&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getCanonicalForm"
+ return="eu.monnetproject.lemon.LexicalForm"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDecompositions"
+ return="java.util.Collection&lt;java.util.List&lt;eu.monnetproject.lemon.Component&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getForms"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalForm&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLexicalVariant"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalEntry&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexicalVariant" type="eu.monnetproject.lemon.LexicalVariant">
+</parameter>
+</method>
+<method name="getLexicalVariants"
+ return="java.util.Map&lt;eu.monnetproject.lemon.LexicalVariant, java.util.Collection&lt;eu.monnetproject.lemon.LexicalEntry&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOtherForms"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalForm&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getPhraseRoots"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Node&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSenses"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalSense&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSynBehaviors"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Frame&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getTopics"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalTopic&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="removeAbstractForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="abstractForm" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="removeDecomposition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="comps" type="java.util.List&lt;eu.monnetproject.lemon.Component&gt;">
+</parameter>
+</method>
+<method name="removeForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="form" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="removeLexicalVariant"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexicalVariant" type="eu.monnetproject.lemon.LexicalVariant">
+</parameter>
+<parameter name="lexicalVariantVal" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+<method name="removeOtherForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="otherForm" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="removePhraseRoot"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="phraseRoot" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+<method name="removeSense"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="sense" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="removeSynBehavior"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="synBehavior" type="eu.monnetproject.lemon.Frame">
+</parameter>
+</method>
+<method name="removeTopic"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="topic" type="eu.monnetproject.lemon.LexicalTopic">
+</parameter>
+</method>
+<method name="setCanonicalForm"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="canonicalForm" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<field name="leFactory"
+ type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.ElementFactory"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="topicFactory"
+ type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.ElementFactory"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="LexicalSenseImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalSense">
+</implements>
+<method name="addCondition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.Condition">
+</parameter>
+<parameter name="condition" type="eu.monnetproject.lemon.LexicalCondition">
+</parameter>
+</method>
+<method name="addContext"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="eu.monnetproject.lemon.LexicalContext">
+</parameter>
+</method>
+<method name="addDefinition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.DefinitionPredicate">
+</parameter>
+<parameter name="definition" type="eu.monnetproject.lemon.Definition">
+</parameter>
+</method>
+<method name="addExample"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="example" type="eu.monnetproject.lemon.Example">
+</parameter>
+</method>
+<method name="addIsA"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="addObjOfProp"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="addSenseRelation"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="senseRelation" type="eu.monnetproject.lemon.SenseRelation">
+</parameter>
+<parameter name="senseRelationVal" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="addSubjOfProp"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="addSubsense"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="sense" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getCondition"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalCondition&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.Condition">
+</parameter>
+</method>
+<method name="getConditions"
+ return="java.util.Map&lt;eu.monnetproject.lemon.Condition, java.util.Collection&lt;eu.monnetproject.lemon.LexicalCondition&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getContexts"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalContext&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDefinition"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Definition&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.DefinitionPredicate">
+</parameter>
+</method>
+<method name="getDefinitions"
+ return="java.util.Map&lt;eu.monnetproject.lemon.DefinitionPredicate, java.util.Collection&lt;eu.monnetproject.lemon.Definition&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getExamples"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Example&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getIsAs"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Argument&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getObjOfProps"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Argument&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRefPref"
+ return="eu.monnetproject.lemon.LexicalSense.ReferencePreference"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getReference"
+ return="java.net.URI"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSenseRelation"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalSense&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="senseRelation" type="eu.monnetproject.lemon.SenseRelation">
+</parameter>
+</method>
+<method name="getSenseRelations"
+ return="java.util.Map&lt;eu.monnetproject.lemon.SenseRelation, java.util.Collection&lt;eu.monnetproject.lemon.LexicalSense&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSubjOfProps"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Argument&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSubsenses"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalSense&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="removeCondition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.Condition">
+</parameter>
+<parameter name="condition" type="eu.monnetproject.lemon.LexicalCondition">
+</parameter>
+</method>
+<method name="removeContext"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="eu.monnetproject.lemon.LexicalContext">
+</parameter>
+</method>
+<method name="removeDefinition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.DefinitionPredicate">
+</parameter>
+<parameter name="definition" type="eu.monnetproject.lemon.Definition">
+</parameter>
+</method>
+<method name="removeExample"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="example" type="eu.monnetproject.lemon.Example">
+</parameter>
+</method>
+<method name="removeIsA"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="removeObjOfProp"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="removeSenseRelation"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="senseRelation" type="eu.monnetproject.lemon.SenseRelation">
+</parameter>
+<parameter name="senseRelationVal" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="removeSubjOfProp"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="removeSubsense"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="sense" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="setRefPref"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="refPref" type="eu.monnetproject.lemon.LexicalSense.ReferencePreference">
+</parameter>
+</method>
+<method name="setReference"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="reference" type="java.net.URI">
+</parameter>
+</method>
+</class>
+<class name="LexiconImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Lexicon">
+</implements>
+<method name="addEntry"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="entry" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+<method name="addTopic"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="topic" type="eu.monnetproject.lemon.LexicalTopic">
+</parameter>
+</method>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getEntrys"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalEntry&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLanguage"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getModel"
+ return="eu.monnetproject.lemon.LemonModel"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getTopics"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalTopic&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="hasEntry"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="entry" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+<method name="removeEntry"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="entry" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+<method name="removeTopic"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="topic" type="eu.monnetproject.lemon.LexicalTopic">
+</parameter>
+</method>
+<method name="setLanguage"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="language" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class name="NodeImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Node">
+</implements>
+<method name="addEdge"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="edge" type="eu.monnetproject.lemon.Edge">
+</parameter>
+<parameter name="edgeVal" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="getConstituent"
+ return="eu.monnetproject.lemon.Constituent"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getEdge"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Node&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="edge" type="eu.monnetproject.lemon.Edge">
+</parameter>
+</method>
+<method name="getEdges"
+ return="java.util.Map&lt;eu.monnetproject.lemon.Edge, java.util.Collection&lt;eu.monnetproject.lemon.Node&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLeaf"
+ return="eu.monnetproject.lemon.PhraseTerminal"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSeparator"
+ return="eu.monnetproject.lemon.Text"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="removeEdge"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="edge" type="eu.monnetproject.lemon.Edge">
+</parameter>
+<parameter name="edgeVal" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+<method name="setConstituent"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="constituent" type="eu.monnetproject.lemon.Constituent">
+</parameter>
+</method>
+<method name="setLeaf"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="product" type="eu.monnetproject.lemon.PhraseTerminal">
+</parameter>
+</method>
+<method name="setSeparator"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="separator" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+</class>
+<class name="PartImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LexicalEntryImpl"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</class>
+<class name="PhraseImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LexicalEntryImpl"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</class>
+<class name="PropertyValueImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.PropertyValue">
+</implements>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+</class>
+<class name="RDFList"
+ extends="java.util.AbstractList"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="RDFList"
+ type="eu.monnetproject.lemon.impl.repo.RDFList"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="head" type="org.openrdf.model.Resource">
+</parameter>
+<parameter name="factory" type="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy.ElementFactory&lt;Elem&gt;">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</constructor>
+<method name="get"
+ return="Elem"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="i" type="int">
+</parameter>
+</method>
+<method name="getHead"
+ return="org.openrdf.model.Resource"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="removeTriples"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="size"
+ return="int"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<field name="RDF_FIRST"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#first&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RDF_NIL"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RDF_REST"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="RepoLemonFactory"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LemonFactory">
+</implements>
+<method name="make"
+ return="Elem"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="target" type="java.lang.Class&lt;Elem&gt;">
+</parameter>
+<parameter name="rdfClass" type="java.net.URI">
+</parameter>
+</method>
+<method name="make"
+ return="Elem"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="target" type="java.lang.Class&lt;Elem&gt;">
+</parameter>
+<parameter name="rdfClass" type="java.net.URI">
+</parameter>
+<parameter name="uri2" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeArgument"
+ return="eu.monnetproject.lemon.Argument"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeArgument"
+ return="eu.monnetproject.lemon.Argument"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeComponent"
+ return="eu.monnetproject.lemon.Component"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeComponent"
+ return="eu.monnetproject.lemon.Component"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeCondition"
+ return="eu.monnetproject.lemon.LexicalCondition"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeCondition"
+ return="eu.monnetproject.lemon.LexicalCondition"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeDefinition"
+ return="eu.monnetproject.lemon.Definition"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeDefinition"
+ return="eu.monnetproject.lemon.Definition"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeExample"
+ return="eu.monnetproject.lemon.Example"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeExample"
+ return="eu.monnetproject.lemon.Example"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeForm"
+ return="eu.monnetproject.lemon.LexicalForm"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeForm"
+ return="eu.monnetproject.lemon.LexicalForm"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeFrame"
+ return="eu.monnetproject.lemon.Frame"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeFrame"
+ return="eu.monnetproject.lemon.Frame"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeInstance"
+ return="Elem"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="target" type="java.lang.Class&lt;Elem&gt;">
+</parameter>
+<parameter name="uri" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</method>
+<method name="makeLexicalEntry"
+ return="eu.monnetproject.lemon.LexicalEntry"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeLexicalEntry"
+ return="eu.monnetproject.lemon.LexicalEntry"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeNode"
+ return="eu.monnetproject.lemon.Node"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeNode"
+ return="eu.monnetproject.lemon.Node"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeSense"
+ return="eu.monnetproject.lemon.LexicalSense"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeSense"
+ return="eu.monnetproject.lemon.LexicalSense"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+</class>
+<class name="RepoLemonModel"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LemonModel">
+</implements>
+<method name="addLexicon"
+ return="eu.monnetproject.lemon.Lexicon"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexiconURI" type="java.net.URI">
+</parameter>
+<parameter name="language" type="eu.monnetproject.lang.Language">
+</parameter>
+</method>
+<method name="deactivate"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getContext"
+ return="java.net.URI"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getFactory"
+ return="eu.monnetproject.lemon.LemonFactory"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLexica"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Lexicon&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeInstance"
+ return="Elem"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="target" type="java.lang.Class&lt;Elem&gt;">
+</parameter>
+<parameter name="uri" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</method>
+<method name="merge"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="from" type="Elem">
+</parameter>
+<parameter name="to" type="Elem">
+</parameter>
+</method>
+<method name="query"
+ return="java.util.Iterator&lt;Elem&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="target2" type="java.lang.Class&lt;Elem&gt;">
+</parameter>
+<parameter name="sparqlQuery" type="java.lang.String">
+</parameter>
+</method>
+<method name="removeLexicon"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexicon" type="eu.monnetproject.lemon.Lexicon">
+</parameter>
+</method>
+<method name="toRepository"
+ return="org.openrdf.repository.Repository"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<class name="RepoLemonSerializer"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="RepoLemonSerializer"
+ type="eu.monnetproject.lemon.impl.repo.RepoLemonSerializer"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<constructor name="RepoLemonSerializer"
+ type="eu.monnetproject.lemon.impl.repo.RepoLemonSerializer"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="repo" type="org.openrdf.repository.Repository">
+</parameter>
+</constructor>
+<method name="bindRepo"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="repo" type="org.openrdf.repository.Repository">
+</parameter>
+</method>
+<method name="create"
+ return="eu.monnetproject.lemon.LemonModel"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="java.net.URI">
+</parameter>
+</method>
+<method name="moveLexicon"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexicon" type="eu.monnetproject.lemon.Lexicon">
+</parameter>
+<parameter name="from" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+<parameter name="to" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+</method>
+<method name="read"
+ return="eu.monnetproject.lemon.LemonModel"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="source" type="eu.monnetproject.data.DataSource">
+</parameter>
+</method>
+<method name="unbindRepo"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="repo" type="org.openrdf.repository.Repository">
+</parameter>
+</method>
+<method name="write"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="model" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+<parameter name="target" type="eu.monnetproject.data.DataTarget">
+</parameter>
+</method>
+<method name="writeEntry"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="model" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+<parameter name="entry" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+<parameter name="lingOnto" type="eu.monnetproject.lemon.LinguisticOntology">
+</parameter>
+<parameter name="target" type="eu.monnetproject.data.DataTarget">
+</parameter>
+</method>
+<method name="writeLexicon"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="model" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+<parameter name="lexicon" type="eu.monnetproject.lemon.Lexicon">
+</parameter>
+<parameter name="lingOnto" type="eu.monnetproject.lemon.LinguisticOntology">
+</parameter>
+<parameter name="target" type="eu.monnetproject.data.DataTarget">
+</parameter>
+</method>
+</class>
+<class name="TopicImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LemonElementRepoProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalTopic">
+</implements>
+<constructor name="TopicImpl"
+ type="eu.monnetproject.lemon.impl.repo.TopicImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="id" type="org.openrdf.model.BNode">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</constructor>
+<constructor name="TopicImpl"
+ type="eu.monnetproject.lemon.impl.repo.TopicImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</constructor>
+<method name="confirmType"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+</class>
+<class name="TurtlePrettyPrinter"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="org.openrdf.rio.RDFHandler">
+</implements>
+<constructor name="TurtlePrettyPrinter"
+ type="eu.monnetproject.lemon.impl.repo.TurtlePrettyPrinter"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="out" type="java.io.OutputStream">
+</parameter>
+</constructor>
+<constructor name="TurtlePrettyPrinter"
+ type="eu.monnetproject.lemon.impl.repo.TurtlePrettyPrinter"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="out" type="java.io.OutputStream">
+</parameter>
+<parameter name="tabWidth" type="int">
+</parameter>
+<parameter name="postStatSpacing" type="int">
+</parameter>
+<parameter name="maxObjs" type="int">
+</parameter>
+</constructor>
+<constructor name="TurtlePrettyPrinter"
+ type="eu.monnetproject.lemon.impl.repo.TurtlePrettyPrinter"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="out" type="java.io.Writer">
+</parameter>
+</constructor>
+<constructor name="TurtlePrettyPrinter"
+ type="eu.monnetproject.lemon.impl.repo.TurtlePrettyPrinter"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="out" type="java.io.Writer">
+</parameter>
+<parameter name="tabWidth" type="int">
+</parameter>
+<parameter name="postStatSpacing" type="int">
+</parameter>
+<parameter name="maxObjs" type="int">
+</parameter>
+</constructor>
+<method name="endRDF"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="handleComment"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="comment" type="java.lang.String">
+</parameter>
+</method>
+<method name="handleNamespace"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="prefix" type="java.lang.String">
+</parameter>
+<parameter name="uri" type="java.lang.String">
+</parameter>
+</method>
+<method name="handleStatement"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="st" type="org.openrdf.model.Statement">
+</parameter>
+</method>
+<method name="startRDF"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<class name="WordImpl"
+ extends="eu.monnetproject.lemon.impl.repo.LexicalEntryImpl"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="WordImpl"
+ type="eu.monnetproject.lemon.impl.repo.WordImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="id" type="org.openrdf.model.BNode">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</constructor>
+<constructor name="WordImpl"
+ type="eu.monnetproject.lemon.impl.repo.WordImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="org.openrdf.model.URI">
+</parameter>
+<parameter name="conn" type="eu.monnetproject.lemon.impl.repo.ConnectionManager">
+</parameter>
+</constructor>
+</class>
+</package>
+<package name="eu.monnetproject.lemon.impl.simple"
+>
+<class name="ArgumentImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Argument">
+</implements>
+<method name="getMarker"
+ return="eu.monnetproject.lemon.SyntacticRoleMarker"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setMarker"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="marker" type="eu.monnetproject.lemon.SyntacticRoleMarker">
+</parameter>
+</method>
+</class>
+<class name="ComponentImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Component">
+</implements>
+<method name="getElement"
+ return="eu.monnetproject.lemon.LexicalEntry"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setElement"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="element" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+</class>
+<class name="ConditionImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalCondition">
+</implements>
+</class>
+<class name="ConstituentImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Constituent">
+</implements>
+</class>
+<class name="ContextImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalContext">
+</implements>
+</class>
+<class name="DefinitionImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Definition">
+</implements>
+<method name="getValue"
+ return="eu.monnetproject.lemon.Text"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setValue"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="value" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+</class>
+<class name="ExampleImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Example">
+</implements>
+<method name="getValue"
+ return="eu.monnetproject.lemon.Text"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setValue"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="value" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+</class>
+<class name="FormImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalForm">
+</implements>
+<method name="addFormVariant"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="formVariant" type="eu.monnetproject.lemon.FormVariant">
+</parameter>
+<parameter name="formVariantVal" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="addRepresentation"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="representation" type="eu.monnetproject.lemon.Representation">
+</parameter>
+<parameter name="representationVal" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+<method name="getFormVariant"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalForm&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="formVariant" type="eu.monnetproject.lemon.FormVariant">
+</parameter>
+</method>
+<method name="getFormVariants"
+ return="java.util.Map&lt;eu.monnetproject.lemon.FormVariant, java.util.Collection&lt;eu.monnetproject.lemon.LexicalForm&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRepresentation"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Text&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="representation" type="eu.monnetproject.lemon.Representation">
+</parameter>
+</method>
+<method name="getRepresentations"
+ return="java.util.Map&lt;eu.monnetproject.lemon.Representation, java.util.Collection&lt;eu.monnetproject.lemon.Text&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getWrittenRep"
+ return="eu.monnetproject.lemon.Text"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="removeFormVariant"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="formVariant" type="eu.monnetproject.lemon.FormVariant">
+</parameter>
+<parameter name="formVariantVal" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="removeRepresentation"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="representation" type="eu.monnetproject.lemon.Representation">
+</parameter>
+<parameter name="representationVal" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+<method name="setWrittenRep"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="writtenRep" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+<field name="reps"
+ type="java.util.HashMap"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="FrameImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Frame">
+</implements>
+<method name="addDecomposition"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="comps" type="java.util.List&lt;eu.monnetproject.lemon.Component&gt;">
+</parameter>
+</method>
+<method name="addSynArg"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="synArg" type="eu.monnetproject.lemon.SynArg">
+</parameter>
+<parameter name="synArgVal" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="addTree"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="node" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+<method name="getDecompositions"
+ return="java.util.Collection&lt;java.util.List&lt;eu.monnetproject.lemon.Component&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSynArg"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Argument&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="synArg" type="eu.monnetproject.lemon.SynArg">
+</parameter>
+</method>
+<method name="getSynArgs"
+ return="java.util.Map&lt;eu.monnetproject.lemon.SynArg, java.util.Collection&lt;eu.monnetproject.lemon.Argument&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getTrees"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Node&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="removeDecomposition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="comps" type="java.util.List&lt;eu.monnetproject.lemon.Component&gt;">
+</parameter>
+</method>
+<method name="removeSynArg"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="synArg" type="eu.monnetproject.lemon.SynArg">
+</parameter>
+<parameter name="synArgVal" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="removeTree"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="node" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+</class>
+<class name="LemonElementSimpleProxy"
+ extends="eu.monnetproject.lemon.URIElement"
+ abstract="true"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LemonElement">
+</implements>
+<constructor name="LemonElementSimpleProxy"
+ type="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="id" type="java.lang.String">
+</parameter>
+<parameter name="type" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor name="LemonElementSimpleProxy"
+ type="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="type" type="java.lang.String">
+</parameter>
+</constructor>
+<method name="addPredElem"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="eu.monnetproject.lemon.LemonPredicate">
+</parameter>
+<parameter name="e" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="addReference"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="element" type="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy">
+</parameter>
+</method>
+<method name="addStrElem"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="java.lang.String">
+</parameter>
+<parameter name="e" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="getPredElem"
+ return="java.util.Collection"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="eu.monnetproject.lemon.LemonPredicate">
+</parameter>
+</method>
+<method name="getPredElems"
+ return="java.util.Map"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="clazz" type="java.lang.Class&lt;Pred&gt;">
+</parameter>
+</method>
+<method name="getStrElem"
+ return="eu.monnetproject.lemon.LemonElement"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getStrElems"
+ return="java.util.Collection"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getStrText"
+ return="eu.monnetproject.lemon.Text"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="mergeIn"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="elem" type="Elem">
+</parameter>
+</method>
+<method name="printAsBlankNode"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="stream" type="java.io.PrintStream">
+</parameter>
+<parameter name="state" type="eu.monnetproject.lemon.impl.simple.SerializationState">
+</parameter>
+</method>
+<method name="printAsBlankNode"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="stream" type="java.io.PrintStream">
+</parameter>
+<parameter name="state" type="eu.monnetproject.lemon.impl.simple.SerializationState">
+</parameter>
+<parameter name="first" type="boolean">
+</parameter>
+</method>
+<method name="printURI"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="stream" type="java.io.PrintStream">
+</parameter>
+</method>
+<method name="refers"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</method>
+<method name="removePredElem"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="eu.monnetproject.lemon.LemonPredicate">
+</parameter>
+<parameter name="e" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="removeReference"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="element" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="removeStrElem"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="p" type="java.lang.String">
+</parameter>
+<parameter name="e" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="setStrElem"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+<parameter name="elem" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="setStrText"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+<parameter name="txt" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+<method name="updateReference"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="from" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+<parameter name="to" type="eu.monnetproject.lemon.LemonElement">
+</parameter>
+</method>
+<method name="visit"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="stream" type="java.io.PrintStream">
+</parameter>
+<parameter name="state" type="eu.monnetproject.lemon.impl.simple.SerializationState">
+</parameter>
+</method>
+<method name="write"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="stream" type="java.io.PrintStream">
+</parameter>
+<parameter name="state" type="eu.monnetproject.lemon.impl.simple.SerializationState">
+</parameter>
+</method>
+<field name="referencers"
+ type="java.util.List"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+</field>
+</class>
+<class name="LexicalEntryImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalEntry">
+</implements>
+<method name="addAbstractForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="abstractForm" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="addDecomposition"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="comps" type="java.util.List&lt;eu.monnetproject.lemon.Component&gt;">
+</parameter>
+</method>
+<method name="addForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="form" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="addLexicalVariant"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexicalVariant" type="eu.monnetproject.lemon.LexicalVariant">
+</parameter>
+<parameter name="lexicalVariantVal" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+<method name="addOtherForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="otherForm" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="addPhraseRoot"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="phraseRoot" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+<method name="addSense"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="sense" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="addSynBehavior"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="synBehavior" type="eu.monnetproject.lemon.Frame">
+</parameter>
+</method>
+<method name="addTopic"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="topic" type="eu.monnetproject.lemon.LexicalTopic">
+</parameter>
+</method>
+<method name="getAbstractForms"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalForm&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getCanonicalForm"
+ return="eu.monnetproject.lemon.LexicalForm"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDecompositions"
+ return="java.util.Collection&lt;java.util.List&lt;eu.monnetproject.lemon.Component&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getForms"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalForm&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLexicalVariant"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalEntry&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexicalVariant" type="eu.monnetproject.lemon.LexicalVariant">
+</parameter>
+</method>
+<method name="getLexicalVariants"
+ return="java.util.Map&lt;eu.monnetproject.lemon.LexicalVariant, java.util.Collection&lt;eu.monnetproject.lemon.LexicalEntry&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOtherForms"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalForm&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getPhraseRoots"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Node&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSenses"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalSense&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSynBehaviors"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Frame&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getTopics"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalTopic&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="mergeIn"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="elem" type="eu.monnetproject.lemon.impl.simple.LexicalEntryImpl">
+</parameter>
+</method>
+<method name="removeAbstractForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="abstractForm" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="removeDecomposition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="comps" type="java.util.List&lt;eu.monnetproject.lemon.Component&gt;">
+</parameter>
+</method>
+<method name="removeForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="form" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="removeLexicalVariant"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexicalVariant" type="eu.monnetproject.lemon.LexicalVariant">
+</parameter>
+<parameter name="lexicalVariantVal" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+<method name="removeOtherForm"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="otherForm" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+<method name="removePhraseRoot"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="phraseRoot" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+<method name="removeSense"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="sense" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="removeSynBehavior"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="synBehavior" type="eu.monnetproject.lemon.Frame">
+</parameter>
+</method>
+<method name="removeTopic"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="topic" type="eu.monnetproject.lemon.LexicalTopic">
+</parameter>
+</method>
+<method name="setCanonicalForm"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="canonicalForm" type="eu.monnetproject.lemon.LexicalForm">
+</parameter>
+</method>
+</class>
+<class name="LexicalSenseImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalSense">
+</implements>
+<method name="addCondition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.Condition">
+</parameter>
+<parameter name="condition" type="eu.monnetproject.lemon.LexicalCondition">
+</parameter>
+</method>
+<method name="addContext"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="eu.monnetproject.lemon.LexicalContext">
+</parameter>
+</method>
+<method name="addDefinition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.DefinitionPredicate">
+</parameter>
+<parameter name="definition" type="eu.monnetproject.lemon.Definition">
+</parameter>
+</method>
+<method name="addExample"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="example" type="eu.monnetproject.lemon.Example">
+</parameter>
+</method>
+<method name="addIsA"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="addObjOfProp"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="addSenseRelation"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="senseRelation" type="eu.monnetproject.lemon.SenseRelation">
+</parameter>
+<parameter name="senseRelationVal" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="addSubjOfProp"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="addSubsense"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="sense" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="getCondition"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalCondition&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.Condition">
+</parameter>
+</method>
+<method name="getConditions"
+ return="java.util.Map&lt;eu.monnetproject.lemon.Condition, java.util.Collection&lt;eu.monnetproject.lemon.LexicalCondition&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getContexts"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalContext&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDefinition"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Definition&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.DefinitionPredicate">
+</parameter>
+</method>
+<method name="getDefinitions"
+ return="java.util.Map&lt;eu.monnetproject.lemon.DefinitionPredicate, java.util.Collection&lt;eu.monnetproject.lemon.Definition&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getExamples"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Example&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getIsAs"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Argument&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getObjOfProps"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Argument&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRefPref"
+ return="eu.monnetproject.lemon.LexicalSense.ReferencePreference"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getReference"
+ return="java.net.URI"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSenseRelation"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalSense&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="senseRelation" type="eu.monnetproject.lemon.SenseRelation">
+</parameter>
+</method>
+<method name="getSenseRelations"
+ return="java.util.Map&lt;eu.monnetproject.lemon.SenseRelation, java.util.Collection&lt;eu.monnetproject.lemon.LexicalSense&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSubjOfProps"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Argument&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSubsenses"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalSense&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="removeCondition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.Condition">
+</parameter>
+<parameter name="condition" type="eu.monnetproject.lemon.LexicalCondition">
+</parameter>
+</method>
+<method name="removeContext"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="eu.monnetproject.lemon.LexicalContext">
+</parameter>
+</method>
+<method name="removeDefinition"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="predicate" type="eu.monnetproject.lemon.DefinitionPredicate">
+</parameter>
+<parameter name="definition" type="eu.monnetproject.lemon.Definition">
+</parameter>
+</method>
+<method name="removeExample"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="example" type="eu.monnetproject.lemon.Example">
+</parameter>
+</method>
+<method name="removeIsA"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="removeObjOfProp"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="removeSenseRelation"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="senseRelation" type="eu.monnetproject.lemon.SenseRelation">
+</parameter>
+<parameter name="senseRelationVal" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="removeSubjOfProp"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="argument" type="eu.monnetproject.lemon.Argument">
+</parameter>
+</method>
+<method name="removeSubsense"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="sense" type="eu.monnetproject.lemon.LexicalSense">
+</parameter>
+</method>
+<method name="setRefPref"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="refPref" type="eu.monnetproject.lemon.LexicalSense.ReferencePreference">
+</parameter>
+</method>
+<method name="setReference"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="reference" type="java.net.URI">
+</parameter>
+</method>
+</class>
+<class name="LexiconImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Lexicon">
+</implements>
+<constructor name="LexiconImpl"
+ type="eu.monnetproject.lemon.impl.simple.LexiconImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="id" type="java.lang.String">
+</parameter>
+<parameter name="model" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+</constructor>
+<constructor name="LexiconImpl"
+ type="eu.monnetproject.lemon.impl.simple.LexiconImpl"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="model" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+</constructor>
+<method name="addEntry"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="entry" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+<method name="addTopic"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="topic" type="eu.monnetproject.lemon.LexicalTopic">
+</parameter>
+</method>
+<method name="getEntrys"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalEntry&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLanguage"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getModel"
+ return="eu.monnetproject.lemon.LemonModel"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getTopics"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalTopic&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="hasEntry"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="entry" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+<method name="removeEntry"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="entry" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+</method>
+<method name="removeTopic"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="topic" type="eu.monnetproject.lemon.LexicalTopic">
+</parameter>
+</method>
+<method name="setLanguage"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="language" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class name="NodeImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.Node">
+</implements>
+<method name="addEdge"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="edge" type="eu.monnetproject.lemon.Edge">
+</parameter>
+<parameter name="edgeVal" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+<method name="getConstituent"
+ return="eu.monnetproject.lemon.Constituent"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getEdge"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Node&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="edge" type="eu.monnetproject.lemon.Edge">
+</parameter>
+</method>
+<method name="getEdges"
+ return="java.util.Map&lt;eu.monnetproject.lemon.Edge, java.util.Collection&lt;eu.monnetproject.lemon.Node&gt;&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLeaf"
+ return="eu.monnetproject.lemon.PhraseTerminal"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSeparator"
+ return="eu.monnetproject.lemon.Text"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="removeEdge"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="edge" type="eu.monnetproject.lemon.Edge">
+</parameter>
+<parameter name="edgeVal" type="eu.monnetproject.lemon.Node">
+</parameter>
+</method>
+<method name="setConstituent"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="constituent" type="eu.monnetproject.lemon.Constituent">
+</parameter>
+</method>
+<method name="setLeaf"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="product" type="eu.monnetproject.lemon.PhraseTerminal">
+</parameter>
+</method>
+<method name="setSeparator"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="separator" type="eu.monnetproject.lemon.Text">
+</parameter>
+</method>
+</class>
+<class name="PartImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LexicalEntryImpl"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</class>
+<class name="PhraseImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LexicalEntryImpl"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</class>
+<class name="SerializationState"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="SerializationState"
+ type="eu.monnetproject.lemon.impl.simple.SerializationState"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<field name="namespaces"
+ type="java.util.HashMap"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="postponed"
+ type="java.util.LinkedList"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="serialized"
+ type="java.util.HashSet"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="SimpleLemonFactory"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LemonFactory">
+</implements>
+<method name="make"
+ return="C"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lemonInterface" type="java.lang.Class&lt;C&gt;">
+</parameter>
+<parameter name="rdfClass" type="java.net.URI">
+</parameter>
+</method>
+<method name="make"
+ return="C"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lemonInterface" type="java.lang.Class&lt;C&gt;">
+</parameter>
+<parameter name="rdfClass" type="java.net.URI">
+</parameter>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeArgument"
+ return="eu.monnetproject.lemon.Argument"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeArgument"
+ return="eu.monnetproject.lemon.Argument"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeComponent"
+ return="eu.monnetproject.lemon.Component"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeComponent"
+ return="eu.monnetproject.lemon.Component"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeCondition"
+ return="eu.monnetproject.lemon.LexicalCondition"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeCondition"
+ return="eu.monnetproject.lemon.LexicalCondition"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeDefinition"
+ return="eu.monnetproject.lemon.Definition"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeDefinition"
+ return="eu.monnetproject.lemon.Definition"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeExample"
+ return="eu.monnetproject.lemon.Example"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeExample"
+ return="eu.monnetproject.lemon.Example"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeForm"
+ return="eu.monnetproject.lemon.LexicalForm"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeForm"
+ return="eu.monnetproject.lemon.LexicalForm"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeFrame"
+ return="eu.monnetproject.lemon.Frame"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeFrame"
+ return="eu.monnetproject.lemon.Frame"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeLexicalEntry"
+ return="eu.monnetproject.lemon.LexicalEntry"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeLexicalEntry"
+ return="eu.monnetproject.lemon.LexicalEntry"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeNode"
+ return="eu.monnetproject.lemon.Node"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeNode"
+ return="eu.monnetproject.lemon.Node"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="makeSense"
+ return="eu.monnetproject.lemon.LexicalSense"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="makeSense"
+ return="eu.monnetproject.lemon.LexicalSense"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+</class>
+<class name="SimpleLemonModel"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LemonModel">
+</implements>
+<constructor name="SimpleLemonModel"
+ type="eu.monnetproject.lemon.impl.simple.SimpleLemonModel"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<constructor name="SimpleLemonModel"
+ type="eu.monnetproject.lemon.impl.simple.SimpleLemonModel"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="baseURI" type="java.lang.String">
+</parameter>
+</constructor>
+<method name="activate"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="properties" type="java.util.Map">
+</parameter>
+</method>
+<method name="addLexicon"
+ return="eu.monnetproject.lemon.Lexicon"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+<parameter name="language" type="eu.monnetproject.lang.Language">
+</parameter>
+</method>
+<method name="getContext"
+ return="java.net.URI"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getFactory"
+ return="eu.monnetproject.lemon.LemonFactory"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLemonElement"
+ return="eu.monnetproject.lemon.LemonElementOrPredicate"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="uri" type="java.net.URI">
+</parameter>
+</method>
+<method name="getLexica"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Lexicon&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="merge"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="from" type="Elem">
+</parameter>
+<parameter name="to" type="Elem">
+</parameter>
+</method>
+<method name="query"
+ return="java.util.Iterator&lt;Elem&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="target" type="java.lang.Class&lt;Elem&gt;">
+</parameter>
+<parameter name="sparqlQuery" type="java.lang.String">
+</parameter>
+</method>
+<method name="removeLexicon"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexicon" type="eu.monnetproject.lemon.Lexicon">
+</parameter>
+</method>
+</class>
+<class name="SimpleLemonSerializer"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="SimpleLemonSerializer"
+ type="eu.monnetproject.lemon.impl.simple.SimpleLemonSerializer"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="create"
+ return="eu.monnetproject.lemon.LemonModel"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="java.net.URI">
+</parameter>
+</method>
+<method name="moveLexicon"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="lexicon" type="eu.monnetproject.lemon.Lexicon">
+</parameter>
+<parameter name="from" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+<parameter name="to" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+</method>
+<method name="read"
+ return="eu.monnetproject.lemon.LemonModel"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="source" type="eu.monnetproject.data.DataSource">
+</parameter>
+</method>
+<method name="write"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="model" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+<parameter name="target" type="eu.monnetproject.data.DataTarget">
+</parameter>
+</method>
+<method name="writeEntry"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="model" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+<parameter name="entry" type="eu.monnetproject.lemon.LexicalEntry">
+</parameter>
+<parameter name="lingOnto" type="eu.monnetproject.lemon.LinguisticOntology">
+</parameter>
+<parameter name="target" type="eu.monnetproject.data.DataTarget">
+</parameter>
+</method>
+<method name="writeLexicon"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="model" type="eu.monnetproject.lemon.LemonModel">
+</parameter>
+<parameter name="lexicon" type="eu.monnetproject.lemon.Lexicon">
+</parameter>
+<parameter name="lingOnto" type="eu.monnetproject.lemon.LinguisticOntology">
+</parameter>
+<parameter name="target" type="eu.monnetproject.data.DataTarget">
+</parameter>
+</method>
+</class>
+<class name="TopicImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LemonElementSimpleProxy"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LexicalTopic">
+</implements>
+</class>
+<class name="WordImpl"
+ extends="eu.monnetproject.lemon.impl.simple.LexicalEntryImpl"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</class>
+</package>
+<package name="eu.monnetproject.lemon.modules"
+>
+<class name="LemonProxyModule"
+ extends="com.google.inject.AbstractModule"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="LemonProxyModule"
+ type="eu.monnetproject.lemon.modules.LemonProxyModule"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="configure"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<class name="LemonSimpleModule"
+ extends="com.google.inject.AbstractModule"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="LemonSimpleModule"
+ type="eu.monnetproject.lemon.modules.LemonSimpleModule"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="configure"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+</package>
+<package name="net.lexinfo"
+>
+<class name="LexInfo"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="eu.monnetproject.lemon.LinguisticOntology">
+</implements>
+<constructor name="LexInfo"
+ type="net.lexinfo.LexInfo"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<constructor name="LexInfo"
+ type="net.lexinfo.LexInfo"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="repository" type="org.openrdf.repository.Repository">
+</parameter>
+</constructor>
+<method name="deactivate"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getCondition"
+ return="eu.monnetproject.lemon.Condition"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getConditions"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Condition&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getContext"
+ return="eu.monnetproject.lemon.LexicalContext"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getContexts"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalContext&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDefinition"
+ return="eu.monnetproject.lemon.DefinitionPredicate"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getDefinitions"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.DefinitionPredicate&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getEdge"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Edge&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getEdge"
+ return="eu.monnetproject.lemon.Edge"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getFormVariant"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.FormVariant&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getFormVariant"
+ return="eu.monnetproject.lemon.FormVariant"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getFrameClass"
+ return="java.net.URI"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getFrameClasses"
+ return="java.util.Collection&lt;java.net.URI&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLexicalVariant"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.LexicalVariant&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLexicalVariant"
+ return="eu.monnetproject.lemon.LexicalVariant"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getProperties"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Property&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getProperty"
+ return="eu.monnetproject.lemon.Property"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getPropertyValue"
+ return="eu.monnetproject.lemon.PropertyValue"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getRepresentation"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.Representation&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRepresentation"
+ return="eu.monnetproject.lemon.Representation"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getSenseRelation"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.SenseRelation&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSenseRelation"
+ return="eu.monnetproject.lemon.SenseRelation"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getSynArg"
+ return="eu.monnetproject.lemon.SynArg"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="getSynArgs"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.SynArg&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSynArgsForFrame"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.SynArg&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="frameClass" type="java.net.URI">
+</parameter>
+</method>
+<method name="getValues"
+ return="java.util.Collection&lt;eu.monnetproject.lemon.PropertyValue&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="property" type="eu.monnetproject.lemon.Property">
+</parameter>
+</method>
+<method name="start"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<field name="instance"
+ type="net.lexinfo.LexInfo"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+</package>
+</api>

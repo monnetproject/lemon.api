@@ -1,0 +1,16 @@
+<sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="p0"/>
+  <variable name="o0"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="p0"><uri>http://www.monnet-project.eu/lemon#sense</uri></binding>
+   <binding name="o0"><literal xml:lang="en">&lt;/text&gt;</literal></binding>
+  </result>
+  <result>
+   <binding name="p0"><uri>http://www.monnet-project.eu/lemon#sense</uri></binding>
+   <binding name="o0"><bnode>r2</bnode></binding>
+  </result>
+ </results>
+</sparql>

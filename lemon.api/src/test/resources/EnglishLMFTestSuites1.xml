@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE LexicalResource SYSTEM "DTD_LMF_REV_16.dtd">-->
+<LexicalResource dtdVersion="16">
+  <GlobalInformation>
+    <feat att="label" val="Simple English LMF test suites"/>
+    <feat att="languageCoding" val="ISO 639-3"/>
+  </GlobalInformation>
+  <Lexicon>
+    <feat att="language" val="eng"/>
+    <LexicalEntry>
+        <!--Inflected forms of clergyman are clergyman and clergymen-->
+        <feat att="partOfSpeech" val="commonNoun"/>
+        <Lemma>
+            <feat att="writtenForm" val="clergyman"/>
+        </Lemma>
+        <WordForm>
+            <feat att="writtenForm" val="clergyman"/>
+            <feat att="grammaticalNumber" val="singular"/>
+        </WordForm>
+        <WordForm>
+            <feat att="writtenForm" val="clergymen"/>
+            <feat att="grammaticalNumber" val="plural"/>
+        </WordForm>
+    </LexicalEntry>
+  </Lexicon>
+</LexicalResource>

@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico" />
+<title>
+
+  LemonElementOrPredicate
+
+
+</title>
+<link href="../../../../assets/android-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../assets/android-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../", "../../../../assets/");
+</script>
+<script src="../../../../assets/android-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../assets/navtree_data.js" type="text/javascript"></script>
+<script src="../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="">
+
+<div id="header">
+    <div id="headerLeft">
+    
+    </div>
+    <div id="headerRight">
+      
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../')"
+                      onkeyup="return search_changed(event, false, '../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+      
+    </div>
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links"><nobr>
+                <a href="../../../packages.html"  >Package Index</a> | 
+                <a href="../../../classes.html" >Class Index</a></nobr>
+              </div>
+              <ul>
+                
+    <li class="selected api apilevel-">
+  <a href="../../../eu/monnetproject/lemon/package-summary.html">eu.monnetproject.lemon</a></li>
+    <li class="api apilevel-">
+  <a href="../../../eu/monnetproject/lemon/impl/repo/package-summary.html">eu.monnetproject.lemon.impl.repo</a></li>
+    <li class="api apilevel-">
+  <a href="../../../eu/monnetproject/lemon/impl/simple/package-summary.html">eu.monnetproject.lemon.impl.simple</a></li>
+    <li class="api apilevel-">
+  <a href="../../../eu/monnetproject/lemon/modules/package-summary.html">eu.monnetproject.lemon.modules</a></li>
+    <li class="api apilevel-">
+  <a href="../../../net/lexinfo/package-summary.html">net.lexinfo</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+    <li><h2>Interfaces</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Argument.html">Argument</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Component.html">Component</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Condition.html">Condition</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/ConditionPredicate.html">ConditionPredicate</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Constituent.html">Constituent</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Context.html">Context</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Definition.html">Definition</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/DefinitionPredicate.html">DefinitionPredicate</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Edge.html">Edge</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Example.html">Example</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/FormVariant.html">FormVariant</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Frame.html">Frame</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LemonElement.html">LemonElement</a></li>
+          <li class="selected api apilevel-"><a href="../../../eu/monnetproject/lemon/LemonElementOrPredicate.html">LemonElementOrPredicate</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LemonFactory.html">LemonFactory</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LemonModel.html">LemonModel</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LemonPredicate.html">LemonPredicate</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LemonSerializer.html">LemonSerializer</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LexicalEntry.html">LexicalEntry</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LexicalForm.html">LexicalForm</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LexicalSense.html">LexicalSense</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LexicalVariant.html">LexicalVariant</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Lexicon.html">Lexicon</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LinguisticOntology.html">LinguisticOntology</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Node.html">Node</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Part.html">Part</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Phrase.html">Phrase</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/PhraseTerminal.html">PhraseTerminal</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Property.html">Property</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/PropertyValue.html">PropertyValue</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Representation.html">Representation</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/SenseRelation.html">SenseRelation</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/SynArg.html">SynArg</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/SyntacticRoleMarker.html">SyntacticRoleMarker</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Topic.html">Topic</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Word.html">Word</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LemonModels.html">LemonModels</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/Text.html">Text</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/URIElement.html">URIElement</a></li>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/URIValue.html">URIValue</a></li>
+      </ul>
+    </li>
+              
+              
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../eu/monnetproject/lemon/LexicalSense.ReferencePreference.html">LexicalSense.ReferencePreference</a></li>
+      </ul>
+    </li>
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            <a href="../../../packages.html"  >Package Index</a> | 
+            <a href="../../../classes.html" >Class Index</a></nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+
+<div class="sum-details-links">
+
+Summary:
+
+
+
+
+
+
+
+
+
+
+
+  <a href="#pubmethods">Methods</a>
+  
+
+
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+
+
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+     
+     
+    
+    interface
+<h1>LemonElementOrPredicate</h1>
+
+
+
+  
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">eu.monnetproject.lemon.LemonElementOrPredicate</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+<table class="jd-sumtable jd-sumtable-subclasses"><tr><td colspan="12" style="border:none;margin:0;padding:0;">
+
+  <a href="#" onclick="return toggleInherited(this, null)" id="subclasses-indirect" class="jd-expando-trigger closed"
+          ><img id="subclasses-indirect-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>Known Indirect Subclasses
+
+  <div id="subclasses-indirect">
+      <div id="subclasses-indirect-list"
+              class="jd-inheritedlinks"
+              
+              >
+          
+            
+            
+              
+                <a href="../../../eu/monnetproject/lemon/Argument.html">Argument</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/impl/simple/ArgumentImpl.html">ArgumentImpl</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/Component.html">Component</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/impl/simple/ComponentImpl.html">ComponentImpl</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/Condition.html">Condition</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/impl/simple/ConditionImpl.html">ConditionImpl</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/ConditionPredicate.html">ConditionPredicate</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/Constituent.html">Constituent</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/impl/simple/ConstituentImpl.html">ConstituentImpl</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/Context.html">Context</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/impl/simple/ContextImpl.html">ContextImpl</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/Definition.html">Definition</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/impl/simple/DefinitionImpl.html">DefinitionImpl</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/DefinitionPredicate.html">DefinitionPredicate</a>,
+              
+              
+            
+              
+                <a href="../../../eu/monnetproject/lemon/Edge.html">Edge</a>,
+              
+              and
+                <a href="#" onclick="return toggleInherited(document.getElementById('subclasses-indirect', null))">38 others.</a>
+              
+            
+          
+      </div>
+      <div id="subclasses-indirect-summary"
+              style="display: none;"
+              >
+  <table class="jd-sumtable-expando">
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Argument.html">Argument</a></td>
+              <td class="jd-descrcol" width="100%">An argument of a syntactic frame/semantic predicate&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/ArgumentImpl.html">ArgumentImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Component.html">Component</a></td>
+              <td class="jd-descrcol" width="100%">An element of multi-word terms decomposition&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/ComponentImpl.html">ComponentImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Condition.html">Condition</a></td>
+              <td class="jd-descrcol" width="100%">An evaluable condition on entry/sense mapping.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/ConditionImpl.html">ConditionImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/ConditionPredicate.html">ConditionPredicate</a></td>
+              <td class="jd-descrcol" width="100%">A predicate used to describe a condition&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Constituent.html">Constituent</a></td>
+              <td class="jd-descrcol" width="100%">A constituent indicates the phrase type of a node in a phrase structure tree&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/ConstituentImpl.html">ConstituentImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Context.html">Context</a></td>
+              <td class="jd-descrcol" width="100%">A pragmatic context in which a entry/sense mapping applies&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/ContextImpl.html">ContextImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Definition.html">Definition</a></td>
+              <td class="jd-descrcol" width="100%">A definition of a given sense&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/DefinitionImpl.html">DefinitionImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/DefinitionPredicate.html">DefinitionPredicate</a></td>
+              <td class="jd-descrcol" width="100%">A predicate used to give definitions&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Edge.html">Edge</a></td>
+              <td class="jd-descrcol" width="100%">An edge or arc in a phrase structure tree&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Example.html">Example</a></td>
+              <td class="jd-descrcol" width="100%">A usage example for a given sense&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/ExampleImpl.html">ExampleImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/FormImpl.html">FormImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/FormVariant.html">FormVariant</a></td>
+              <td class="jd-descrcol" width="100%">The predicate for a variant of a form&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Frame.html">Frame</a></td>
+              <td class="jd-descrcol" width="100%">A syntactic frame describing a syntactic behavior of an entry&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/FrameImpl.html">FrameImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/LemonElement.html">LemonElement</a></td>
+              <td class="jd-descrcol" width="100%">The super-class for all lemon elements (individuals)&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/repo/LemonElementRepoProxy.html">LemonElementRepoProxy</a></td>
+              <td class="jd-descrcol" width="100%">Base implementation for lemon element impls&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/LemonElementSimpleProxy.html">LemonElementSimpleProxy</a>&lt;Elem&nbsp;extends&nbsp;<a href="../../../eu/monnetproject/lemon/LemonElement.html">LemonElement</a>&gt;</td>
+              <td class="jd-descrcol" width="100%">Base class for element implementations&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/LemonPredicate.html">LemonPredicate</a></td>
+              <td class="jd-descrcol" width="100%">Super class for all lemon predicates (properties)&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/repo/LemonPredicateRepoProxy.html">LemonPredicateRepoProxy</a></td>
+              <td class="jd-descrcol" width="100%">Base implementation for lemon predicate impls&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/LexicalEntry.html">LexicalEntry</a></td>
+              <td class="jd-descrcol" width="100%">The lexical entry is the main representation of a term or word&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/LexicalEntryImpl.html">LexicalEntryImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/LexicalForm.html">LexicalForm</a></td>
+              <td class="jd-descrcol" width="100%">A form of a lexical entry&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/LexicalSense.html">LexicalSense</a></td>
+              <td class="jd-descrcol" width="100%">A lexical sense indicates a meaning of an entry by mapping it to an ontology entity&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/LexicalSenseImpl.html">LexicalSenseImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/LexicalVariant.html">LexicalVariant</a></td>
+              <td class="jd-descrcol" width="100%">Predicate for variants between lexical entries&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Lexicon.html">Lexicon</a></td>
+              <td class="jd-descrcol" width="100%">A mono-lingual lexicon object composed of a set of lexical entries&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/LexiconImpl.html">LexiconImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonModel.html">SimpleLemonModel</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Node.html">Node</a></td>
+              <td class="jd-descrcol" width="100%">A node in a phrase structure tree&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/NodeImpl.html">NodeImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Part.html">Part</a></td>
+              <td class="jd-descrcol" width="100%">A part of a word&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/PartImpl.html">PartImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Phrase.html">Phrase</a></td>
+              <td class="jd-descrcol" width="100%">A multiple word lexical entry&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/PhraseImpl.html">PhraseImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/PhraseTerminal.html">PhraseTerminal</a></td>
+              <td class="jd-descrcol" width="100%">Abstract class for the range of <code>leaf</code> arcs&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Property.html">Property</a></td>
+              <td class="jd-descrcol" width="100%">A property of a lemon element&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/PropertyValue.html">PropertyValue</a></td>
+              <td class="jd-descrcol" width="100%">A value of a given property&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/repo/PropertyValueImpl.html">PropertyValueImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/repo/RepoLemonFactory.html">RepoLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Representation.html">Representation</a></td>
+              <td class="jd-descrcol" width="100%">The predicate for a representation of a form&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/SenseRelation.html">SenseRelation</a></td>
+              <td class="jd-descrcol" width="100%">A predicate used to relate senses&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/SynArg.html">SynArg</a></td>
+              <td class="jd-descrcol" width="100%">A predicate indicating the syntactic role of an argument&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/SyntacticRoleMarker.html">SyntacticRoleMarker</a></td>
+              <td class="jd-descrcol" width="100%">The abstract class for markers that distinguished the syntactic role of an argument&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Topic.html">Topic</a></td>
+              <td class="jd-descrcol" width="100%">A topic for a lexicon or individual entry&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/TopicImpl.html">TopicImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/URIElement.html">URIElement</a></td>
+              <td class="jd-descrcol" width="100%">Super-class for creating lemon elements.&nbsp;</td>
+          </tr>
+        <tr class=" api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/Word.html">Word</a></td>
+              <td class="jd-descrcol" width="100%">A lexical entry that is a single word&nbsp;</td>
+          </tr>
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../eu/monnetproject/lemon/impl/simple/WordImpl.html">WordImpl</a></td>
+              <td class="jd-descrcol" width="100%">Instantiated via <code><a href="../../../eu/monnetproject/lemon/impl/simple/SimpleLemonFactory.html">SimpleLemonFactory</a></code>&nbsp;</td>
+          </tr>
+  </table>
+      </div>
+  </div>
+</td></tr></table>
+
+
+<div class="jd-descr">
+
+
+<h2>Class Overview</h2>
+<p>The superclass of all lemon elements/predicates (individuals/properties)</p>
+
+
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            URI</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../eu/monnetproject/lemon/LemonElementOrPredicate.html#getURI()">getURI</a></span>()</nobr>
+        
+        <div class="jd-descrdiv">The URI for this element or <code>null</code> if the element is a blank node
+</div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<A NAME="getURI()"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        abstract 
+         
+        URI
+      </span>
+      <span class="sympad">getURI</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The URI for this element or <code>null</code> if the element is a blank node
+</p></div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+Generated by <a href="http://code.google.com/p/doclava/">Doclava</a>.
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize android-developer-docs.js */
+</script>
+
+</body>
+</html>

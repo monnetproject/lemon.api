@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE LexicalResource SYSTEM "DTD_LMF_REV_16.dtd">-->
+<LexicalResource dtdVersion="16">
+  <GlobalInformation>
+	<feat att="label" val="English LMF test suites"/>
+	<feat att="creationDate" val="September 14, 2007"/>
+        <feat att="comment" val="Some lemmas from Lexus-MPI"/>
+        <feat att="languageCoding" val="ISO 639-3"/>
+  </GlobalInformation>
+  <Lexicon>
+    <feat att="language" val="eng"/>
+    <LexicalEntry>
+		 <feat att="partOfSpeech" val="noun"/>
+                 <Lemma>
+			  <feat att="writtenForm" val="crossroad"/>
+		 </Lemma>
+		 <WordForm>
+			  <feat att="pronunciation" val="kraws-rohd, kros-"/>
+			  <feat att="phoneticForm" val="&#712;kr&#596;s&#716;ro&#650;d, &#712;kr&#594;s-"/>
+			  <feat att="image" val="http://lux16.mpi.nl:80/mpi/lexus/resources/172.16.24.1331189762707438crossroads.jpg"/>
+			  <feat att="sound" val="http://lux16.mpi.nl:80/mpi/lexus/resources/172.16.24.1331189764416977crossr01.wav"/>
+		 </WordForm>
+		 <Sense id="crossroad1">
+			  <feat att="gloss" val="A place where two or more roads meet"/> 
+			  <feat att="definition" val="an intersection of two or more roads"/>
+				<SenseRelation targets="grid1">
+					<feat att="type" val="synonym"/>
+				</SenseRelation>
+                 </Sense>
+    </LexicalEntry>
+    <LexicalEntry>
+		 <feat att="partOfSpeech" val="noun"/>
+		 <Lemma>
+			 <feat att="writtenForm" val="grid"/>
+		 </Lemma>
+		 <WordForm>
+			 <feat att="pronunciation" val="grid"/>
+			 <feat att="phoneticForm" val="gr&#618;d"/>
+			 <feat att="image" val="http://lux16.mpi.nl:80/mpi/lexus/resources/172.16.24.1331189758819704hermannGridNegative.gif"/>
+			 <feat att="sound" val="http://lux16.mpi.nl:80/mpi/lexus/resources/172.16.24.1331189764458976grid0001.wav"/>
+		 </WordForm>
+		 <Sense id="grid1">
+			 <feat att="definition" val="a network of horizontal and perpendicular lines, uniformly spaced"/>
+			 <Context>
+				 <feat att="sentence" val="The city's streets form a grid"/>
+			 </Context>
+		 </Sense>
+     </LexicalEntry>
+     <LexicalEntry>
+		 <feat att="partOfSpeech" val="noun"/>
+		 <Lemma>
+			 <feat att="writtenForm" val="horse"/>
+		 </Lemma>
+		 <WordForm>
+			 <feat att="pronunciation" val="hawrs"/>
+			 <feat att="phoneticForm" val="/h&#596;rs/"/>
+			 <feat att="image" val="http://lux16.mpi.nl:80/mpi/lexus/resources/172.16.24.1331189759334428horse.jpg"/>
+			 <feat att="sound" val="http://lux16.mpi.nl:80/mpi/lexus/resources/172.16.24.1331189759473836horse001.wav"/>
+		 </WordForm>
+		 <Sense>
+			 <feat att="domain" val="animal"/>
+			 <feat att="gloss" val="a large solid-hoofed herbivorous ungulate mammal"/>
+			 <feat att="definition" val="a large solid-hoofed herbivorous ungulate mammal (Equus caballus, family Equidae, the horse family) domesticated since prehistoric times and used as a beast of burden, a draft animal, or for riding"/>
+			 <Context>
+				 <feat att="sentence" val="Before the advent of mechanized vehicles, the horse was widely used as a draft animal and riding on horseback was one of the chief means of transportation"/>
+			 </Context>
+		 </Sense>
+     </LexicalEntry>
+     <LexicalEntry>
+		 <feat att="partOfSpeech" val="noun"/>
+		 <Lemma>
+			 <feat att="writtenForm" val="lexicon"/>
+		 </Lemma>
+		 <WordForm>
+			 <feat att="pronunciation" val="lek-si-kon, -kuhn"/>
+			 <feat att="phoneticForm" val="&#712;l&#603;ks&#618;&#716;k&#594;n, -k&#601;n"/>
+			 <feat att="sound" val="http://lux16.mpi.nl:80/mpi/lexus/resources/172.16.24.1331189764504074lexico08.wav"/>
+		 </WordForm>
+		<Sense>
+			<feat att="gloss" val="dictionary"/>
+			<feat att="definition" val="the vocabulary of a person, language or branch of knowledge"/>
+			<Context>
+				<feat att="sentence" val="The size of the english lexicon"/>
+			</Context>
+		</Sense>
+     </LexicalEntry>
+     <LexicalEntry>
+		 <feat att="partOfSpeech" val="verb"/>
+		 <Lemma>
+			 <feat att="writtenForm" val="overrule"/>
+		 </Lemma>
+		 <WordForm>
+			 <feat att="pronunciation" val="oh-ver-rool"/>
+			 <feat att="phoneticForm" val="&#716;o&#650;v&#601;r&#712;rul"/>
+			 <feat att="sound" val="http://lux16.mpi.nl:80/mpi/lexus/resources/172.16.24.1331189764535934overru01.wav"/>
+			 <feat att="past" val="overruled"/>
+		</WordForm>
+		<Sense>
+			<feat att="gloss" val="cancel"/>
+			<feat att="definition" val="to rule against or disallow the arguments of a person"/>
+			<Context>
+				<feat att="sentence" val="The senator was overruled by the committee chairman"/>
+			</Context>
+		</Sense>
+      </LexicalEntry>
+      <LexicalEntry>
+		 <feat att="partOfSpeech" val="noun"/>
+		 <Lemma>
+			 <feat att="writtenForm" val="swarm"/>
+		 </Lemma>
+		 <WordForm>
+			 <feat att="pronunciation" val="swawrm"/>
+			 <feat att="phoneticForm" val="sw&#596;rm"/>
+			 <feat att="sound" val="http://lux16.mpi.nl:80/mpi/lexus/resources/172.16.24.1331189764553578swarm001.wav"/>
+			 <feat att="image" val="http://lux16.mpi.nl:80/mpi/lexus/resources/172.16.24.1331189763755461swarm.jpg"/>
+		 </WordForm>
+		 <Sense>
+			 <feat att="domain" val="animal"/>
+			 <feat att="gloss" val="large or dense group of insects"/>
+			 <feat att="definition" val="a body of honeybees that emigrate from a hive and fly off together, accompanied by a queen, to start a new colony"/>
+			 <Context>
+				 <feat att="sentence" val="The senator was overruled by the committee chairman"/>
+			 </Context>
+		 </Sense>
+    </LexicalEntry>
+ </Lexicon>
+</LexicalResource>

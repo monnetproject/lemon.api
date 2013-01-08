@@ -1,0 +1,4353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE LexicalResource SYSTEM "LMFNLP.dtd"> -->
+<LexicalResource dtdVersion="16">
+<GlobalInformation>
+	<feat att="label" val="ILC-CNR test suites number 1 for Italian"/>
+</GlobalInformation>
+<Lexicon>
+	<feat att="language" val="ita"/>
+	<LexicalEntry id="LE_abbandonare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="abbandonare"/>
+		</Lemma>
+		<Sense id="USem59592abbandonare">
+			<PredicativeRepresentation predicate="PREDabbandonare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem3934cessare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem73115abbandonare">
+			<PredicativeRepresentation predicate="PREDabbandonare_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem67171mollare USem79703lasciare">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79706abbandonare">
+			<PredicativeRepresentation predicate="PREDabbandonare_3" correspondences="ISOtrivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem3928fare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem79705lasciare">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUabbandonareV" senses="USem59592abbandonare USem73115abbandonare"/>
+		<SyntacticBehaviour id="SB_SYNUabbandonareV2"/>
+		<SyntacticBehaviour id="SB_SYNUabbandonareV3"/>
+		<SyntacticBehaviour id="SB_SYNUabbandonareV4" senses="USem79706abbandonare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_abbandono">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="abbandono"/>
+		</Lemma>
+		<Sense id="USem60059abbandono">
+			<PredicativeRepresentation predicate="PREDabbandonare_1" correspondences="CROSSEDbivalent">
+				<feat att="link" val="EventNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem60076interruzione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59592abbandonare">
+				<feat att="type" val="Eventverb"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68926abbandono">
+			<PredicativeRepresentation predicate="PREDabbandonare_2" correspondences="AUG0to2">
+				<feat att="link" val="StateNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5333stato">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem73115abbandonare">
+				<feat att="type" val="Stateverb"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUabbandonoN" senses="USem68926abbandono"/>
+		<SyntacticBehaviour id="SB_SYNUabbandonoN2" senses="USem60059abbandono"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_accelerare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="accelerare"/>
+		</Lemma>
+		<Sense id="USem59750accelerare">
+			<PredicativeRepresentation predicate="PREDaccelerare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5415cambiare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD5171accelerare">
+			<PredicativeRepresentation predicate="PREDaccelerare_2" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5365evento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUaccelerareV" senses="USemD5171accelerare"/>
+		<SyntacticBehaviour id="SB_SYNUaccelerareV2" senses="USem59750accelerare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_acceleratore">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="acceleratore"/>
+		</Lemma>
+		<Sense id="USem3400acceleratore">
+			<PredicativeRepresentation predicate="PREDaccelerare_2" correspondences="AUG0to1nagorins">
+				<feat att="link" val="InstrumentNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5171accelerare">
+				<feat att="type" val="InstrumentVerb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5171accelerare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3399dispositivo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem3401acceleratore">
+			<PredicativeRepresentation predicate="PREDaccelerare_2" correspondences="AUG0to1nagorins">
+				<feat att="link" val="InstrumentNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem3399dispositivo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem840veicolo">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5171accelerare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5171accelerare">
+				<feat att="type" val="InstrumentVerb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem3404acceleratore">
+			<PredicativeRepresentation predicate="PREDaccelerare_2" correspondences="AUG0to1nagorins">
+				<feat att="link" val="InstrumentNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5171accelerare">
+				<feat att="type" val="InstrumentVerb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5171accelerare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3399dispositivo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUacceleratoreN" senses="USem3400acceleratore USem3401acceleratore USem3404acceleratore"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_acquistare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="acquistare"/>
+		</Lemma>
+		<Sense id="USem7057acquistare">
+			<PredicativeRepresentation predicate="PREDacquistare_1" correspondences="ISOtrivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem7135prendere">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem4817avere">
+				<feat att="type" val="Resultingstate"/>
+			</SenseRelation>
+			<SenseRelation targets="USem7146comprare">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79336acquistare">
+			<PredicativeRepresentation predicate="PREDacquistare_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem4817avere">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Agentive"/>
+			</SenseRelation>
+			<SenseRelation targets="USem4831acquisire USem59859ottenere">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79337acquistare">
+			<PredicativeRepresentation predicate="PREDacquistare_3" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem3939cambiare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem79397guadagnare">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUacquistareV" senses="USem79337acquistare"/>
+		<SyntacticBehaviour id="SB_SYNUacquistareV2" senses="USem79336acquistare"/>
+		<SyntacticBehaviour id="SB_SYNUacquistareV3" senses="USem7057acquistare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_acquisto">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="acquisto"/>
+		</Lemma>
+		<Sense id="USem59936acquisto">
+			<PredicativeRepresentation predicate="PREDacquistare_1" correspondences="AUG0to3obj">
+				<feat att="link" val="VerbNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem7058acquisto">
+				<feat att="type" val="Resultingfrom"/>
+			</SenseRelation>
+			<SenseRelation targets="USem7057acquistare">
+				<feat att="type" val="Eventverb"/>
+			</SenseRelation>
+			<SenseRelation targets="USem796entita1">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59937compera USem79031acquisizione">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem7058acquisto">
+			<PredicativeRepresentation predicate="PREDacquistare_1" correspondences="AUG2to3A">
+				<feat att="link" val="EventNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem4817avere">
+				<feat att="type" val="Resultingstate"/>
+			</SenseRelation>
+			<SenseRelation targets="USem7057acquistare">
+				<feat att="type" val="Eventverb"/>
+			</SenseRelation>
+			<SenseRelation targets="USem7135prendere">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUacquistoN" senses="USem59936acquisto"/>
+		<SyntacticBehaviour id="SB_SYNUacquistoN2" senses="USem7058acquisto"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_amare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="amare"/>
+		</Lemma>
+		<Sense id="USem59898amare">
+			<PredicativeRepresentation predicate="PREDamare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD3308sentire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem5875amore">
+				<feat att="type" val="Feeling"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60310amare">
+			<PredicativeRepresentation predicate="PREDamare_3" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD3308sentire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem62968amare">
+			<PredicativeRepresentation predicate="PREDamare_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD3308sentire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem60328amore">
+				<feat att="type" val="Feeling"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUamareV" senses="USem62968amare"/>
+		<SyntacticBehaviour id="SB_SYNUamareV2" senses="USem60310amare"/>
+		<SyntacticBehaviour id="SB_SYNUamareV3" senses="USem59898amare USem62968amare"/>
+		<SyntacticBehaviour id="SB_SYNUamareV4" senses="USem62968amare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_anice">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="anice"/>
+		</Lemma>
+		<Sense id="USem1416anice">
+			<SenseRelation targets="USem1405liquore">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2226bere">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1425anice USem3900alcol">
+				<feat att="type" val="Madeof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1426anice">
+				<feat att="type" val="PolysemyPlant-ArtifactualDrink"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem1425anice">
+			<SenseRelation targets="USemD598mangiare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1426anice">
+				<feat att="type" val="PolysemyPlant-Fruit"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2369frutto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1426anice">
+				<feat att="type" val="Producedby"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem1426anice">
+			<SenseRelation targets="USem1425anice">
+				<feat att="type" val="PolysemyPlant-Fruit"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1428pianta">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1425anice">
+				<feat att="type" val="Produces"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1416anice">
+				<feat att="type" val="PolysemyPlant-ArtifactualDrink"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUaniceN" senses="USem1425anice USem1426anice"/>
+		<SyntacticBehaviour id="SB_SYNUaniceN2" senses="USem1416anice"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_apparire">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="apparire"/>
+		</Lemma>
+		<Sense id="USem7111apparire">
+			<PredicativeRepresentation predicate="PREDapparire_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5365evento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79106apparire">
+			<PredicativeRepresentation predicate="PREDapparire_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem79107sembrare USem79571parere">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USem5011essere">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUapparireV"/>
+		<SyntacticBehaviour id="SB_SYNUapparireV2" senses="USem79106apparire"/>
+		<SyntacticBehaviour id="SB_SYNUapparireV3"/>
+		<SyntacticBehaviour id="SB_SYNUapparireV4" senses="USem7111apparire"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_autoveicolo">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="autoveicolo"/>
+		</Lemma>
+		<Sense id="USem2876autoveicolo">
+			<SenseRelation targets="USemD481guidare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6866trasportare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem840veicolo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem5907motore USemD5056ruota">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUautoveicoloN" senses="USem2876autoveicolo"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_bagnato">
+		<feat att="partOfSpeech" val="A"/>
+		<Lemma>
+			<feat att="writtenForm" val="bagnato"/>
+		</Lemma>
+		<Sense id="USemD6916bagnato">
+			<PredicativeRepresentation predicate="PREDbagnare_5" correspondences="CROSSEDbivalent">
+				<feat att="link" val="VerbPastParticiple"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5463asciutto">
+				<feat att="type" val="AntonymComp"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5454intriso">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USem76487bagnare">
+				<feat att="type" val="DeverbalAdjective"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUbagnatoA" senses="USemD6916bagnato"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_balcone">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="balcone"/>
+		</Lemma>
+		<Sense id="USem59838balcone">
+			<SenseRelation targets="USem2217edificio">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUbalconeN" senses="USem59838balcone"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_ballonzolare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="ballonzolare"/>
+		</Lemma>
+		<Sense id="USem79584ballonzolare">
+			<PredicativeRepresentation predicate="PREDballonzolare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD66317saltellare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUballonzolareV" senses="USem79584ballonzolare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_bicchiere">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="bicchiere"/>
+		</Lemma>
+		<Sense id="USem2436bicchiere">
+			<PredicativeRepresentation predicate="PREDbicchiere_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem2983bicchiere">
+				<feat att="type" val="PolysemyContainer-Amount"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1595quantita1">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1388liquido">
+				<feat att="type" val="Quantifies"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem2983bicchiere">
+			<SenseRelation targets="USem1388liquido">
+				<feat att="type" val="Contains"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD883contenere">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2965recipiente">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2436bicchiere">
+				<feat att="type" val="PolysemyContainer-Amount"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUbicchiereN" senses="USem2983bicchiere"/>
+		<SyntacticBehaviour id="SB_SYNUbicchiereN2" senses="USem2436bicchiere"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_bobina">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="bobina"/>
+		</Lemma>
+		<Sense id="USem77276bobina">
+			<SenseRelation targets="USem829manufatto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUbobinaN" senses="USem77276bobina"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_caccia">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="caccia"/>
+		</Lemma>
+		<Sense id="USem60448caccia">
+			<PredicativeRepresentation predicate="PREDcacciare_1" correspondences="CROSSEDbivalent">
+				<feat att="link" val="EventNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem59115cacciare">
+				<feat att="type" val="Eventverb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5580atto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem74716caccia">
+			<SenseRelation targets="USemD7355velivolo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3232ala USem5907motore">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD579pilotare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUcacciaN" senses="USem74716caccia"/>
+		<SyntacticBehaviour id="SB_SYNUcacciaN2" senses="USem60448caccia"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_cacciare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="cacciare"/>
+		</Lemma>
+		<Sense id="USem59115cacciare">
+			<PredicativeRepresentation predicate="PREDcacciare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60451cacciare">
+			<PredicativeRepresentation predicate="PREDcacciare_3" correspondences="ISOtrivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUcacciareV"/>
+		<SyntacticBehaviour id="SB_SYNUcacciareV2"/>
+		<SyntacticBehaviour id="SB_SYNUcacciareV3"/>
+		<SyntacticBehaviour id="SB_SYNUcacciareV4" senses="USem60451cacciare"/>
+		<SyntacticBehaviour id="SB_SYNUcacciareV5"/>
+		<SyntacticBehaviour id="SB_SYNUcacciareV6" senses="USem59115cacciare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_camino">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="camino"/>
+		</Lemma>
+		<Sense id="USemD6045camino">
+			<SenseRelation targets="USem6975cucinare USemD1328riscaldare USemD5001accendere">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem829manufatto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUcaminoN" senses="USemD6045camino"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_cane">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="cane"/>
+		</Lemma>
+		<Sense id="USem1915cane">
+			<SenseRelation targets="USem1123mammifero">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6391abbaiare">
+				<feat att="type" val="Constitutiveactivity"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem3285cane">
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1915cane">
+				<feat att="type" val="Metaphor"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem62943cane">
+			<SenseRelation targets="USem5536arma">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem61028sparare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem62944cane">
+			<SenseRelation targets="USem61596costellazione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59932stella">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem62945cane">
+			<SenseRelation targets="USem2878strumento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUcaneN" senses="USem1915cane USem3285cane USem62943cane USem62944cane USem62945cane"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_cellula">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="cellula"/>
+		</Lemma>
+		<Sense id="USem1958cellula">
+			<SenseRelation targets="USem1959microrganismo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1960citoplasma USem1962membrana USem1970nucleo">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem62388cellula">
+			<SenseRelation targets="USem3399dispositivo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79394cellula">
+			<PredicativeRepresentation predicate="PREDcellula_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD63821partito">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUcellulaN" senses="USem1958cellula USem62388cellula"/>
+		<SyntacticBehaviour id="SB_SYNUcellulaN2" senses="USem79394cellula"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_centro">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="centro"/>
+		</Lemma>
+		<Sense id="USem2296centro">
+			<PredicativeRepresentation predicate="PREDcentro_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem4135zona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem64431centro">
+			<SenseRelation targets="USem2066luogo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem64432centro">
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2234citta1">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem64433centro">
+			<SenseRelation targets="USem3600parlamento">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68112centro">
+			<SenseRelation targets="USem2070punto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD7365centro">
+			<SenseRelation targets="USem2580dottrina">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUcentroN" senses="USem64431centro USem64432centro"/>
+		<SyntacticBehaviour id="SB_SYNUcentroN2" senses="USem64433centro USem68112centro USemD7365centro"/>
+		<SyntacticBehaviour id="SB_SYNUcentroN3" senses="USem2296centro"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_ceppo">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="ceppo"/>
+		</Lemma>
+		<Sense id="USem68260ceppo">
+			<SenseRelation targets="USemD2089albero">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68261ceppo">
+			<SenseRelation targets="USem62340bruciare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem68057legno">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68284ceppo">
+			<SenseRelation targets="USem796entita1">
+				<feat att="type" val="Agentive"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUceppoN" senses="USem68260ceppo USem68261ceppo USem68284ceppo"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_chianti">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="chianti"/>
+		</Lemma>
+		<Sense id="USem64465chianti">
+			<SenseRelation targets="USemD2250uva">
+				<feat att="type" val="Madeof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2226bere">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2249fermentazione">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1394vino">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem64466chianti">
+			<SenseRelation targets="USem4146regione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUchiantiN" senses="USem64465chianti USem64466chianti"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_coda">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="coda"/>
+		</Lemma>
+		<Sense id="USem67700coda">
+			<PredicativeRepresentation predicate="PREDcoda_2" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD453vestito">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67703coda">
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Hasasmember"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2845gruppo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67704coda">
+			<PredicativeRepresentation predicate="PREDcoda_3" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem840veicolo USemD465oggetto">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79303coda">
+			<PredicativeRepresentation predicate="PREDcoda_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem796entita1">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79348coda">
+			<SenseRelation targets="USemD65651acconciatura">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD573coda">
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem873animale USem921uccello">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUcodaN" senses="USem67703coda USem79348coda USemD573coda"/>
+		<SyntacticBehaviour id="SB_SYNUcodaN2" senses="USem67700coda USem67704coda USem79303coda"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_colpo">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="colpo"/>
+		</Lemma>
+		<Sense id="USem60276colpo">
+			<PredicativeRepresentation predicate="PREDcolpire_2" correspondences="AUG2to3A">
+				<feat att="link" val="EventNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5580atto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60277colpo">
+			<PredicativeRepresentation predicate="PREDcolpire_1" correspondences="AUG0to2">
+				<feat att="link" val="ProcessNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5365evento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67905colpo">
+			<PredicativeRepresentation predicate="PREDcolpo_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5336vibrazione">
+				<feat att="type" val="Causedby"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3876rumore">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem71860colpo">
+			<SenseRelation targets="USemD5439affezione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUcolpoN" senses="USem60277colpo USem71860colpo"/>
+		<SyntacticBehaviour id="SB_SYNUcolpoN2" senses="USem60276colpo"/>
+		<SyntacticBehaviour id="SB_SYNUcolpoN3" senses="USem60276colpo USem67905colpo"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_cronologia">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="cronologia"/>
+		</Lemma>
+		<Sense id="USem69468cronologia">
+			<SenseRelation targets="USemD65559successione">
+				<feat att="type" val="Constitutive"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem69470cronologia">
+			<SenseRelation targets="USem15disciplina">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUcronologiaN" senses="USem69468cronologia USem69470cronologia"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_cucinotto">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="cucinotto"/>
+		</Lemma>
+		<Sense id="USem74544cucinotto">
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2217edificio">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUcucinottoN" senses="USem74544cucinotto"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_danaro">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="danaro"/>
+		</Lemma>
+		<Sense id="UsemTH05935danaro">
+			<SenseRelation targets="Usem829manufatto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="UsemTH38183danaro">
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUTHdanaroN" senses="UsemTH05935danaro UsemTH38183danaro"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_debole">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="debole"/>
+		</Lemma>
+		<Sense id="USem61849debole">
+			<PredicativeRepresentation predicate="PREDdebole_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD6830timoroso">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6551forte">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61855debole">
+			<PredicativeRepresentation predicate="PREDdebole_2" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD6558forte">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61857debole">
+			<PredicativeRepresentation predicate="PREDdebole_2" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD6559forte">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem64959debole">
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD2718debole">
+			<PredicativeRepresentation predicate="PREDdebole_5" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem62449lieve">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USem61852forte">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD6546debole">
+			<PredicativeRepresentation predicate="PREDdebole_3" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5833robusto">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD6547debole">
+			<PredicativeRepresentation predicate="PREDdebole_4" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD6548forte">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUdeboleA" senses="USem61849debole USem61855debole USem61857debole USemD2718debole USemD6546debole USemD6547debole"/>
+		<SyntacticBehaviour id="SB_SYNUdeboleN" senses="USem64959debole"/>
+		<SyntacticBehaviour id="SB_SYNUdeboleN2"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_delega">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="delega"/>
+		</Lemma>
+		<Sense id="USem71596delega">
+			<PredicativeRepresentation predicate="PREDdelegare_2" correspondences="AUG0to3">
+				<feat att="link" val="VerbNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD65853delega">
+				<feat att="type" val="PolysemySemioticartifact-Information"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59987delegare">
+				<feat att="type" val="DeverbalNounVerb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5602scritto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6475informare">
+				<feat att="type" val="Indirecttelic"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD65853delega">
+			<PredicativeRepresentation predicate="PREDdelegare_2" correspondences="AUG0to3">
+				<feat att="link" val="VerbNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5496testo">
+				<feat att="type" val="Contains"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD934stampare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59987delegare">
+				<feat att="type" val="DeverbalNounVerb"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6947documento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem71861comunicare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem71596delega">
+				<feat att="type" val="PolysemySemioticartifact-Information"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUdelegaN" senses="USem71596delega USemD65853delega"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_dicembre">
+		<feat att="partOfSpeech" val="NP"/>
+		<Lemma>
+			<feat att="writtenForm" val="dicembre"/>
+		</Lemma>
+		<Sense id="USem1877dicembre">
+			<SenseRelation targets="USem2807novembre">
+				<feat att="type" val="Successorof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1745anno">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD3280mese">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUdicembreNP" senses="USem1877dicembre"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_difesa">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="difesa"/>
+		</Lemma>
+		<Sense id="USem60468difesa">
+			<PredicativeRepresentation predicate="PREDdifendere_2" correspondences="ISObivalent">
+				<feat att="link" val="ProcessNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5580atto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem76770difendere">
+				<feat att="type" val="Processverb"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem69152difesa">
+			<PredicativeRepresentation predicate="PREDdifendere_1" correspondences="AUG0to3">
+				<feat att="link" val="VerbNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5132difendere">
+				<feat att="type" val="DeverbalNounVerb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5132difendere">
+				<feat att="type" val="Telic"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem69153difesa">
+			<PredicativeRepresentation predicate="PREDdifendere_1" correspondences="AUG0to3">
+				<feat att="link" val="EventNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5132difendere">
+				<feat att="type" val="DeverbalNounVerb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5364fenomeno">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem866organismo">
+				<feat att="type" val="Concerns"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem69154difesa">
+			<PredicativeRepresentation predicate="PREDdifendere_1" correspondences="AUG0to3">
+				<feat att="link" val="VerbNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5132difendere">
+				<feat att="type" val="DeverbalNounVerb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD546insieme">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD7280giocatore">
+				<feat att="type" val="Hasasmember"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUdifesaN" senses="USem69152difesa"/>
+		<SyntacticBehaviour id="SB_SYNUdifesaN2" senses="USem69153difesa"/>
+		<SyntacticBehaviour id="SB_SYNUdifesaN3" senses="USem69154difesa"/>
+		<SyntacticBehaviour id="SB_SYNUdifesaN4" senses="USem60468difesa"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_diffondere">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="diffondere"/>
+		</Lemma>
+		<Sense id="USem62884diffondere">
+			<PredicativeRepresentation predicate="PREDdiffondere_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem7074diffondere">
+			<PredicativeRepresentation predicate="PREDdiffondere_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem59284sapere">
+				<feat att="type" val="Resultingstate"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6475informare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUdiffondereV" senses="USem62884diffondere USem7074diffondere"/>
+		<SyntacticBehaviour id="SB_SYNUdiffondereV2"/>
+		<SyntacticBehaviour id="SB_SYNUdiffondereV3"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_dolce">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="dolce"/>
+		</Lemma>
+		<Sense id="USem3686dolce">
+			<SenseRelation targets="USemD598mangiare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1732cibo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6950cuocere USemD5164impastare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem62406dolce">
+			<PredicativeRepresentation predicate="PREDdolce_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD2618amaro">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6676piacevole">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem62407dolce">
+			<PredicativeRepresentation predicate="PREDdolce_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD6677armonioso">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD62003sgradevole">
+				<feat att="type" val="AntonymComp"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem62409dolce">
+			<PredicativeRepresentation predicate="PREDdolce_3" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD2772freddo">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2736dolce">
+				<feat att="type" val="PolysemyTemperature-Behaviour"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6733mite">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68131dolce">
+			<SenseRelation targets="USem6151sapore">
+				<feat att="type" val="Concerns"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5670percezione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2734senso">
+				<feat att="type" val="Instrument"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD2736dolce">
+			<PredicativeRepresentation predicate="PREDdolce_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5793rude">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6737mite">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USem62409dolce">
+				<feat att="type" val="PolysemyTemperature-Behaviour"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD6642dolce">
+			<PredicativeRepresentation predicate="PREDdolce_2" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD6650amaro">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+			<SenseRelation targets="USem62018amabile">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUdolceA" senses="USemD6642dolce"/>
+		<SyntacticBehaviour id="SB_SYNUdolceA2" senses="USem62406dolce USem62407dolce USem62409dolce USemD2736dolce"/>
+		<SyntacticBehaviour id="SB_SYNUdolceN" senses="USem3686dolce"/>
+		<SyntacticBehaviour id="SB_SYNUdolceN2" senses="USem68131dolce"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_dolzaina">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="dolzaina"/>
+		</Lemma>
+		<Sense id="UsemTH35327dolzaina">
+			<SenseRelation targets="USem2878strumento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUTHdolzainaN" senses="UsemTH35327dolzaina"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_durata">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="durata"/>
+		</Lemma>
+		<Sense id="USemD5556durata">
+			<PredicativeRepresentation predicate="PREDdurare_1" correspondences="ISOmonovalent">
+				<feat att="link" val="EventNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem2740tempo">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem64795durare">
+				<feat att="type" val="Eventverb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD3302periodo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUdurataN" senses="USemD5556durata"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_ebollizione">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="ebollizione"/>
+		</Lemma>
+		<Sense id="USem069596ebollizione">
+			<SenseRelation targets="USemD5364fenomeno">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1388liquido">
+				<feat att="type" val="Concerns"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUebollizioneN" senses="USem069596ebollizione"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_ecatombe">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="ecatombe"/>
+		</Lemma>
+		<Sense id="UsemTH07543ecatombe">
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUTHecatombeN" senses="UsemTH07543ecatombe"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_eco">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="eco"/>
+		</Lemma>
+		<Sense id="USem069690eco">
+			<SenseRelation targets="USemD5364fenomeno">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem069692eco">
+			<SenseRelation targets="USem796entita1">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUecoN" senses="USem069690eco USem069692eco"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_egoismo">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="egoismo"/>
+		</Lemma>
+		<Sense id="USem2536egoismo">
+			<PredicativeRepresentation predicate="PREDegoista_1" correspondences="ISOmonovalent">
+				<feat att="link" val="AdjectiveNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD6469egoista">
+				<feat att="type" val="DeadjectivalNoun"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2447proprieta1">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6469egoista">
+				<feat att="type" val="Propertyof"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUegoismoN" senses="USem2536egoismo"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_equilibrato">
+		<feat att="partOfSpeech" val="A"/>
+		<Lemma>
+			<feat att="writtenForm" val="equilibrato"/>
+		</Lemma>
+		<Sense id="USem76959equilibrato">
+			<PredicativeRepresentation predicate="PREDequilibrare_1" correspondences="AUG1to3arg1">
+				<feat att="link" val="VerbPastParticiple"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD76651bilanciato">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD76650equilibrare">
+				<feat att="type" val="DeverbalAdjective"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD66678equilibrato">
+			<PredicativeRepresentation predicate="PREDequilibrato_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem76095esagerato">
+				<feat att="type" val="AntonymComp"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2810moderato">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD76650equilibrare">
+				<feat att="type" val="DeverbalAdjective"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUequilibratoA" senses="USem76959equilibrato USemD66678equilibrato"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_eroe">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="eroe"/>
+		</Lemma>
+		<Sense id="USem62117eroe">
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68135eroe">
+			<SenseRelation targets="USemD3056rappresentare">
+				<feat att="type" val="Indirecttelic"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD7277personaggio">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUeroeN" senses="USem62117eroe USem68135eroe"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_faccia">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="faccia"/>
+		</Lemma>
+		<Sense id="USem68144faccia">
+			<PredicativeRepresentation predicate="PREDfaccia_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD465oggetto">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68146faccia">
+			<SenseRelation targets="USem2447proprieta1">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68147faccia">
+			<PredicativeRepresentation predicate="PREDfaccia_2" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem2447proprieta1">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD4019faccia">
+			<SenseRelation targets="USem1753testa">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUfacciaN" senses="USem68146faccia USemD4019faccia"/>
+		<SyntacticBehaviour id="SB_SYNUfacciaN2" senses="USem68144faccia USem68147faccia"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_felino">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="felino"/>
+		</Lemma>
+		<Sense id="USem4705felino">
+			<SenseRelation targets="USem873animale">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1804ghiandola_mammaria">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUfelinoN" senses="USem4705felino"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_fiero">
+		<feat att="partOfSpeech" val="A"/>
+		<Lemma>
+			<feat att="writtenForm" val="fiero"/>
+		</Lemma>
+		<Sense id="USem76149fiero">
+			<PredicativeRepresentation predicate="PREDfiero_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD2641audace USemD6829coraggioso">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem76150fiero">
+			<PredicativeRepresentation predicate="PREDfiero_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem78136altezzoso">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6813umile">
+				<feat att="type" val="AntonymComp"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem76151fiero">
+			<PredicativeRepresentation predicate="PREDfiero_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD66700orgoglioso">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD6472fiero">
+			<PredicativeRepresentation predicate="PREDfiero_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD66698fermo">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6489meschino">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUfieroA" senses="USem76149fiero USem76150fiero USemD6472fiero"/>
+		<SyntacticBehaviour id="SB_SYNUfieroA2" senses="USem76151fiero"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_focaccia">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="focaccia"/>
+		</Lemma>
+		<Sense id="USem5016focaccia">
+			<SenseRelation targets="USem6950cuocere USemD5164impastare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD598mangiare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3388pane">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUfocacciaN" senses="USem5016focaccia"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_fuoco">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="fuoco"/>
+		</Lemma>
+		<Sense id="USem60904fuoco">
+			<SenseRelation targets="USemD5364fenomeno">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60905fuoco">
+			<PredicativeRepresentation predicate="PREDfuoco_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem5837passione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUfuocoN"/>
+		<SyntacticBehaviour id="SB_SYNUfuocoN2" senses="USem60904fuoco"/>
+		<SyntacticBehaviour id="SB_SYNUfuocoN3" senses="USem60905fuoco"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_gabinetto">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="gabinetto"/>
+		</Lemma>
+		<Sense id="USem64663gabinetto">
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2217edificio">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem79318gabinetto">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem64664gabinetto">
+			<SenseRelation targets="USem2052locale">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD66425gabinetto">
+				<feat att="type" val="PolysemyHumanGroup-Building"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD3591lavorare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79318gabinetto">
+			<SenseRelation targets="USem2965recipiente">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem62395bagno USem64663gabinetto">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USem79319vaso">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD66425gabinetto">
+			<PredicativeRepresentation predicate="PREDgabinetto_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem4972collaboratore">
+				<feat att="type" val="Hasasmember"/>
+			</SenseRelation>
+			<SenseRelation targets="USem64664gabinetto">
+				<feat att="type" val="PolysemyHumanGroup-Building"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59468ufficio">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUgabinettoN" senses="USem64663gabinetto USem64664gabinetto USem79318gabinetto"/>
+		<SyntacticBehaviour id="SB_SYNUgabinettoN2" senses="USemD66425gabinetto"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_gelato">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="gelato"/>
+		</Lemma>
+		<Sense id="USem4511gelato">
+			<SenseRelation targets="USemD5190congelare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD598mangiare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3686dolce">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUgelatoA"/>
+		<SyntacticBehaviour id="SB_SYNUgelatoN" senses="USem4511gelato"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_giocare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="giocare"/>
+		</Lemma>
+		<Sense id="USem79160giocare">
+			<PredicativeRepresentation predicate="PREDgiocare_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem60476gioco">
+				<feat att="type" val="DenominalVerbNoun"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD3694giocare">
+			<PredicativeRepresentation predicate="PREDgiocare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem60476gioco">
+				<feat att="type" val="DenominalVerbNoun"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6605divertire">
+				<feat att="type" val="Purpose"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUgiocareV" senses="USemD3694giocare"/>
+		<SyntacticBehaviour id="SB_SYNUgiocareV2"/>
+		<SyntacticBehaviour id="SB_SYNUgiocareV3"/>
+		<SyntacticBehaviour id="SB_SYNUgiocareV4"/>
+		<SyntacticBehaviour id="SB_SYNUgiocareV5"/>
+		<SyntacticBehaviour id="SB_SYNUgiocareV6"/>
+		<SyntacticBehaviour id="SB_SYNUgiocareV7"/>
+		<SyntacticBehaviour id="SB_SYNUgiocareV8" senses="USem79160giocare"/>
+		<SyntacticBehaviour id="SB_SYNUgiocareV9"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_governo">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="governo"/>
+		</Lemma>
+		<Sense id="USem59435governo">
+			<SenseRelation targets="USemD63818governo">
+				<feat att="type" val="PolysemyHumanGroup-Institution"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD546insieme">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3574ministro">
+				<feat att="type" val="Hasasmember"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD63818governo">
+			<SenseRelation targets="USem2808istituzione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD3566fondare">
+				<feat att="type" val="Resultof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59435governo">
+				<feat att="type" val="PolysemyHumanGroup-Institution"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUgovernoN" senses="USem59435governo USemD63818governo"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_graffiare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="graffiare"/>
+		</Lemma>
+		<Sense id="USem61752graffiare">
+			<PredicativeRepresentation predicate="PREDgraffiare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61753graffiare">
+			<PredicativeRepresentation predicate="PREDgraffiare_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem5011essere">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61754graffiare">
+			<PredicativeRepresentation predicate="PREDgraffiare_3" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5415cambiare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem61756graffiare">
+				<feat att="type" val="PolysemyChangeofstate-Causechangeofstate"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61756graffiare">
+			<PredicativeRepresentation predicate="PREDgraffiare_3" correspondences="AUG1to2erg1orerg2">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem3939cambiare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem61754graffiare">
+				<feat att="type" val="PolysemyChangeofstate-Causechangeofstate"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUgraffiareV" senses="USem61753graffiare"/>
+		<SyntacticBehaviour id="SB_SYNUgraffiareV2"/>
+		<SyntacticBehaviour id="SB_SYNUgraffiareV3" senses="USem61752graffiare"/>
+		<SyntacticBehaviour id="SB_SYNUgraffiareV4" senses="USem61754graffiare USem61756graffiare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_grondaia">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="grondaia"/>
+		</Lemma>
+		<Sense id="USem66273grondaia">
+			<SenseRelation targets="USemD465oggetto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUgrondaiaN" senses="USem66273grondaia"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_guida">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="guida"/>
+		</Lemma>
+		<Sense id="USem60429guida">
+			<PredicativeRepresentation predicate="PREDguidare_2" correspondences="AUG0to2">
+				<feat att="link" val="VerbNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem4046libro">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem71861comunicare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD65487rilegare USemD934stampare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5496testo USemD6378immagine">
+				<feat att="type" val="Contains"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59881guidare">
+				<feat att="type" val="DeverbalNounVerb"/>
+			</SenseRelation>
+			<SenseRelation targets="USem79162guida">
+				<feat att="type" val="PolysemySemioticartifact-Information"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60430guida">
+			<PredicativeRepresentation predicate="PREDguidare_1" correspondences="AUG1to2obj">
+				<feat att="link" val="ProcessNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5580atto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD481guidare">
+				<feat att="type" val="Processverb"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67971guida">
+			<SenseRelation targets="USem3399dispositivo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67972guida">
+			<PredicativeRepresentation predicate="PREDguidare_2" correspondences="AUG0to2">
+				<feat att="link" val="VerbNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD3591lavorare">
+				<feat att="type" val="Istheactivityof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59881guidare">
+				<feat att="type" val="DeverbalNounVerb"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79162guida">
+			<PredicativeRepresentation predicate="PREDguidare_2" correspondences="AUG0to2">
+				<feat att="link" val="VerbNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5496testo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6475informare">
+				<feat att="type" val="Indirecttelic"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5495leggere">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem60429guida">
+				<feat att="type" val="PolysemySemioticartifact-Information"/>
+			</SenseRelation>
+			<SenseRelation targets="USem4834scrivere">
+				<feat att="type" val="Resultof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59881guidare">
+				<feat att="type" val="DeverbalNounVerb"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUguidaN" senses="USem60429guida USem67972guida USem79162guida"/>
+		<SyntacticBehaviour id="SB_SYNUguidaN2" senses="USem60430guida"/>
+		<SyntacticBehaviour id="SB_SYNUguidaN3" senses="USem67971guida"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_iberismo">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="iberismo"/>
+		</Lemma>
+		<Sense id="UsemTH11717iberismo">
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUTHiberismoN" senses="UsemTH11717iberismo"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_icona">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="icona"/>
+		</Lemma>
+		<Sense id="USem72180icona">
+			<SenseRelation targets="USemD470opera">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6591dipingere">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUiconaN" senses="USem72180icona"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_idiota">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="idiota"/>
+		</Lemma>
+		<Sense id="USem6622idiota">
+			<SenseRelation targets="USem66663idiota">
+				<feat att="type" val="DeadjectivalNoun"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6623idiozia">
+				<feat att="type" val="Hasasproperty"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem6627idiota">
+			<SenseRelation targets="USem66672idiota">
+				<feat att="type" val="DeadjectivalNoun"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2564idiozia">
+				<feat att="type" val="Hasasproperty"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem66663idiota">
+			<PredicativeRepresentation predicate="PREDidiota_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem66906isterico">
+				<feat att="type" val="MultOpposition"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem66672idiota">
+			<PredicativeRepresentation predicate="PREDidiota_2" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5807stupido USemD6482sciocco">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USem61751intelligente">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUidiotaA" senses="USem66663idiota USem66672idiota"/>
+		<SyntacticBehaviour id="SB_SYNUidiotaA2"/>
+		<SyntacticBehaviour id="SB_SYNUidiotaA3"/>
+		<SyntacticBehaviour id="SB_SYNUidiotaN" senses="USem6622idiota USem6627idiota"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_illuminazione">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="illuminazione"/>
+		</Lemma>
+		<Sense id="USem60688illuminazione">
+			<PredicativeRepresentation predicate="PREDilluminare_1" correspondences="AUG1to2erg1orerg2">
+				<feat att="link" val="EventNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem3960cambiamento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6280illuminato">
+				<feat att="type" val="Resultingstate"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD3301illuminare">
+				<feat att="type" val="Eventverb"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60691illuminazione">
+			<PredicativeRepresentation predicate="PREDilluminare_3" correspondences="AUG0to2">
+				<feat att="link" val="EventNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem914idea">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem68594illuminare">
+				<feat att="type" val="Eventverb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5070trovata">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUilluminazioneN" senses="USem60691illuminazione"/>
+		<SyntacticBehaviour id="SB_SYNUilluminazioneN2" senses="USem60688illuminazione"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_immagine">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="immagine"/>
+		</Lemma>
+		<Sense id="USem60976immagine">
+			<PredicativeRepresentation predicate="PREDimmagine_2" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD3164rappresentazione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60977immagine">
+			<PredicativeRepresentation predicate="PREDimmagine_3" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem1341aspetto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60978immagine">
+			<PredicativeRepresentation predicate="PREDimmagine_4" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5670percezione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem60548vista">
+				<feat att="type" val="Instrument"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD6378immagine">
+			<PredicativeRepresentation predicate="PREDimmagine_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem3894creare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD3164rappresentazione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUimmagineN" senses="USem60976immagine USem60977immagine USem60978immagine USemD6378immagine"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_importo">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="importo"/>
+		</Lemma>
+		<Sense id="USem72239importo">
+			<SenseRelation targets="USem2362denaro">
+				<feat att="type" val="Quantifies"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1595quantita1">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUimportoN" senses="USem72239importo"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_incubo">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="incubo"/>
+		</Lemma>
+		<Sense id="USem069579incubo">
+			<SenseRelation targets="USem60583percezione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUincuboN" senses="USem069579incubo"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_intervenire">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="intervenire"/>
+		</Lemma>
+		<Sense id="USem66414intervenire">
+			<PredicativeRepresentation predicate="PREDintervenire_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem66417intervenire">
+			<PredicativeRepresentation predicate="PREDintervenire_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem66451intervenire">
+			<PredicativeRepresentation predicate="PREDintervenire_3" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD4613operare">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USem75987bisturi">
+				<feat att="type" val="Instrument"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD4600curare">
+				<feat att="type" val="Purpose"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem72495intervenire">
+			<PredicativeRepresentation predicate="PREDintervenire_4" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD439parlare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUintervenireV" senses="USem66414intervenire USem72495intervenire"/>
+		<SyntacticBehaviour id="SB_SYNUintervenireV2" senses="USem66417intervenire"/>
+		<SyntacticBehaviour id="SB_SYNUintervenireV3" senses="USem66451intervenire"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_irrigare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="irrigare"/>
+		</Lemma>
+		<Sense id="USemD6413irrigare">
+			<PredicativeRepresentation predicate="PREDirrigare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD3591lavorare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUirrigareV" senses="USemD6413irrigare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_istituto">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="istituto"/>
+		</Lemma>
+		<Sense id="USem4589istituto">
+			<SenseRelation targets="USem67856istituto">
+				<feat att="type" val="PolysemyBuilding-Institution"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD3566fondare">
+				<feat att="type" val="Resultof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2808istituzione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD64063istituto">
+				<feat att="type" val="PolysemyHumanGroup-Institution"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67856istituto">
+			<SenseRelation targets="USem4589istituto">
+				<feat att="type" val="PolysemyBuilding-Institution"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2217edificio">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD64063istituto">
+			<SenseRelation targets="USem4589istituto">
+				<feat att="type" val="PolysemyHumanGroup-Institution"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2845gruppo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Hasasmember"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUistitutoN" senses="USem4589istituto USem67856istituto USemD64063istituto"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_iterare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="iterare"/>
+		</Lemma>
+		<Sense id="UsemTH11iterare">
+			<PredicativeRepresentation predicate="PREDTHiterare_1" correspondences="ISObivalent">
+				<feat att="link" val="MASTER"/>
+			</PredicativeRepresentation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUTHiterareV" senses="UsemTH11iterare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_jazzista">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="jazzista"/>
+		</Lemma>
+		<Sense id="UsemTH11679jazzistaN">
+			<SenseRelation targets="UsemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUTHjazzistaN" senses="UsemTH11679jazzistaN"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_kerosene">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="kerosene"/>
+		</Lemma>
+		<Sense id="USem3949kerosene">
+			<SenseRelation targets="USem3226idrocarburo">
+				<feat att="type" val="Madeof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1740combustibile">
+				<feat att="type" val="Usedas"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5425distillazione">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3650miscela">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUkeroseneN" senses="USem3949kerosene"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_lavagna">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="lavagna"/>
+		</Lemma>
+		<Sense id="USem68288lavagna">
+			<SenseRelation targets="USem61246scrivere">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD465oggetto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68289lavagna">
+			<SenseRelation targets="USem3materiale">
+				<feat att="type" val="Usedas"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59744roccia">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem76874lavagna">
+			<SenseRelation targets="USem2451colore">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUlavagnaN" senses="USem68288lavagna"/>
+		<SyntacticBehaviour id="SB_SYNUlavagnaN2" senses="USem68289lavagna USem76874lavagna"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_leucemia">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="leucemia"/>
+		</Lemma>
+		<Sense id="USem3827leucemia">
+			<SenseRelation targets="USem3868malattia">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3126sangue">
+				<feat att="type" val="Affects"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUleucemiaN" senses="USem3827leucemia"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_lince">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="lince"/>
+		</Lemma>
+		<Sense id="USem4848lince">
+			<SenseRelation targets="USem4705felino">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem4849lince">
+				<feat att="type" val="PolysemyAnimal-Material"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem4849lince">
+			<SenseRelation targets="USemD2110pelliccia">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3materiale">
+				<feat att="type" val="Usedas"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD669conciare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6878pellicceria">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem4848lince">
+				<feat att="type" val="PolysemyAnimal-Material"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68319lince">
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem4848lince">
+				<feat att="type" val="Metaphor"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUlinceN" senses="USem4848lince USem68319lince"/>
+		<SyntacticBehaviour id="SB_SYNUlinceN2" senses="USem4849lince"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_lutto">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="lutto"/>
+		</Lemma>
+		<Sense id="USem5830lutto">
+			<PredicativeRepresentation predicate="PREDlutto_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5365evento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUluttoN" senses="USem5830lutto"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_macchina">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="macchina"/>
+		</Lemma>
+		<Sense id="USem2852macchina">
+			<SenseRelation targets="USem5907motore USemD5056ruota">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+			<SenseRelation targets="USem843automobile">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD481guidare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6866trasportare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem832macchina">
+			<SenseRelation targets="USem829manufatto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUmacchinaN" senses="USem2852macchina USem832macchina"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_male">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="male"/>
+		</Lemma>
+		<Sense id="USem069770male">
+			<SenseRelation targets="USemD5580atto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67293male">
+			<SenseRelation targets="USemD5654principio">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67294male">
+			<SenseRelation targets="USem3868malattia USem72325morbo USem79484patologia">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USem68420alterazione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem866organismo">
+				<feat att="type" val="Affects"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUmaleN" senses="USem67293male USem67294male"/>
+		<SyntacticBehaviour id="SB_SYNUmaleN2" senses="USem069770male"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_millefoglie">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="millefoglie"/>
+		</Lemma>
+		<Sense id="USem71090millefoglie">
+			<SenseRelation targets="USem6950cuocere USemD5164impastare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3686dolce">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD598mangiare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUmillefoglieN" senses="USem71090millefoglie"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_pino">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="pino"/>
+		</Lemma>
+		<Sense id="USem1444pino">
+			<SenseRelation targets="USemD2089albero">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem4058pino">
+				<feat att="type" val="PolysemyPlant-Substance"/>
+			</SenseRelation>
+			<SenseRelation targets="USem65933pinolo USemD2443pigna">
+				<feat att="type" val="Produces"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2402foglia USemD2411tronco">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem4058pino">
+			<SenseRelation targets="USem1444pino">
+				<feat att="type" val="PolysemyPlant-Substance"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3688legno">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3materiale">
+				<feat att="type" val="Usedas"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUpinoN" senses="USem1444pino"/>
+		<SyntacticBehaviour id="SB_SYNUpinoN2" senses="USem4058pino"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_pizza">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="pizza"/>
+		</Lemma>
+		<Sense id="USem62414pizza">
+			<SenseRelation targets="USem6950cuocere USemD5164impastare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD598mangiare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2990acqua USemD5166farina">
+				<feat att="type" val="Madeof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem5016focaccia">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67757pizza">
+			<SenseRelation targets="USem3877suono USemD6378immagine">
+				<feat att="type" val="Contains"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1449registrare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem67416pellicola">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67758pizza">
+			<SenseRelation targets="USem6545infastidire">
+				<feat att="type" val="Constitutive"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUpizzaN" senses="USem62414pizza USem67757pizza USem67758pizza"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_plastica">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="plastica"/>
+		</Lemma>
+		<Sense id="USem3007plastica">
+			<SenseRelation targets="USem3materiale">
+				<feat att="type" val="Usedas"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2659sostanza">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5353lavorazione">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUplasticaN" senses="USem3007plastica"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_polenta">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="polenta"/>
+		</Lemma>
+		<Sense id="USem66086polenta">
+			<SenseRelation targets="USem1542granturco USem2990acqua">
+				<feat att="type" val="Madeof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD4569alimento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD598mangiare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6950cuocere">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUpolentaN" senses="USem66086polenta"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_politica">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="politica"/>
+		</Lemma>
+		<Sense id="USemD7238politica">
+			<SenseRelation targets="USem15disciplina">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUpoliticaN"/>
+		<SyntacticBehaviour id="SB_SYNUpoliticaN2" senses="USemD7238politica"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_rapporto">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="rapporto"/>
+		</Lemma>
+		<Sense id="USem64866rapporto">
+			<SenseRelation targets="USemD63542rapporto">
+				<feat att="type" val="PolysemySemioticartifact-Information"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5496testo">
+				<feat att="type" val="Contains"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD465oggetto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD934stampare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+			<SenseRelation targets="USem71861comunicare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem64867rapporto">
+			<PredicativeRepresentation predicate="PREDrapporto_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem79138relazione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem64868rapporto">
+			<SenseRelation targets="USem2670numero">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD3056rappresentare">
+				<feat att="type" val="Indirecttelic"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem64869rapporto">
+			<PredicativeRepresentation predicate="PREDrapporto_2" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5584relazione">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD63542rapporto">
+			<SenseRelation targets="USemD5496testo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6475informare">
+				<feat att="type" val="Indirecttelic"/>
+			</SenseRelation>
+			<SenseRelation targets="USem64866rapporto">
+				<feat att="type" val="PolysemySemioticartifact-Information"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5495leggere">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem4834scrivere">
+				<feat att="type" val="Resultof"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUrapportoN" senses="USem64866rapporto USemD63542rapporto"/>
+		<SyntacticBehaviour id="SB_SYNUrapportoN2" senses="USem64868rapporto"/>
+		<SyntacticBehaviour id="SB_SYNUrapportoN3"/>
+		<SyntacticBehaviour id="SB_SYNUrapportoN4" senses="USem64869rapporto"/>
+		<SyntacticBehaviour id="SB_SYNUrapportoN5" senses="USem64867rapporto"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_rasoio">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="rasoio"/>
+		</Lemma>
+		<Sense id="USem65972rasoio">
+			<SenseRelation targets="USemD1081tagliare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem2878strumento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUrasoioN" senses="USem65972rasoio"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_realizzare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="realizzare"/>
+		</Lemma>
+		<Sense id="USem61660realizzare">
+			<PredicativeRepresentation predicate="PREDrealizzare_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61676realizzare">
+			<PredicativeRepresentation predicate="PREDrealizzare_3" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5369fare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61677realizzare">
+			<PredicativeRepresentation predicate="PREDrealizzare_4" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem61725comprendere">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61680realizzare">
+			<PredicativeRepresentation predicate="PREDrealizzare_1" correspondences="AUG1to2erg1orerg2">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5622realizzare">
+				<feat att="type" val="PolysemyExperienceEvent-CauseExperienceEvent"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6455avverare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61681realizzare">
+			<PredicativeRepresentation predicate="PREDrealizzare_6" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5365evento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD5622realizzare">
+			<PredicativeRepresentation predicate="PREDrealizzare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem61680realizzare">
+				<feat att="type" val="PolysemyExperienceEvent-CauseExperienceEvent"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5412causare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUrealizzareV" senses="USem61680realizzare USemD5622realizzare"/>
+		<SyntacticBehaviour id="SB_SYNUrealizzareV2" senses="USem61677realizzare"/>
+		<SyntacticBehaviour id="SB_SYNUrealizzareV3" senses="USem61681realizzare"/>
+		<SyntacticBehaviour id="SB_SYNUrealizzareV4" senses="USem61660realizzare USem61676realizzare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_riuscire">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="riuscire"/>
+		</Lemma>
+		<Sense id="USem79461riuscire">
+			<PredicativeRepresentation predicate="PREDriuscire_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem62926sapere">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD76742riuscire">
+			<PredicativeRepresentation predicate="PREDriuscire_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5365evento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUriuscireV"/>
+		<SyntacticBehaviour id="SB_SYNUriuscireV2" senses="USem79461riuscire"/>
+		<SyntacticBehaviour id="SB_SYNUriuscireV3"/>
+		<SyntacticBehaviour id="SB_SYNUriuscireV4" senses="USemD76742riuscire"/>
+		<SyntacticBehaviour id="SB_SYNUriuscireV5"/>
+		<SyntacticBehaviour id="SB_SYNUriuscireV6"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_sistema">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="sistema"/>
+		</Lemma>
+		<Sense id="USem2578sistema">
+			<SenseRelation targets="USem796entita1">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem59644sistema">
+			<SenseRelation targets="USem79667metodo">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3963azione">
+				<feat att="type" val="Constitutive"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUsistemaN" senses="USem2578sistema USem59644sistema"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_spirale">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="spirale"/>
+		</Lemma>
+		<Sense id="USem3470spirale">
+			<SenseRelation targets="USemD7136anticoncezionale">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD387fabbricare">
+				<feat att="type" val="Createdby"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem62536spirale">
+			<SenseRelation targets="USem1392figura">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem62537spirale">
+			<SenseRelation targets="USem62536spirale USem796entita1">
+				<feat att="type" val="Constitutive"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUspiraleN" senses="USem3470spirale USem62536spirale USem62537spirale"/>
+		<SyntacticBehaviour id="SB_SYNUspiraleN2"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_susina">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="susina"/>
+		</Lemma>
+		<Sense id="USem60721susina">
+			<SenseRelation targets="USemD2369frutto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD598mangiare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem70907susino">
+				<feat att="type" val="Producedby"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUsusinaN" senses="USem60721susina"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_testa">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="testa"/>
+		</Lemma>
+		<Sense id="USem1753testa">
+			<SenseRelation targets="USem61397capo">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD3872corpo">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1796muso USem1820orecchio USemD4019faccia">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67637testa">
+			<SenseRelation targets="USem796entita1">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6067mente">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem67639testa">
+			<PredicativeRepresentation predicate="PREDtesta_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem796entita1">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem79240estremita1">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUtestaN" senses="USem1753testa"/>
+		<SyntacticBehaviour id="SB_SYNUtestaN2" senses="USem67637testa"/>
+		<SyntacticBehaviour id="SB_SYNUtestaN3" senses="USem67639testa"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_tirchio">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="tirchio"/>
+		</Lemma>
+		<Sense id="USem72525tirchio">
+			<PredicativeRepresentation predicate="PREDtirchio_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD2645avaro">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD6946generoso">
+				<feat att="type" val="AntonymComp"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem72527tirchio">
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUtirchioA" senses="USem72525tirchio"/>
+		<SyntacticBehaviour id="SB_SYNUtirchioN" senses="USem72527tirchio"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_tornado">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="tornado"/>
+		</Lemma>
+		<Sense id="USem71278tornado">
+			<SenseRelation targets="USemD5364fenomeno">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3885vento">
+				<feat att="type" val="Hasaseffect"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem71279tornado">
+			<SenseRelation targets="USem71278tornado">
+				<feat att="type" val="Metaphor"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem71280tornado">
+			<SenseRelation targets="USem71278tornado">
+				<feat att="type" val="Metaphor"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5365evento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUtornadoN" senses="USem71278tornado USem71279tornado USem71280tornado"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_trovare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="trovare"/>
+		</Lemma>
+		<Sense id="USem61466trovare">
+			<PredicativeRepresentation predicate="PREDtrovare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5365evento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61469trovare">
+			<PredicativeRepresentation predicate="PREDtrovare_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5586stare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61471trovare">
+			<PredicativeRepresentation predicate="PREDtrovare_8" correspondences="ISOtrivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem60436incontrare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem76481vedere">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61472trovare">
+			<PredicativeRepresentation predicate="PREDtrovare_4" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem5011essere">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61474trovare">
+			<PredicativeRepresentation predicate="PREDtrovare_5" correspondences="ISOtrivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5605giudicare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem60743ritenere">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61478trovare">
+			<PredicativeRepresentation predicate="PREDtrovare_6" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem5011essere">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem61480trovare">
+			<PredicativeRepresentation predicate="PREDtrovare_7" correspondences="ISOtrivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5365evento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem79277sorprendere">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79275trovare">
+			<PredicativeRepresentation predicate="PREDtrovare_9" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5365evento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79409trovare">
+			<PredicativeRepresentation predicate="PREDtrovare_10" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem4830scoprire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem59284sapere">
+				<feat att="type" val="Resultingstate"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem79462trovare">
+			<PredicativeRepresentation predicate="PREDtrovare_11" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5604evento_cognitivo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUtrovareV" senses="USem61474trovare"/>
+		<SyntacticBehaviour id="SB_SYNUtrovareV10" senses="USem61472trovare"/>
+		<SyntacticBehaviour id="SB_SYNUtrovareV11" senses="USem61471trovare USem61480trovare"/>
+		<SyntacticBehaviour id="SB_SYNUtrovareV2"/>
+		<SyntacticBehaviour id="SB_SYNUtrovareV3" senses="USem61471trovare"/>
+		<SyntacticBehaviour id="SB_SYNUtrovareV5"/>
+		<SyntacticBehaviour id="SB_SYNUtrovareV6" senses="USem61480trovare"/>
+		<SyntacticBehaviour id="SB_SYNUtrovareV7" senses="USem61466trovare USem79275trovare USem79409trovare USem79462trovare"/>
+		<SyntacticBehaviour id="SB_SYNUtrovareV8" senses="USem61478trovare"/>
+		<SyntacticBehaviour id="SB_SYNUtrovareV9" senses="USem61469trovare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_ulivo">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="ulivo"/>
+		</Lemma>
+		<Sense id="USem1468ulivo">
+			<SenseRelation targets="USemD2089albero">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2544oliva">
+				<feat att="type" val="Produces"/>
+			</SenseRelation>
+			<SenseRelation targets="USem68224ulivo">
+				<feat att="type" val="PolysemyPlant-Substance"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD2402foglia">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68224ulivo">
+			<SenseRelation targets="USem3688legno">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1468ulivo">
+				<feat att="type" val="PolysemyPlant-Substance"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3materiale">
+				<feat att="type" val="Usedas"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUulivoN" senses="USem1468ulivo"/>
+		<SyntacticBehaviour id="SB_SYNUulivoN2" senses="USem68224ulivo"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_uragano">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="uragano"/>
+		</Lemma>
+		<Sense id="USem3910uragano">
+			<SenseRelation targets="USem3909ciclone">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3885vento">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem3884tempo">
+				<feat att="type" val="Concerns"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68869uragano">
+			<SenseRelation targets="USem3910uragano">
+				<feat att="type" val="Metaphor"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUuraganoN" senses="USem3910uragano USem68869uragano"/>
+		<SyntacticBehaviour id="SB_SYNUuraganoN2"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_utente">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="utente"/>
+		</Lemma>
+		<Sense id="USem70971utente">
+			<SenseRelation targets="USemD735persona">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUutenteN" senses="USem70971utente"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_vassoio">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="vassoio"/>
+		</Lemma>
+		<Sense id="USem67801vassoio">
+			<SenseRelation targets="USem2391piatto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD883contenere">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem71983vassoio">
+				<feat att="type" val="PolysemyContainer-Amount"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem71983vassoio">
+			<PredicativeRepresentation predicate="PREDvassoio_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD1595quantita1">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem67801vassoio">
+				<feat att="type" val="PolysemyContainer-Amount"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUvassoioN" senses="USem67801vassoio"/>
+		<SyntacticBehaviour id="SB_SYNUvassoioN2" senses="USem71983vassoio"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_vettura">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="vettura"/>
+		</Lemma>
+		<Sense id="USem68516vettura">
+			<SenseRelation targets="USem843automobile">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD481guidare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6866trasportare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USem5907motore USemD5056ruota">
+				<feat att="type" val="Hasaspart"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68517vettura">
+			<SenseRelation targets="USem840veicolo">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USem6866trasportare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD481guidare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem68518vettura">
+			<SenseRelation targets="USem6866trasportare">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD481guidare">
+				<feat att="type" val="Objectoftheactivity"/>
+			</SenseRelation>
+			<SenseRelation targets="USem62662treno">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem62661carrozza">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUvetturaN" senses="USem68516vettura USem68517vettura USem68518vettura"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_vincere">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="vincere"/>
+		</Lemma>
+		<Sense id="USem60017vincere">
+			<PredicativeRepresentation predicate="PREDvincere_2" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60018vincere">
+			<PredicativeRepresentation predicate="PREDvincere_3" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60019vincere">
+			<PredicativeRepresentation predicate="PREDvincere_4" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD5719vincere">
+			<PredicativeRepresentation predicate="PREDvincere_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem61005superare">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUvincereV" senses="USem60018vincere"/>
+		<SyntacticBehaviour id="SB_SYNUvincereV2" senses="USem60019vincere"/>
+		<SyntacticBehaviour id="SB_SYNUvincereV3" senses="USem60017vincere USemD5719vincere"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_votare">
+		<feat att="partOfSpeech" val="verb"/>
+		<Lemma>
+			<feat att="writtenForm" val="votare"/>
+		</Lemma>
+		<Sense id="USem60948votare">
+			<PredicativeRepresentation predicate="PREDvotare_1" correspondences="ISObivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem60949votare">
+			<PredicativeRepresentation predicate="PREDvotare_2" correspondences="ISOtrivalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD5371agire">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUvotareV"/>
+		<SyntacticBehaviour id="SB_SYNUvotareV2" senses="USem60949votare"/>
+		<SyntacticBehaviour id="SB_SYNUvotareV3" senses="USem60949votare"/>
+		<SyntacticBehaviour id="SB_SYNUvotareV4" senses="USem60948votare"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_votazione">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="votazione"/>
+		</Lemma>
+		<Sense id="USem60950votazione">
+			<PredicativeRepresentation predicate="PREDvotare_1" correspondences="CROSSEDbivalent">
+				<feat att="link" val="ProcessNominalization"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem60948votare">
+				<feat att="type" val="Processverb"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD5580atto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUvotazioneN"/>
+		<SyntacticBehaviour id="SB_SYNUvotazioneN2" senses="USem60950votazione"/>
+		<SyntacticBehaviour id="SB_SYNUvotazioneN3"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_vuoto">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="vuoto"/>
+		</Lemma>
+		<Sense id="USem62329vuoto">
+			<PredicativeRepresentation predicate="PREDvuoto_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD7000pieno">
+				<feat att="type" val="AntonymComp"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem77883vuoto">
+			<PredicativeRepresentation predicate="PREDvuoto_2" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem62329vuoto">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD76821pieno">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem77894vuoto">
+			<PredicativeRepresentation predicate="PREDvuoto_3" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem61751intelligente">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem77896vuoto">
+			<PredicativeRepresentation predicate="PREDvuoto_4" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem76800vano">
+				<feat att="type" val="Synonym"/>
+			</SenseRelation>
+			<SenseRelation targets="USem76573profondo">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USemD76917vuoto">
+			<PredicativeRepresentation predicate="PREDvuoto_5" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USemD76866pieno">
+				<feat att="type" val="AntonymGrad"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUvuotoA" senses="USem62329vuoto USem77883vuoto"/>
+		<SyntacticBehaviour id="SB_SYNUvuotoA2" senses="USem77894vuoto USem77896vuoto USemD76917vuoto"/>
+		<SyntacticBehaviour id="SB_SYNUvuotoN"/>
+		<SyntacticBehaviour id="SB_SYNUvuotoN2"/>
+	</LexicalEntry>
+	<LexicalEntry id="LE_zampa">
+		<feat att="partOfSpeech" val="noun"/>
+		<Lemma>
+			<feat att="writtenForm" val="zampa"/>
+		</Lemma>
+		<Sense id="USem1737zampa">
+			<SenseRelation targets="USem873animale">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USem1828arto">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+		</Sense>
+		<Sense id="USem4211zampa">
+			<PredicativeRepresentation predicate="PREDzampa_1" correspondences="ISOmonovalent">
+				<feat att="link" val="Master"/>
+			</PredicativeRepresentation>
+			<SenseRelation targets="USem2339mobile">
+				<feat att="type" val="Isapartof"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1parte">
+				<feat att="type" val="Isa"/>
+			</SenseRelation>
+			<SenseRelation targets="USemD1062sostenere">
+				<feat att="type" val="Usedfor"/>
+			</SenseRelation>
+		</Sense>
+		<SyntacticBehaviour id="SB_SYNUzampaN" senses="USem1737zampa"/>
+		<SyntacticBehaviour id="SB_SYNUzampaN2" senses="USem4211zampa"/>
+	</LexicalEntry>
+	<SemanticPredicate id="PREDTHiterare_1">
+		<SemanticArgument id="ARG0iterare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="HUMAN"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1iterare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="ENTITY"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDabbandonare_1">
+		<SemanticArgument id="ARG0abbandonare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1abbandonare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDabbandonare_2">
+		<SemanticArgument id="ARG0abbandonare_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1abbandonare_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDabbandonare_3">
+		<SemanticArgument id="ARG0abbandonare_3">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1abbandonare_3">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2abbandonare_3">
+			<feat att="role" val="Role_Location"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Location"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDaccelerare_1">
+		<SemanticArgument id="ARG0accelerare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1accelerare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDaccelerare_2">
+		<SemanticArgument id="ARG0accelerare_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDacquistare_1">
+		<SemanticArgument id="ARG0acquistare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumans"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1acquistare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2acquistare_1">
+			<feat att="role" val="Role_2Participant"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumans"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDacquistare_2">
+		<SemanticArgument id="ARG0acquistare_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumans"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1acquistare_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2acquistare_2">
+			<feat att="role" val="Role_2Participant"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumans"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDacquistare_3">
+		<SemanticArgument id="ARG0acquistare_3">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1acquistare_3">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDamare_1">
+		<SemanticArgument id="ARG0amare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1amare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDamare_2">
+		<SemanticArgument id="ARG0amare_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1amare_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDamare_3">
+		<SemanticArgument id="ARG0amare_3">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1amare_3">
+			<feat att="role" val="Role_SOA_ARG"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDapparire_1">
+		<SemanticArgument id="ARG0apparire_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDapparire_2">
+		<SemanticArgument id="ARG0apparire_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1apparire_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDbagnare_5">
+		<SemanticArgument id="ARG0bagnare_5">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgLiquid"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1bagnare_5">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDballonzolare_1">
+		<SemanticArgument id="ARG0ballonzolare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1ballonzolare_1">
+			<feat att="role" val="Role_Location"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Location"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDbicchiere_1">
+		<SemanticArgument id="ARG0bicchiere_1">
+			<feat att="role" val="Role_HeadQuantified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgLiquid"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDcacciare_1">
+		<SemanticArgument id="ARG0cacciare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1cacciare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDcacciare_3">
+		<SemanticArgument id="ARG0cacciare_3">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1cacciare_3">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2cacciare_3">
+			<feat att="role" val="Role_Location"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Location"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDcellula_1">
+		<SemanticArgument id="ARG0cellula_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Institution"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDcentro_1">
+		<SemanticArgument id="ARG0centro_1">
+			<feat att="role" val="Role_Location"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Location"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDcoda_1">
+		<SemanticArgument id="ARG0coda_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDcoda_2">
+		<SemanticArgument id="ARG0coda_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Clothing"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDcoda_3">
+		<SemanticArgument id="ARG0coda_3">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDcolpire_1">
+		<SemanticArgument id="ARG0colpire_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1colpire_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDcolpire_2">
+		<SemanticArgument id="ARG0colpire_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1colpire_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2colpire_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDcolpo_1">
+		<SemanticArgument id="ARG0colpo_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemUnit"/>
+			<feat att="restriction" val="USem5536arma"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdebole_1">
+		<SemanticArgument id="ARG0debole_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgNotConcrete"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdebole_2">
+		<SemanticArgument id="ARG0debole_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Perception"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdebole_3">
+		<SemanticArgument id="ARG0debole_3">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdebole_4">
+		<SemanticArgument id="ARG0debole_4">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdebole_5">
+		<SemanticArgument id="ARG0debole_5">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdelegare_2">
+		<SemanticArgument id="ARG0delegare_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumans"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1delegare_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2delegare_2">
+			<feat att="role" val="Role_SOA_ARG"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdifendere_1">
+		<SemanticArgument id="ARG0difendere_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1difendere_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2difendere_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdifendere_2">
+		<SemanticArgument id="ARG0difendere_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1difendere_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdiffondere_1">
+		<SemanticArgument id="ARG0diffondere_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1diffondere_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdiffondere_2">
+		<SemanticArgument id="ARG0diffondere_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1diffondere_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdolce_1">
+		<SemanticArgument id="ARG0dolce_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgNotConcrete"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdolce_2">
+		<SemanticArgument id="ARG0dolce_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgEdible"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdolce_3">
+		<SemanticArgument id="ARG0dolce_3">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Phenomenon"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDdurare_1">
+		<SemanticArgument id="ARG0durare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDegoista_1">
+		<SemanticArgument id="ARG0egoista_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumanAndEvent"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDequilibrare_1">
+		<SemanticArgument id="ARG0equilibrare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1equilibrare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2equilibrare_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDequilibrato_1">
+		<SemanticArgument id="ARG0equilibrato_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDfaccia_1">
+		<SemanticArgument id="ARG0faccia_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDfaccia_2">
+		<SemanticArgument id="ARG0faccia_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDfiero_1">
+		<SemanticArgument id="ARG0fiero_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDfiero_2">
+		<SemanticArgument id="ARG0fiero_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1fiero_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgGeneral"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDfuoco_1">
+		<SemanticArgument id="ARG0fuoco_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Abstract_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDgabinetto_1">
+		<SemanticArgument id="ARG0gabinetto_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumans"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDgiocare_1">
+		<SemanticArgument id="ARG0giocare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1giocare_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDgiocare_2">
+		<SemanticArgument id="ARG0giocare_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1giocare_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDgraffiare_1">
+		<SemanticArgument id="ARG0graffiare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1graffiare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Body_part"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDgraffiare_2">
+		<SemanticArgument id="ARG0graffiare_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1graffiare_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDgraffiare_3">
+		<SemanticArgument id="ARG0graffiare_3">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAgentive"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1graffiare_3">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDguidare_1">
+		<SemanticArgument id="ARG0guidare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1guidare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Vehicle"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDguidare_2">
+		<SemanticArgument id="ARG0guidare_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1guidare_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumanHumanGroup"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDidiota_1">
+		<SemanticArgument id="ARG0idiota_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDidiota_2">
+		<SemanticArgument id="ARG0idiota_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDilluminare_1">
+		<SemanticArgument id="ARG0illuminare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgConcrete"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1illuminare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDilluminare_3">
+		<SemanticArgument id="ARG0illuminare_3">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1illuminare_3">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDimmagine_1">
+		<SemanticArgument id="ARG0immagine_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDimmagine_2">
+		<SemanticArgument id="ARG0immagine_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDimmagine_3">
+		<SemanticArgument id="ARG0immagine_3">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDimmagine_4">
+		<SemanticArgument id="ARG0immagine_4">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDintervenire_1">
+		<SemanticArgument id="ARG0intervenire_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1intervenire_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDintervenire_2">
+		<SemanticArgument id="ARG0intervenire_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1intervenire_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDintervenire_3">
+		<SemanticArgument id="ARG0intervenire_3">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1intervenire_3">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDintervenire_4">
+		<SemanticArgument id="ARG0intervenire_4">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1intervenire_4">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDirrigare_1">
+		<SemanticArgument id="ARG0irrigare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAgentive"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1irrigare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Location"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDlutto_1">
+		<SemanticArgument id="ARG0lutto_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumans"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1lutto_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDrapporto_1">
+		<SemanticArgument id="ARG0rapporto_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1rapporto_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDrapporto_2">
+		<SemanticArgument id="ARG0rapporto_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDrealizzare_1">
+		<SemanticArgument id="ARG0realizzare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1realizzare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDrealizzare_2">
+		<SemanticArgument id="ARG0realizzare_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumans"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1realizzare_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Amount"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDrealizzare_3">
+		<SemanticArgument id="ARG0realizzare_3">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1realizzare_3">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDrealizzare_4">
+		<SemanticArgument id="ARG0realizzare_4">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1realizzare_4">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDrealizzare_6">
+		<SemanticArgument id="ARG0realizzare_6">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1realizzare_6">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDriuscire_1">
+		<SemanticArgument id="ARG0riuscire_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDriuscire_2">
+		<SemanticArgument id="ARG0riuscire_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1riuscire_2">
+			<feat att="role" val="Role_SOA_ARG"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtesta_1">
+		<SemanticArgument id="ARG0testa_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtirchio_1">
+		<SemanticArgument id="ARG0tirchio_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtrovare_1">
+		<SemanticArgument id="ARG0trovare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1trovare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtrovare_10">
+		<SemanticArgument id="ARG0trovare_10">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1trovare_10">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtrovare_11">
+		<SemanticArgument id="ARG0trovare_11">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1trovare_11">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtrovare_2">
+		<SemanticArgument id="ARG0trovare_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1trovare_2">
+			<feat att="role" val="Role_Location"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtrovare_4">
+		<SemanticArgument id="ARG0trovare_4">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1trovare_4">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtrovare_5">
+		<SemanticArgument id="ARG0trovare_5">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1trovare_5">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2trovare_5">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtrovare_6">
+		<SemanticArgument id="ARG0trovare_6">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1trovare_6">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtrovare_7">
+		<SemanticArgument id="ARG0trovare_7">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1trovare_7">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgAnimate"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2trovare_7">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtrovare_8">
+		<SemanticArgument id="ARG0trovare_8">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1trovare_8">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2trovare_8">
+			<feat att="role" val="Role_Location"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDtrovare_9">
+		<SemanticArgument id="ARG0trovare_9">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1trovare_9">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvassoio_1">
+		<SemanticArgument id="ARG0vassoio_1">
+			<feat att="role" val="Role_HeadQuantified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgEdible"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvincere_1">
+		<SemanticArgument id="ARG0vincere_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1vincere_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvincere_2">
+		<SemanticArgument id="ARG0vincere_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1vincere_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvincere_3">
+		<SemanticArgument id="ARG0vincere_3">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvincere_4">
+		<SemanticArgument id="ARG0vincere_4">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1vincere_4">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvotare_1">
+		<SemanticArgument id="ARG0votare_1">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHumans"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1votare_1">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvotare_2">
+		<SemanticArgument id="ARG0votare_2">
+			<feat att="role" val="Role_ProtoAgent"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG1votare_2">
+			<feat att="role" val="Role_ProtoPatient"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+		<SemanticArgument id="ARG2votare_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvuoto_1">
+		<SemanticArgument id="ARG0vuoto_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Concrete_entity"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvuoto_2">
+		<SemanticArgument id="ARG0vuoto_2">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Location"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvuoto_3">
+		<SemanticArgument id="ARG0vuoto_3">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgHuman"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvuoto_4">
+		<SemanticArgument id="ARG0vuoto_4">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="Notion"/>
+			<feat att="restriction" val="ArgNotConcrete"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDvuoto_5">
+		<SemanticArgument id="ARG0vuoto_5">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Event"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SemanticPredicate id="PREDzampa_1">
+		<SemanticArgument id="ARG0zampa_1">
+			<feat att="role" val="Role_Underspecified"/>
+			<feat att="restriction_type" val="SemType"/>
+			<feat att="restriction" val="Furniture"/>
+		</SemanticArgument>
+	</SemanticPredicate>
+	<SynSemCorrespondence id="AUG0to1nagorins">
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="AUG0to2">
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="AUG0to3">
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="AUG0to3obj">
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="AUG1to2erg1orerg2">
+		<SynSemArgMap synFeature="pos0" semFeature="arg1"/>
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="AUG1to2obj">
+		<SynSemArgMap synFeature="pos0" semFeature="arg1"/>
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="AUG1to3arg1">
+		<SynSemArgMap synFeature="pos0" semFeature="arg1"/>
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="AUG2to3A">
+		<SynSemArgMap synFeature="pos0" semFeature="arg0"/>
+		<SynSemArgMap synFeature="pos1" semFeature="arg1"/>
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="CROSSEDbivalent">
+		<SynSemArgMap synFeature="pos1" semFeature="arg0"/>
+		<SynSemArgMap synFeature="pos0" semFeature="arg1"/>
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="ISObivalent">
+		<SynSemArgMap synFeature="pos0" semFeature="arg0"/>
+		<SynSemArgMap synFeature="pos1" semFeature="arg1"/>
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="ISOmonovalent">
+		<SynSemArgMap synFeature="pos0" semFeature="arg0"/>
+	</SynSemCorrespondence>
+	<SynSemCorrespondence id="ISOtrivalent">
+		<SynSemArgMap synFeature="pos0" semFeature="arg0"/>
+		<SynSemArgMap synFeature="pos1" semFeature="arg1"/>
+		<SynSemArgMap synFeature="pos2" semFeature="arg2"/>
+	</SynSemCorrespondence>
+</Lexicon>
+</LexicalResource>

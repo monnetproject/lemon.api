@@ -1,0 +1,4914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<!DOCTYPE LexicalResource SYSTEM "LMFNLP.dtd"> -->
+<LexicalResource dtdVersion="16">
+    <GlobalInformation>
+        <feat att="label" val="Spanish test suites"/>
+        <feat att="languageCoding" val="ISO 639-3"/>
+    </GlobalInformation>
+    <Lexicon>
+        <feat att="language" val="spa"/>
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="asestar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="asestaría"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="conditional" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="horripilador"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="horripiladores"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="chirlar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="chirlase"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="pataruco"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="patarucas"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="peligrar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="peligrase"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="vendar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="vendármelo"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="enraigonar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="enraigonando"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="titular"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="titulármeles"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="adeudar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="adeudándoles"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="niaja"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="niajas"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="revolotear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="revoloteárselas"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="cubrir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="cubriéndotelas"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="revolucionar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="revolucionándotele"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="tapiar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="tapiaba"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="nasalizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="nasalizo"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="lloriquear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="lloriqueándolo"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="adverb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="judaizante"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="judaizantemente"/>
+
+
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="salón"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="salón"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="utilizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="utilizándolas"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="aguasalear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="aguasalearas"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="seleccionar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="seleccionáremos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="escorar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="escorándooslos"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="amachambrarse"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="amachambráis"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="amoragar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="amorago"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="pleitear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="pleitearen"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="palotear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="paloteáremos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="desfibrar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="desfibrarás"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="secondPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="apalabrar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="apalabro"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="alumbrar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="alumbrándotelo"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="motejar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="motejándomele"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="travestir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="travistes"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="acelerar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="acelerármelo"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="envejecer"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="envejeciéndooslos"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="antorchar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="antorchabas"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="aguazar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="aguazaban"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="amaestrador"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="amaestradores"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="fistular"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="fistulaba"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="relucir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="relucía"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="embotellar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="embotellaremos"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="acusar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="acusándonoslas"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="digitalizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="digitalice"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="interpelar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="interpelándooslas"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="profesionalizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="profesionalizárosle"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="charol"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="charol"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="ansiar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="ansiaríais"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="conditional" />
+
+                <feat att="person" val="secondPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="empellejar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="empellejareis"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="refractar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="refractásemos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="panegírico"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="panegíricos"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="rumorar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="rumoraban"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="desasistir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="desasistiéndoselas"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="reintegrar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="reintegrárosla"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="tegméntum"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="tegméntum"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="cinchar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="cinchábamos"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="determinante"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="determinantes"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="hiperfagia"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="hiperfagias"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="pitar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="pitándotele"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="tántrico"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="tántricas"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="escocer"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="escociésemos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="advertir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="advirtiéndosela"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="mite"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="mite"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="subasta"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="subastas"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="anecdótico"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="anecdóticos"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="dirigir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="dirigiese"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="doctrinar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="doctrinemos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="ayatear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="ayatearen"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="rehalí"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="rehalíes"/>
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="arder"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="ardérseles"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="husmear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="husmeándomelas"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="abarcar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="abarcándotelos"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="contravenir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="contraviniereis"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="graminívoro"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="graminívoras"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="aborricar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="aborricarais"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="originar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="originándooslos"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="pauperizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="pauperizará"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="repercudir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="repercudís"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="engrasar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="engrasara"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+
+
+                <feat att="writtenForm" val="estivar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="estivaba"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="mendigar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="mendigarías"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="conditional" />
+
+                <feat att="person" val="secondPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="adverb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="pingajoso"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="pingajosamente"/>
+
+
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="escavillar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="escavillarían"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="conditional" />
+
+                <feat att="person" val="thirdPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="morfonología"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="morfonologías"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="intubar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="intubándosela"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="preposition" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="de_el"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="del"/>
+
+
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="galactosidasa"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="galactosidasa"/>
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="holgar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="holgármelas"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="notar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="notaríamos"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="conditional" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="uñeta"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="uñeta"/>
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="gormar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="gormaran"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="bichar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="bichásemos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="hastiar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="hastiándoos"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="entarascar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="entarascaremos"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="soguear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="sogueas"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="amaestrador"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="amaestradores"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="inconsciente"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="inconscientes"/>
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="vitaminar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="vitamináremos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="mohatrar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="mohatrarías"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="conditional" />
+
+                <feat att="person" val="secondPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="ninivita"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="ninivita"/>
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="recostar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="recostándonosle"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="rehilar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="rehilarais"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="adverb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="corriente"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="corrientemente"/>
+
+
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="desflorecer"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="desflorezcáis"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="desfloreciere"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="chumpipear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="chumpipease"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="tijeretear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="tijereteábamos"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="desemponzoñar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="desemponzoñar"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="núbil"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="núbiles"/>
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="entercarse"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="entercase"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="emparejar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="emparejárselo"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="preguntar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="preguntáremos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="agachar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="agacharla"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="embochicar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="embochicásemos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="sacarificar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="sacarificares"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="entorchar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="entorchen"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="desbarrancar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="desbarrancáremos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="nosográfico"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="nosográficos"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="dentalizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="dentalizares"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="poliploidía"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="poliploidías"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="encrespador"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="encrespador"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="chascón"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="chascones"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="peregrinar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="peregrinándomeles"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="importantizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="importantices"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="fagolisosoma"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="fagolisosoma"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="encrespador"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="encrespador"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="desconocer"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="desconocértelos"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="mozonear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="mozoneases"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="simultanear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="simultaneándomela"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="inconsciente"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="inconscientes"/>
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="determinante"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="determinantes"/>
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="traspasar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="traspasárnoslos"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="crioptogénico"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="crioptogénica"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="reparar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="repararían"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="conditional" />
+
+                <feat att="person" val="thirdPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="resfriar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="resfriándonoslos"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="conjurar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="conjurarnos"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="atunar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="atunares"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="espabilar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="espabilarte"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="eyectar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="eyectaren"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="abichar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="abicharon"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="past" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="desabotonar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="desabotonasteis"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="past" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="carquiñol"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="carquiñoles"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="enfoscar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="enfoscaríais"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="conditional" />
+
+                <feat att="person" val="secondPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="estriar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="estriaron"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="past" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="doctorear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="doctorea"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="terrosidad"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="terrosidades"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="palatalizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="palatalizara"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="añuquir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="añuquieras"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="destrizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="destrizará"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="enhebrar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="enhebre"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="sectorizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="sectorizaseis"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="descalabazarse"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="descalabazaríais"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="conditional" />
+
+                <feat att="person" val="secondPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="repintar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="repintaron"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="past" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="pleita"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="pleitas"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="rehalí"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="rehalíes"/>
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="calabazo"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="calabazo"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="entrevistar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="entrevistasteis"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="past" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="abancuchar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="abancuchen"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="fundar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="fundarais"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="destramar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="destramásemos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="planear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="planeándoosle"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="reclinar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="reclinarme"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="custodiar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="custodiaréis"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="secondPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="mundanizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="mundanizáramos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="secretante"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="secretantes"/>
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="catabolizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="catabolizáis"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="sunchar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="sunchen"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="horripilador"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="horripiladores"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="panegírico"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="panegíricos"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="hartera"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="hartera"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="trasparentar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="trasparentármelas"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="queta"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="quetas"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="disfrazar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="disfrazarlos"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="masculinizar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="masculinizándooslo"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="remondar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="remondéis"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="anatomofisiológico"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="anatomofisiológica"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="alechugar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="alechugaríamos"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="conditional" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="luchar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="luchaba"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="hipomorfo"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="hipomorfas"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="remitir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="remitirse"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="surgir"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="surgiéndotela"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="subastar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="subastas"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="preposition" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="a_el"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="al"/>
+
+
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="afloramiento"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="afloramientos"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="tercerear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="tercereabais"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="secondPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="rezonglar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="rezongle"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="hozar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="hozárteles"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="acinturar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="acintura"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="interactuar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="interactuaron"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="past" />
+
+                <feat att="person" val="thirdPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="consultar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="consultarnos"/>
+
+                <feat att="verbFormMood" val="infinitive" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="ergocomb"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="ergocombs"/>
+
+                <feat att="grammaticalGender" val="masculine" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="apercollar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="apercollaré"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="chivear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="chiveéis"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="present" />
+
+                <feat att="person" val="secondPerson" />
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="qualifierAdjective" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="ninivita"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="ninivita"/>
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="constatar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="constatándomele"/>
+
+                <feat att="verbFormMood" val="gerund" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="commonNoun" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="vértebra"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="vértebra"/>
+
+                <feat att="grammaticalGender" val="feminine" />
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="desmaniguar"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="desmaniguáramos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="huesear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="huesearemos"/>
+
+                <feat att="verbFormMood" val="indicative" />
+
+                <feat att="grammaticalTense" val="future" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="plural" />
+
+            </WordForm>
+
+        </LexicalEntry>
+
+
+
+        <LexicalEntry>
+
+            <feat att="partOfSpeech" val="verb" />
+
+            <Lemma>
+
+                <feat att="writtenForm" val="machorrear"/>
+
+            </Lemma>
+
+            <WordForm>
+
+                <feat att="writtenForm" val="machorreáramos"/>
+
+                <feat att="verbFormMood" val="subjunctive" />
+
+                <feat att="grammaticalTense" val="imperfect" />
+
+                <feat att="person" val="firstPerson" /> 
+
+                <feat att="grammaticalNumber" val="singular" />
+
+            </WordForm>
+
+        </LexicalEntry>
+    </Lexicon>
+</LexicalResource>

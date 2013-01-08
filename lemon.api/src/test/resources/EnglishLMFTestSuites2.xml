@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE LexicalResource SYSTEM "DTD_LMF_REV_16.dtd">-->
+<LexicalResource dtdVersion="16">
+  <GlobalInformation>
+    <feat att="label" val="English LMF test suites on Syntactic data"/>
+    <feat att="languageCoding" val="ISO 639-3"/>
+  </GlobalInformation>
+  <Lexicon>
+    <feat att="language" val="eng"/>
+    <LexicalEntry>
+      <feat att="partOfSpeech" val="verb"/>
+      <Lemma>
+        <feat att="writtenForm" val="boil"/>
+      </Lemma>
+      <SyntacticBehaviour subcategorizationFrameSets="anticausativeVerbType1"/>
+    </LexicalEntry>
+    <SubcategorizationFrameSet  id= "anticausativeVerbType1"
+                  subcategorizationFrames= "regularSVO regularSV">
+      <SynArgMap arg1="synArgY" arg2="synArgZ"/>
+    </SubcategorizationFrameSet>
+    <SubcategorizationFrame id="regularSVO">
+      <SyntacticArgument id="synArgX">
+        <feat att="syntacticFunction" val="subject"/>
+        <feat att="syntacticConstituent" val="NP"/>
+      </SyntacticArgument>
+      <SyntacticArgument id="synArgY">
+        <feat att="syntacticFunction" val="object"/>
+        <feat att="syntacticConstituent" val="NP"/>
+      </SyntacticArgument>
+    </SubcategorizationFrame>
+    <SubcategorizationFrame id="regularSV">
+      <SyntacticArgument id="synArgZ">
+        <feat att="syntacticFunction" val="subject"/>
+        <feat att="syntacticConstituent" val="NP"/>
+      </SyntacticArgument>
+    </SubcategorizationFrame>
+  </Lexicon>
+</LexicalResource>
+

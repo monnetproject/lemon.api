@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LexicalResource dtdVersion="16">
+    <GlobalInformation>
+        <feat att="label"          val="LIRICS test suites number 2 for French"/>
+        <feat att="comment"        val="The multiword expression pomme de terre is described"/>
+        <feat att="author"         val="Gil Francopoulo"/>
+        <feat att="languageCoding" val="ISO 639-3"/>
+    </GlobalInformation>
+        <!--#######################################################core section -->
+    <Lexicon>
+        <feat att="language" val="fra"/>
+        <LexicalEntry mwePattern="NdeFixedN">
+            <feat att="partOfSpeech" val="noun"/>
+            <Lemma>
+                 <feat att="writtenForm" val="pomme de terre"/>
+            </Lemma>
+            <ListOfComponents>
+                 <Component entry="E1"/>
+                 <Component entry="E2"/>
+                 <Component entry="E3"/>
+            </ListOfComponents>
+        </LexicalEntry>
+        <LexicalEntry id="E1" morphologicalPatterns="AsTable">
+            <feat att="partOfSpeech" val="noun"/>
+            <Lemma>
+                 <feat att="writtenForm" val="pomme"/>
+            </Lemma>
+        </LexicalEntry>
+        <LexicalEntry id="E2" morphologicalPatterns="AsDe">
+            <feat att="partOfSpeech" val="preposition"/>
+            <Lemma>
+                 <feat att="writtenForm" val="de"/>
+            </Lemma>
+        </LexicalEntry>
+        <LexicalEntry id="E3" morphologicalPatterns="AsTable">
+            <feat att="partOfSpeech" val="noun"/>
+            <Lemma>
+                 <feat att="writtenForm" val="terre"/>
+            </Lemma>
+        </LexicalEntry>
+        <!--#######################################################paradigm patterns -->
+        <MorphologicalPattern id="AsTable">
+            <feat att="comment"      val="Intended for feminine regular nouns"/>
+            <feat att="partOfSpeech" val="noun"/>
+            <!--two values: the combination of sing/plur -->
+            <TransformSet>
+                <!-- sing, the ending is kept -->
+                <Process>
+                     <feat att="operator" val="addLemma"/>
+                </Process>
+                <GrammaticalFeatures>
+                     <feat att="grammaticalGender" val="feminine"/>
+                     <feat att="grammaticalNumber" val="singular"/>
+                </GrammaticalFeatures>
+            </TransformSet>
+            <TransformSet>
+                <!-- plur, an "s" is added -->
+                <Process>
+                     <feat att="operator" val="addLemma"/>
+                </Process>
+                <Process>
+                     <feat att="operator" val="addAfter"/>
+                     <feat att="stringValue" val="s"/>
+                </Process>
+                <GrammaticalFeatures>
+                     <feat att="grammaticalGender" val="feminine"/>
+                     <feat att="grammaticalNumber" val="plural"/>
+                </GrammaticalFeatures>
+            </TransformSet>
+        </MorphologicalPattern>
+        <MorphologicalPattern id="AsDe">
+            <feat att="comment"      val="For fixed grammatical words"/>
+            <feat att="partOfSpeech" val="preposition"/>
+        </MorphologicalPattern>
+        <!--#######################################################MWE patterns -->
+        <MWEPattern id="NdeFixedN">
+            <MWENode>
+                <feat att="syntacticConstituent"    val="NP"/>
+                <MWELex>
+                     <feat att="rank"               val="1"/>
+                     <feat att="graphicalSeparator" val="space"/>
+                     <feat att="structureHead"      val="yes"/>
+                </MWELex>
+                <MWELex>
+                     <feat att="rank"               val="2"/>
+                     <feat att="graphicalSeparator" val="space"/>
+                </MWELex>
+                <MWELex>
+                     <feat att="rank"               val="3"/>
+                     <feat att="graphicalSeparator" val="space"/>
+                     <feat att="grammaticalNumber"  val="singular"/>
+                </MWELex>
+            </MWENode>
+        </MWEPattern>
+    </Lexicon>
+</LexicalResource>
+
+
+

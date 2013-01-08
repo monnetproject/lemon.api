@@ -1,0 +1,91 @@
+http://www.lexinfo.net/ontology/2.0/lexinfo#GenitiveTransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#genitiveObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitivePPFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveInterrogativeInfinitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativeInfinitiveClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#ImpersonalTransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#PrepositionalPhraseFrame http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject http://www.lexinfo.net/ontology/2.0/lexinfo#complement
+http://www.lexinfo.net/ontology/2.0/lexinfo#ObjectControl
+http://www.lexinfo.net/ontology/2.0/lexinfo#DitransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#indirectObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#RaisingSubject http://www.lexinfo.net/ontology/2.0/lexinfo#subject
+http://www.lexinfo.net/ontology/2.0/lexinfo#PrepositionFrame
+http://www.lexinfo.net/ontology/2.0/lexinfo#SubjectlessTransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#GerundFrame http://www.monnet-project.eu/lemon#synArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#GerundACFrame http://www.monnet-project.eu/lemon#synArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#InterrogativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativeClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveInfinitiveSCFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#ImpersonalIntransitiveFrame
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveSuperlativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#superlativeAdjunct http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveDeclarativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#declarativeClause http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#NounPPFrame http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
+http://www.lexinfo.net/ontology/2.0/lexinfo#ReflexiveTransitivePPFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#object http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveInfinitiveRSFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPInfinitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveInfinitiveOCFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#ReflexiveTransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#object http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveSententialFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#sententialClause http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#ReflexiveDativeTransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#object http://www.lexinfo.net/ontology/2.0/lexinfo#indirectObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#DitransitiveDoubleAccusativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveInfinitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject
+http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossesiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#possesiveAdjunct http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveFrame
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveInfinitiveSCFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveAdjectivalComplementFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeAdjective
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveComparativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#comparativeAdjunct http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePredicativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveNominalComplementFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeNominative
+http://www.lexinfo.net/ontology/2.0/lexinfo#Control
+http://www.lexinfo.net/ontology/2.0/lexinfo#ArbitraryControl
+http://www.lexinfo.net/ontology/2.0/lexinfo#ReflexiveReciprocalFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#object
+http://www.lexinfo.net/ontology/2.0/lexinfo#SubjectlessIntransitivePPFrame http://www.lexinfo.net/ontology/2.0/lexinfo#indirectObject http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
+http://www.lexinfo.net/ontology/2.0/lexinfo#PPFrame http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveInterrogativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativeClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveAdverbialComplementFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeAdverb
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveInfinitiveACFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#NounPredicateFrame http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveInterrogativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativeClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#ReflexiveDitransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#object http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#indirectObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveSententialFrame http://www.lexinfo.net/ontology/2.0/lexinfo#sententialClause http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdverbialComplementFrame http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeAdverb
+http://www.lexinfo.net/ontology/2.0/lexinfo#InfinitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveAccusativePostPositiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg http://www.lexinfo.net/ontology/2.0/lexinfo#postPositiveArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveInfinitiveACFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveAdjectivalComplementFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeAdjective
+http://www.lexinfo.net/ontology/2.0/lexinfo#GenitiveDitransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#genitiveObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#ReflexiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#object
+http://www.lexinfo.net/ontology/2.0/lexinfo#NounFrame
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePPFrame http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject
+http://www.lexinfo.net/ontology/2.0/lexinfo#DativeTransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#indirectObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#SubjectlessIntransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#indirectObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePredicateFrame http://www.lexinfo.net/ontology/2.0/lexinfo#attributiveArg http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject
+http://www.lexinfo.net/ontology/2.0/lexinfo#PrepositionalInterrogativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalInterrogativeClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#DitransitiveFrame_To
+http://www.lexinfo.net/ontology/2.0/lexinfo#DitransitiveFrame_For
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPDeclarativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#declarativeClause http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveGenitivePostPositiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg http://www.lexinfo.net/ontology/2.0/lexinfo#postPositiveArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#InterrogativeInfinitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativeInfinitiveClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#ImpersonalFrame
+http://www.lexinfo.net/ontology/2.0/lexinfo#SubjectControl
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveAttributiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#attributiveArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#ReciprocalFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject
+http://www.lexinfo.net/ontology/2.0/lexinfo#SubjectlessFrame
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveDativePostPositiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg http://www.lexinfo.net/ontology/2.0/lexinfo#postPositiveArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveAdverbialComplementFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeAdverb
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveDeclarativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#declarativeClause http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveDeclarativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#declarativeClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#ImpersonalTransitiveDeclarativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#declarativeClause http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveNominalComplementFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeNominative http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#NominalComplementFrame http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeNominative
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivePostPositiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg http://www.lexinfo.net/ontology/2.0/lexinfo#postPositiveArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveImpersonalFrame http://www.lexinfo.net/ontology/2.0/lexinfo#object
+http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectivalComplementFrame http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeAdjective
+http://www.lexinfo.net/ontology/2.0/lexinfo#DeclarativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#declarativeClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#VerbFrame
+http://www.lexinfo.net/ontology/2.0/lexinfo#PrepositionalFrame http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
+http://www.lexinfo.net/ontology/2.0/lexinfo#SententialFrame http://www.lexinfo.net/ontology/2.0/lexinfo#sententialClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveInterrogativeInfinitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativeInfinitiveClause http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
+http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveSententialFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#sententialClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#ImpersonalIntransitiveSententialFrame http://www.lexinfo.net/ontology/2.0/lexinfo#sententialClause
+http://www.lexinfo.net/ontology/2.0/lexinfo#GerundSCFrame http://www.monnet-project.eu/lemon#synArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#GerundOCFrame http://www.monnet-project.eu/lemon#synArg
