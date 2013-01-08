@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>eu.monnetproject</groupId>
+    <artifactId>lemon.api.project</artifactId>
+    <version>1.13.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Lemon API</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <scala.version>2.9.0</scala.version>
+    </properties>
+    
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>Monnet01 Repository</name>
+            <url>file:///var/www/mvn/</url>
+        </repository>
+        <snapshotRepository>
+            <id>internal.repo</id>
+            <name>Monnet01 Repository</name>
+            <url>file:///var/www/mvn/</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+    
+    <repositories>
+        <repository>
+            <id>aduna</id>
+            <name>Aduna Repository</name>
+            <url>http://repo.aduna-software.org/maven2/releases/</url>
+        </repository>
+        <repository>
+            <id>monnet01</id>
+            <name>Monnet repository</name>
+            <url>http://monnet01.sindice.net/mvn</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>monnet01</id>
+            <name>Monnet plug-in repository</name>
+            <url>http://monnet01.sindice.net/mvn</url>
+        </pluginRepository>
+    </pluginRepositories>
+    
+    <modules>
+        <module>main</module>    
+        <module>oils</module>
+  </modules>
+  
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+  
+    <build>
+        <finalName>${project.groupId}.${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>2.3.6</version>
+                <extensions>true</extensions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.7</version>
+            </plugin>
+            <plugin>
+                <groupId>eu.monnetproject</groupId>
+                <artifactId>osgirun</artifactId>
+                <version>1.12.2</version>
+            </plugin>
+            <plugin>
+                <groupId>eu.monnetproject</groupId>
+                <artifactId>bndannotation</artifactId>
+                <version>1.12.2</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>bndannotation</goal>
+                        </goals>
+                        <phase>process-classes</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+        <pluginManagement>
+            <plugins>
+                <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+                <plugin>
+                    <groupId>org.eclipse.m2e</groupId>
+                    <artifactId>lifecycle-mapping</artifactId>
+                    <version>1.0.0</version>
+                    <configuration>
+                        <lifecycleMappingMetadata>
+                            <pluginExecutions>
+                                <pluginExecution>
+                                    <pluginExecutionFilter>
+                                        <groupId>
+                                            eu.monnetproject
+                                        </groupId>
+                                        <artifactId>
+                                            bndannotation
+                                        </artifactId>
+                                        <versionRange>
+                                            [1.12.2,)
+                                        </versionRange>
+                                        <goals>
+                                            <goal>bndannotation</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <ignore/>
+                                    </action>
+                                </pluginExecution>
+                            </pluginExecutions>
+                        </lifecycleMappingMetadata>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>
