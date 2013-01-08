@@ -21,11 +21,11 @@
             <version>1.4.0</version>
             <scope>test</scope>
         </dependency>
-       <!-- <dependency>
+        <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>nlp.core</artifactId>
+            <artifactId>ontology</artifactId>
             <version>${project.version}</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
     <build>
