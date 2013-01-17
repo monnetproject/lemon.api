@@ -27,6 +27,7 @@
 package eu.monnetproject.lemon;
 
 import eu.monnetproject.lemon.model.FormVariant;
+import eu.monnetproject.lemon.model.LemonPredicate;
 import eu.monnetproject.lemon.model.LexicalVariant;
 import eu.monnetproject.lemon.model.SenseRelation;
 import java.net.URI;
@@ -70,6 +71,13 @@ public abstract class AbstractVisitor implements ElementVisitor {
     @Override
     public boolean follow(URI uri) {
         return !nofollows.contains(uri.toString());
+    }
+
+    @Override
+    public boolean follow(LemonPredicate uri) {
+        return !(uri instanceof FormVariant) &&
+                !(uri instanceof LexicalVariant) &&
+                !(uri instanceof SenseRelation);
     }
 
     @Override

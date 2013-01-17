@@ -27,6 +27,7 @@
 package eu.monnetproject.lemon;
 
 import eu.monnetproject.lemon.model.LemonElement;
+import eu.monnetproject.lemon.model.LemonPredicate;
 import java.net.URI;
 
 /**
@@ -40,6 +41,12 @@ public interface ElementVisitor {
      * @param element 
      */
     void visit(LemonElement element);
+    /**
+     * Indicate if you wish the visitor to move across certain links
+     * @param uri The URI of the predicate in the model
+     * @return True to follow the link
+     */
+    boolean follow(LemonPredicate uri);
     /**
      * Indicate if you wish the visitor to move across certain links
      * @param uri The URI of the predicate in the model

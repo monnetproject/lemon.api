@@ -177,6 +177,15 @@ public abstract class LemonSerializer {
                     } else if (annoVal instanceof Text) {
                         final Text value = (Text) annoVal;
                         target.append(" xml:lang=\"" + value.language + "\">" + escapeXMLLiteral(value.value) + "</" + (matcher.matches() ? ("p1:" + matcher.group(1)) : (annoEntrys.getKey().toString())) + ">"+LS);
+                    } else if(annoVal instanceof Boolean) {
+                        final Boolean value = (Boolean)annoVal;
+                        target.append(" rdf:datatype=\"http://www.w3.org/2001/XMLSchema#boolean\">" + value + "</" + (matcher.matches() ? ("p1:" + matcher.group(1)) : (annoEntrys.getKey().toString())) + ">"+LS);
+                    } else if(annoVal instanceof Integer) {
+                        final Integer value = (Integer)annoVal;
+                        target.append(" rdf:datatype=\"http://www.w3.org/2001/XMLSchema#integer\">" + value + "</" + (matcher.matches() ? ("p1:" + matcher.group(1)) : (annoEntrys.getKey().toString())) + ">"+LS);
+                    } else if(annoVal instanceof Double) {
+                        final Double value = (Double)annoVal;
+                        target.append(" rdf:datatype=\"http://www.w3.org/2001/XMLSchema#double\">" + value + "</" + (matcher.matches() ? ("p1:" + matcher.group(1)) : (annoEntrys.getKey().toString())) + ">"+LS);
                     } else {
                         throw new RuntimeException("Unexpected annotation type " + annoVal.getClass().getName());
                     }

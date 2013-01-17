@@ -22,6 +22,7 @@ import eu.monnetproject.lemon.model.Lexicon;
 import eu.monnetproject.lemon.model.Node;
 import eu.monnetproject.lemon.model.Property;
 import eu.monnetproject.lemon.model.PropertyValue;
+import eu.monnetproject.lemon.model.SenseRelation;
 import eu.monnetproject.lemon.model.SynArg;
 import java.io.Reader;
 import java.io.StringReader;
@@ -125,7 +126,7 @@ public class LemonSerializerImplTest {
         Writer target = new StringWriter();
         instance.write(model, target);
         //System.out.println(target.toString());
-        assertEquals(expResult.replaceAll("\\s","").toLowerCase(), target.toString().replaceAll("\\s","").toLowerCase());
+        assertEquals(expResult.replaceAll("\\s", "").toLowerCase(), target.toString().replaceAll("\\s", "").toLowerCase());
     }
     private LemonModel lazyModel;
 
@@ -148,7 +149,6 @@ public class LemonSerializerImplTest {
         LemonModels.addEntryToLexicon(lexicon, URI.create("file:test#Sa\u00edocht"), "Sa\u00edocht", URI.create("http://ga.dbpedia.org/resource/Sa\u00edocht"));
         return lazyModel = model;
     }
-
 
     /**
      * Test of create method, of class LemonSerializerImpl.
@@ -503,12 +503,12 @@ public class LemonSerializerImplTest {
      */
     @Test
     public void testWriteEntry_utf8() {
-        String expResult = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + ls 
+        String expResult = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + ls
                 + "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">" + ls
                 + "  <lemon:LexicalEntry rdf:about=\"file:test#Sa\u00edocht\" xmlns:lemon=\"http://www.monnet-project.eu/lemon#\">" + ls
                 + "    <lemon:sense>" + ls
                 + "      <lemon:LexicalSense rdf:about=\"file:test#Sa\u00edocht/sense\">" + ls
-                + "        <lemon:reference rdf:resource=\"http://ga.dbpedia.org/resource/Sa\u00edocht\"/>" +ls
+                + "        <lemon:reference rdf:resource=\"http://ga.dbpedia.org/resource/Sa\u00edocht\"/>" + ls
                 + "      </lemon:LexicalSense>" + ls
                 + "    </lemon:sense>" + ls
                 + "    <lemon:canonicalForm>" + ls
@@ -518,7 +518,7 @@ public class LemonSerializerImplTest {
                 + "    </lemon:canonicalForm>" + ls
                 + "  </lemon:LexicalEntry>" + ls
                 + "</rdf:RDF>";
-        System.setProperty("lemon.api.xml.encoding","UTF-8");
+        System.setProperty("lemon.api.xml.encoding", "UTF-8");
         LemonSerializerImpl instance = new LemonSerializerImpl(null);
         LemonModel lm = makeModelUTF8(instance);
         LexicalEntry le = lm.getLexica().iterator().next().getEntrys().iterator().next();
@@ -526,8 +526,46 @@ public class LemonSerializerImplTest {
         Writer dt = new StringWriter();
         boolean xml = true;
         instance.writeEntry(lm, le, lo, dt, xml);
-        assertEquals(expResult.replaceAll("\\s",""), dt.toString().replaceAll("\\s",""));
-        System.setProperty("lemon.api.xml.encoding","US-ASCII");
+        assertEquals(expResult.replaceAll("\\s", ""), dt.toString().replaceAll("\\s", ""));
+        System.setProperty("lemon.api.xml.encoding", "US-ASCII");
         //assertEquals("","");
+    }
+
+    @Test
+    public void testWriteSenseRealtion() {
+        String expResult = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + ls
+                + "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">" + ls
+                + "  <lemon:LexicalEntry rdf:about=\"file:test#Sa\u00edocht\" xmlns:lemon=\"http://www.monnet-project.eu/lemon#\">" + ls
+                + "    <lemon:sense>" + ls
+                + "      <lemon:LexicalSense rdf:about=\"file:test#Sa\u00edocht/sense\">" + ls
+                + "        <lemon:reference rdf:resource=\"http://ga.dbpedia.org/resource/Sa\u00edocht\"/>" + ls
+                + "      </lemon:LexicalSense>" + ls
+                + "    </lemon:sense>" + ls
+                + "    <lemon:canonicalForm>" + ls
+                + "      <lemon:Form rdf:about=\"file:test#Sa\u00edocht/canonicalForm\">" + ls
+                + "        <lemon:writtenRep xml:lang=\"ga\">Sa\u00edocht</lemon:writtenRep>" + ls
+                + "      </lemon:Form>" + ls
+                + "    </lemon:canonicalForm>" + ls
+                + "  </lemon:LexicalEntry>" + ls
+                + "</rdf:RDF>";
+        final String PREFIX = "http://lemon-model.net/lexica/tmp#";
+        class SynsetRelation extends URIElement implements SenseRelation {
+
+            public SynsetRelation(String name) {
+                super(URI.create(PREFIX + name.replaceAll("\\s", "_").replaceAll("[\\(\\)]", "")));
+            }
+        }
+        LemonSerializerImpl instance = new LemonSerializerImpl(null);
+        LemonModel lm = instance.create();
+        final Lexicon lexicon = lm.addLexicon(URI.create(PREFIX + "lexicon__en"), "en");
+        final LexicalEntry entry = LemonModels.addEntryToLexicon(lexicon, URI.create(PREFIX + "entry1"), "entry", URI.create(PREFIX + "class1"));
+        final LexicalSense firstSense = entry.getSenses().iterator().next();
+        firstSense.addSenseRelation(new SynsetRelation("test"), lm.getFactory().makeSense(URI.create(PREFIX + "sense2")));
+        LexicalEntry le = lm.getLexica().iterator().next().getEntrys().iterator().next();
+        LinguisticOntology lo = new LexInfo();
+        Writer dt = new StringWriter();
+        boolean xml = true;
+        instance.writeEntry(lm, le, lo, dt, xml);
+        assert(dt.toString().contains("<lemon:LexicalSense rdf:about=\"http://lemon-model.net/lexica/tmp#sense2\"/>"));
     }
 }

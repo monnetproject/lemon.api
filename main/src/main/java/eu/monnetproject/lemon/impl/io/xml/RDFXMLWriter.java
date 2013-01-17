@@ -22,7 +22,7 @@
  * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- ********************************************************************************
+ * *******************************************************************************
  */
 package eu.monnetproject.lemon.impl.io.xml;
 
@@ -52,6 +52,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import net.lexinfo.LexInfo;
 import org.w3c.dom.Attr;
+import org.w3c.dom.DOMException;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -122,7 +123,13 @@ public class RDFXMLWriter extends AbstractVisitor {
                 if (uri.toString().equals(RDF + "type") && obj instanceof URI && obj.toString().equals(LemonModel.LEMON_URI + element.getModelName())) {
                     continue;
                 }
-                final Element predNode = prefix != null ? document.createElementNS(prefix, suffix) : document.createElement(suffix);
+                final Element predNode;
+                try {
+                    predNode = prefix != null ? document.createElementNS(prefix, suffix) : document.createElement(suffix);
+                } catch (DOMException x) {
+                    System.err.println(prefix + "::" + suffix);
+                    throw x;
+                }
                 if (prefix != null && prefix.equals(LemonModel.LEMON_URI)) {
                     predNode.setPrefix("lemon");
                 } else if (prefix != null && prefix.equals(LexInfo.LEXINFO_URI)) {
@@ -160,6 +167,27 @@ public class RDFXMLWriter extends AbstractVisitor {
                     predNode.appendChild(textNode);
                     final Attr xmlLang = document.createAttribute("xml:lang");
                     xmlLang.setTextContent(text.language.toString());
+                    predNode.getAttributes().setNamedItem(xmlLang);
+                } else if (obj instanceof Boolean) {
+                    Boolean bool = (Boolean) obj;
+                    final org.w3c.dom.Text textNode = document.createTextNode(bool.toString());
+                    predNode.appendChild(textNode);
+                    final Attr xmlLang = document.createAttribute("rdf:datatype");
+                    xmlLang.setTextContent("http://www.w3.org/2001/XMLSchema#boolean");
+                    predNode.getAttributes().setNamedItem(xmlLang);
+                } else if (obj instanceof Integer) {
+                    Integer bool = (Integer) obj;
+                    final org.w3c.dom.Text textNode = document.createTextNode(bool.toString());
+                    predNode.appendChild(textNode);
+                    final Attr xmlLang = document.createAttribute("rdf:datatype");
+                    xmlLang.setTextContent("http://www.w3.org/2001/XMLSchema#integer");
+                    predNode.getAttributes().setNamedItem(xmlLang);
+                } else if (obj instanceof Double) {
+                    Double bool = (Double) obj;
+                    final org.w3c.dom.Text textNode = document.createTextNode(bool.toString());
+                    predNode.appendChild(textNode);
+                    final Attr xmlLang = document.createAttribute("rdf:datatype");
+                    xmlLang.setTextContent("http://www.w3.org/2001/XMLSchema#double");
                     predNode.getAttributes().setNamedItem(xmlLang);
                 } else if (obj instanceof String) {
                     String str = (String) obj;
@@ -256,7 +284,7 @@ public class RDFXMLWriter extends AbstractVisitor {
         Transformer trans = getTransformer();
         trans.setOutputProperty(OutputKeys.INDENT, "yes");
         //trans.setOutputProperty(OutputKeys.ENCODING, "ascii");
-        trans.setOutputProperty(OutputKeys.ENCODING,System.getProperty("lemon.api.xml.encoding","us-ascii"));
+        trans.setOutputProperty(OutputKeys.ENCODING, System.getProperty("lemon.api.xml.encoding", "us-ascii"));
         StreamResult result = new StreamResult(new StringWriter());
         DOMSource source = new DOMSource(document);
         trans.transform(source, result);

@@ -177,7 +177,7 @@ public abstract class LemonElementImpl<Elem extends LemonElement> extends URIEle
     @Override
     public boolean addAnnotation(URI uri, Object o) {
         checkRemote = false;
-        if (o instanceof URI || o instanceof String || o instanceof Text) {
+        if (o instanceof URI || o instanceof String || o instanceof Text || o instanceof Boolean || o instanceof Integer || o instanceof Double) {
             if (!annotations.containsKey(uri)) {
                 annotations.put(uri, new LinkedList<Object>());
             }
@@ -190,7 +190,7 @@ public abstract class LemonElementImpl<Elem extends LemonElement> extends URIEle
     @Override
     public boolean removeAnnotation(URI uri, Object o) {
         checkRemote = false;
-        if (o instanceof URI || o instanceof String || o instanceof Text) {
+        if (o instanceof URI || o instanceof String || o instanceof Text || o instanceof Boolean || o instanceof Integer || o instanceof Double) {
             if (!annotations.containsKey(uri)) {
                 annotations.put(uri, new LinkedList<Object>());
             }
@@ -704,7 +704,7 @@ public abstract class LemonElementImpl<Elem extends LemonElement> extends URIEle
             final Collection<LemonElement> elems = elemsES.getValue();
             for (LemonElement elem : elems) {
                 if (elem instanceof LemonElementImpl) {
-                    if (!visitor.follow(pred.getURI()) || follow(pred)) {
+                    if (!visitor.follow(pred) || follow(pred)) {
                         ((LemonElementImpl) elem).accept(visitor);
                     }
                 } else {

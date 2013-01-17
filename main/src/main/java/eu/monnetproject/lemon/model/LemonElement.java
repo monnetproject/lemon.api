@@ -56,18 +56,18 @@ public interface LemonElement extends LemonElementOrPredicate {
 	void removeType(URI uri);
         /** 
          * Get any annotations for this element 
-         * @return A map where the value is a collection of either java.net.URI, java.lang.String (blank nodes) or eu.monnetproject.lemon.model.Text
+         * @return A map where the value is a collection of either java.net.URI, java.lang.String (blank nodes), eu.monnetproject.lemon.model.Text, Boolean, Double or Integer
          */
         Map<URI,Collection<Object>> getAnnotations();
         /** 
          * Get the set of annotations for this property 
-         * @return A collection of either java.net.URI, java.lang.String (blank nodes) or eu.monnetproject.lemon.model.Text
+         * @return A collection of either java.net.URI, java.lang.String (blank nodes), eu.monnetproject.lemon.model.Text, Boolean, Double or Integer
          */
         Collection<Object> getAnnotations(final URI annotation);
         /** 
          * Add an annotation to this element 
          * @param annotationProperty The annotation property
-         * @param annotation Either a java.net.URI, java.lang.String (blank nodes) or eu.monnetproject.lemon.model.Text
+         * @param annotation Either a java.net.URI, java.lang.String (blank nodes), eu.monnetproject.lemon.model.Text, Boolean, Double or Integer
          * @return true if the element changed
          * @throws IllegalArgumentException If the annotation is not of the appropriate type
          */
@@ -75,7 +75,7 @@ public interface LemonElement extends LemonElementOrPredicate {
         /**  
          * Remove an annotation from this element 
          * @param annotationProperty The annotation property
-         * @param annotation Either a java.net.URI, java.lang.String (blank nodes) or eu.monnetproject.lemon.model.Text
+         * @param annotation Either a java.net.URI, java.lang.String (blank nodes), eu.monnetproject.lemon.model.Text, Boolean, Double or Integer
          * @return true if the element changed
          * @throws IllegalArgumentException If the annotation is not of the appropriate type
          */
