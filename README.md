@@ -9,12 +9,12 @@ The lemon (Lexicon Model for Ontologies) API provides a programmatic interface f
 * Modular
 * Semantics by Reference
 
-For more details of the lemon model see [http://lemon-model.net]
+For more details of the lemon model see http://lemon-model.net
 
-Javadoc
+JavaDoc
 -------
 
-
+JavaDoc is available at http://monnetproject.github.com/lemon.api/
 
 Usage Example
 -------------
