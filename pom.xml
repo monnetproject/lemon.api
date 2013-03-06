@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>eu.monnetproject</groupId>
     <artifactId>lemon.api.project</artifactId>
-    <version>1.13.1-SNAPSHOT</version>
+    <version>1.13.3</version>
     <packaging>pom</packaging>
     <name>Lemon API</name>
 
