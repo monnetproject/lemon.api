@@ -56,14 +56,14 @@ import java.util.Map;
 public abstract class LemonElementImpl<Elem extends LemonElement> extends URIElement implements LemonElement, ReaderAccepter, IntrospectableElement, Serializable {
 
     public static final URI RDF_TYPE = URI.create("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-    private final HashMap<LemonPredicate, Collection<LemonElement>> predElems =
-            new HashMap<LemonPredicate, Collection<LemonElement>>();
-    private final HashMap<String, Collection<LemonElement>> strElems =
-            new HashMap<String, Collection<LemonElement>>();
-    private final HashMap<String, LemonElement> strElem =
-            new HashMap<String, LemonElement>();
-    private final HashMap<String, Text> strText =
-            new HashMap<String, Text>();
+    private final Map<LemonPredicate, Collection<LemonElement>> predElems =
+            Collections.synchronizedMap(new HashMap<LemonPredicate, Collection<LemonElement>>());
+    private final Map<String, Collection<LemonElement>> strElems =
+            Collections.synchronizedMap(new HashMap<String, Collection<LemonElement>>());
+    private final Map<String, LemonElement> strElem =
+            Collections.synchronizedMap(new HashMap<String, LemonElement>());
+    private final Map<String, Text> strText =
+            Collections.synchronizedMap(new HashMap<String, Text>());
     private HashSet<URI> types = new HashSet<URI>();
     protected List<LemonElementImpl<?>> referencers = new LinkedList<LemonElementImpl<?>>();
     private final HashMap<URI, Collection<Object>> annotations = new HashMap<URI, Collection<Object>>();
