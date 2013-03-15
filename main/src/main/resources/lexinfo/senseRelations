@@ -6,3 +6,15 @@ incompatible	http://www.monnet-project.eu/lemon#incompatible
 exact	http://www.lexinfo.net/ontology/2.0/lexinfo#exact
 narrower	http://www.monnet-project.eu/lemon#narrower
 translation	http://www.lexinfo.net/ontology/2.0/lexinfo#translation
+hypernym	http://www.lexinfo.net/ontology/2.0/lexinfo#hypernym
+hyponym	http://www.lexinfo.net/ontology/2.0/lexinfo#hyponym
+exact	http://www.lexinfo.net/ontology/2.0/lexinfo#exact
+antonymTerm	http://www.lexinfo.net/ontology/2.0/lexinfo#antonymTerm
+meronymTerm	http://www.lexinfo.net/ontology/2.0/lexinfo#meronymTerm
+holonymTerm	http://www.lexinfo.net/ontology/2.0/lexinfo#holonymTerm
+substanceMeronym	http://www.lexinfo.net/ontology/2.0/lexinfo#substanceMeronym
+memberMeronym	http://www.lexinfo.net/ontology/2.0/lexinfo#memberMeronym
+partMeronym	http://www.lexinfo.net/ontology/2.0/lexinfo#partMeronym
+substanceHolonym	http://www.lexinfo.net/ontology/2.0/lexinfo#substanceHolonym
+memberHolonym	http://www.lexinfo.net/ontology/2.0/lexinfo#memberHolonym
+partHolonym	http://www.lexinfo.net/ontology/2.0/lexinfo#partHolonym
