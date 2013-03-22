@@ -235,6 +235,7 @@ acronym	http://www.lexinfo.net/ontology/2.0/lexinfo#acronym
 inessiveCase	http://www.lexinfo.net/ontology/2.0/lexinfo#inessiveCase
 interrogativeRelativePronoun	http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativeRelativePronoun
 past	http://www.lexinfo.net/ontology/2.0/lexinfo#past
+preterite	http://www.lexinfo.net/ontology/2.0/lexinfo#preterite
 interrogativePronoun	http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativePronoun
 suffix	http://www.lexinfo.net/ontology/2.0/lexinfo#suffix
 massNoun	http://www.lexinfo.net/ontology/2.0/lexinfo#massNoun
