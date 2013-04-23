@@ -385,7 +385,14 @@ public class AccepterFactory {
 
     public LexiconImpl getLexiconImpl(String bNode) {
         if (accepters.containsKey(bNode)) {
-            return (LexiconImpl) accepters.get(bNode);
+            if(accepters.get(bNode) instanceof LexiconImpl) {
+                return (LexiconImpl) accepters.get(bNode);
+            } else {
+                final LexiconImpl actual = new LexiconImpl(bNode,model);
+                model.addLexicon(actual);
+                addAccepter(bNode, actual);
+                return actual;
+            }
         } else {
             final LexiconImpl lexiconImpl = new LexiconImpl(bNode, model);
             model.addLexicon(lexiconImpl);

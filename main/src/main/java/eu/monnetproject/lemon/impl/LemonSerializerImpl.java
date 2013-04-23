@@ -118,6 +118,7 @@ public class LemonSerializerImpl extends LemonSerializer {
                 throw new IllegalArgumentException("Cannot write model I didn't create");
             }
             target.append(visitor.getDocument());
+            target.flush();
         } catch (IOException x) {
             throw new RuntimeException(x);
         } catch (ParserConfigurationException x) {
@@ -147,6 +148,7 @@ public class LemonSerializerImpl extends LemonSerializer {
                 throw new IllegalArgumentException("Cannot write model I didn't create");
             }
             target.append(visitor.getDocument());
+            target.flush();
         } catch (IOException x) {
             throw new RuntimeException(x);
         } catch (ParserConfigurationException x) {

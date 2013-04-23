@@ -24,6 +24,8 @@ import eu.monnetproject.lemon.model.Property;
 import eu.monnetproject.lemon.model.PropertyValue;
 import eu.monnetproject.lemon.model.SenseRelation;
 import eu.monnetproject.lemon.model.SynArg;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.io.Reader;
 import java.io.StringReader;
 import java.io.StringWriter;
@@ -567,5 +569,33 @@ public class LemonSerializerImplTest {
         boolean xml = true;
         instance.writeEntry(lm, le, lo, dt, xml);
         assert(dt.toString().contains("<lemon:LexicalSense rdf:about=\"http://lemon-model.net/lexica/tmp#sense2\"/>"));
+    }
+    
+    @Test
+    public void testSimpleSerialization() throws IOException {
+        
+        final LemonSerializer serializer = LemonSerializer.newInstance();
+        final LemonModel model = serializer.create();
+        final Lexicon lexicon = model.addLexicon(
+           URI.create("http://www.example.com/mylexicon"),
+           "en" /*English*/);
+        final LexicalEntry entry = LemonModels.addEntryToLexicon(
+           lexicon,
+           URI.create("http://www.example.com/mylexicon/cat"),
+           "cat",
+           URI.create("http://dbpedia.org/resource/Cat"));
+
+        final LemonFactory factory = model.getFactory();
+        final LexicalForm pluralForm = factory.makeForm();
+        pluralForm.setWrittenRep(new Text("cats", "en"));
+        final LinguisticOntology lingOnto = new LexInfo();
+        pluralForm.addProperty(
+           lingOnto.getProperty("number"),
+           lingOnto.getPropertyValue("plural"));
+        entry.addOtherForm(pluralForm);
+        final OutputStreamWriter osw = new OutputStreamWriter(System.out);
+
+        serializer.writeEntry(model, entry, lingOnto, osw);
+        osw.flush();
     }
 }

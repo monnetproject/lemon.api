@@ -78,7 +78,8 @@ public abstract class LemonSerializer {
      * Create a blank model
      *
      * @param graph The context of the model or null for no context
-     * @deprecated Deprecated, use either {@code create()} if the context is
+     * @deprecated Deprecated. It is strongly advised you always use a named graph
+     * for a lemon model. Use either {@code create()} if the context is
      * irrelevant or methods of particular implementations such as {@code LemonModels.sparqlEndpoint()}
      * to define a context.
      */

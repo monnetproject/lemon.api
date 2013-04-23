@@ -54,7 +54,7 @@ public interface LemonFactory {
 
     /**
      * Create a new blank node argument
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     Argument makeArgument();
@@ -66,7 +66,7 @@ public interface LemonFactory {
 
     /**
      * Create a new blank node component
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     Component makeComponent();
@@ -78,7 +78,7 @@ public interface LemonFactory {
 
     /**
      * Create a new blank node condition
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     SenseCondition makeCondition();
@@ -90,7 +90,7 @@ public interface LemonFactory {
 
     /**
      * Create a new blank node definition
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     SenseDefinition makeDefinition();
@@ -102,7 +102,7 @@ public interface LemonFactory {
 
     /**
      * Create a new blank node example
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     Example makeExample();
@@ -114,7 +114,7 @@ public interface LemonFactory {
 
     /**
      * Create a new blank node form
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     LexicalForm makeForm();
@@ -126,7 +126,7 @@ public interface LemonFactory {
 
     /**
      * Create a new blank node frame
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     Frame makeFrame();
@@ -163,7 +163,7 @@ public interface LemonFactory {
 
     /**
      * Create a morphological pattern
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     MorphPattern makeMorphPattern();
@@ -175,14 +175,14 @@ public interface LemonFactory {
 
     /**
      * Create a morphological transform
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     MorphTransform makeMorphTransform();
 
     /**
      * Create a new blank node entry
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     Node makeNode();
@@ -199,14 +199,14 @@ public interface LemonFactory {
 
     /**
      * Create a prototype
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     Prototype makePrototype();
 
     /**
      * Create a new blank node sense
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     LexicalSense makeSense();
@@ -218,7 +218,7 @@ public interface LemonFactory {
 
     /**
      * Make a generic element of the lemon model
-     * @deprecated Avoid blank nodes!
+     * @deprecated It is strongly advised that all elements in the lexicon have a name (URI).
      */
     @Deprecated
     <C extends LemonElement> C make(Class<C> lemonInterface, URI rdfClass);
