@@ -593,8 +593,8 @@ public class LemonSerializerImplTest {
            lingOnto.getProperty("number"),
            lingOnto.getPropertyValue("plural"));
         entry.addOtherForm(pluralForm);
+        
         final OutputStreamWriter osw = new OutputStreamWriter(System.out);
-
         serializer.writeEntry(model, entry, lingOnto, osw);
         osw.flush();
     }

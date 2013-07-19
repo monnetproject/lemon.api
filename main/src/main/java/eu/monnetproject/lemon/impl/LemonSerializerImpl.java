@@ -49,6 +49,7 @@ public class LemonSerializerImpl extends LemonSerializer {
 
     private final LinguisticOntology lingOnto;
     private boolean isClosed = false;
+    private boolean ignoreErrors = false;
 
     /**
      * DO NOT USE!. Obtain a serializer by {@code LemonSerializer.newInstance()}
@@ -192,13 +193,13 @@ public class LemonSerializerImpl extends LemonSerializer {
             throw new IllegalArgumentException("Lemon Model not created by this serializer");
         }
         final LemonModelImpl model = (LemonModelImpl) lm;
-        final RDFXMLReader rdfXMLReader = new RDFXMLReader(model);
+        final RDFXMLReader rdfXMLReader = new RDFXMLReader(model,ignoreErrors);
         try {
             rdfXMLReader.parse(source);
         } catch (Exception ex) {
             try {
                 source = new BufferedReader(new StringReader(sb.toString()));
-                final TurtleParser parser = new TurtleParser(source, model);
+                final TurtleParser parser = new TurtleParser(source, model, ignoreErrors);
                 parser.parse();
             } catch (Exception ex2) {
                 ex.printStackTrace();
@@ -227,7 +228,7 @@ public class LemonSerializerImpl extends LemonSerializer {
         if (!(lm instanceof LemonModelImpl)) {
             throw new IllegalArgumentException("Lemon Model not created by this serializer");
         }
-        final ReaderVisitor model = new ReaderVisitor(lm);
+        final ReaderVisitor model = new ReaderVisitor(lm, ignoreErrors);
         final RDFXMLReader rdfXMLReader = new RDFXMLReader(model);
         try {
             rdfXMLReader.parse(source);
@@ -313,4 +314,16 @@ public class LemonSerializerImpl extends LemonSerializer {
     public void close() {
         isClosed = true;
     }
+
+    @Override
+    public void setIgnoreModelErrors(boolean ignoreErrors) {
+        this.ignoreErrors = ignoreErrors;
+    }
+
+    @Override
+    public boolean ignoreModelErrors() {
+        return ignoreErrors;
+    }
+    
+    
 }

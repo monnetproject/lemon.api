@@ -84,6 +84,7 @@ public class SPARQLResolver implements RemoteResolver, LexiconResolver {
     private final Set<URI> graphs;
     private final LinguisticOntology lingOnto;
     private final HashMap<Object, ReaderAccepter> accepters = new HashMap<Object, ReaderAccepter>();
+    private final boolean ignoreErrors = false;
 
     public SPARQLResolver(URL endpoint, Set<URI> graphs, LinguisticOntology lingOnto) {
         this.endpoint = endpoint;
@@ -93,7 +94,7 @@ public class SPARQLResolver implements RemoteResolver, LexiconResolver {
 
     @Override
     public void resolveRemote(LemonModelImpl model, LemonElementImpl<?> element, int depth) {
-        final AccepterFactory accepterFactory = new AccepterFactory(accepters, lingOnto, model);
+        final AccepterFactory accepterFactory = new AccepterFactory(accepters, lingOnto, model,ignoreErrors);
         final Map<URI, Map<Object,Object>> result = sparqlAll(element.getURI(), element.getID(), depth);
         insertTriples(result, element, accepterFactory);
     }
@@ -130,7 +131,7 @@ public class SPARQLResolver implements RemoteResolver, LexiconResolver {
 
     @Override
     public void resolveRemoteFiltered(LemonModelImpl model, URI property, LemonElementImpl<?> element) {
-        final AccepterFactory accepterFactory = new AccepterFactory(accepters, lingOnto, model);
+        final AccepterFactory accepterFactory = new AccepterFactory(accepters, lingOnto, model,ignoreErrors);
         final Map<URI, Map<Object,Object>> result = sparqlFiltered(element.getURI(), element.getID(), property);
         insertTriples(result, element, accepterFactory);
     }

@@ -164,6 +164,18 @@ public class SPARQLLemonRepository implements LemonRepository {
             public void close() {
                 serializer.close();
             }
+
+            @Override
+            public boolean ignoreModelErrors() {
+                return false;
+            }
+
+            @Override
+            public void setIgnoreModelErrors(boolean ignoreErrors) {
+                throw new UnsupportedOperationException("Not supported yet.");
+            }
+            
+            
         };
     }
 }

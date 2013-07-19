@@ -79,12 +79,12 @@ public class RDFXMLReader {
      * constructor
      * initialize the XMLInputFactory
      */
-    public RDFXMLReader(LemonModelImpl model) {
+    public RDFXMLReader(LemonModelImpl model, boolean ignoreErrors) {
         this.factory = XMLInputFactory.newInstance();
         this.factory.setProperty(XMLInputFactory.IS_NAMESPACE_AWARE, Boolean.TRUE);
         this.factory.setProperty(XMLInputFactory.IS_COALESCING, Boolean.TRUE);
         this.factory.setProperty(XMLInputFactory.IS_REPLACING_ENTITY_REFERENCES, Boolean.TRUE);
-        this.defaultAccepter = new ReaderVisitor(model);
+        this.defaultAccepter = new ReaderVisitor(model, ignoreErrors);
     }
     
     public RDFXMLReader(Visitor visitor) {

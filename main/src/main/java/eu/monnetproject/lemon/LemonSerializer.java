@@ -329,4 +329,16 @@ public abstract class LemonSerializer {
     public void setRemoteUpdateFactory(RemoteUpdaterFactory remoteUpdateFactory) {
         this.remoteUpdateFactory = remoteUpdateFactory;
     }
+    
+    /**
+     * Set the ignore modelling errors status of the serializer
+     * @return True if the serializer will ignore modelling errors when reading
+     */
+    public abstract boolean ignoreModelErrors();
+    
+    /**
+     * Set the modelling error status. Default is not to ignore errors
+     * @param ignoreErrors The value of the ignore modelling errors flags
+     */
+    public abstract void setIgnoreModelErrors(boolean ignoreErrors);
 }

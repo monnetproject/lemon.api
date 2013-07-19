@@ -55,8 +55,8 @@ public class ParserBase {
     
     private final Visitor defaultAccepter;
 
-    public ParserBase(LemonModelImpl model) {
-        defaultAccepter = new ReaderVisitor(model);
+    public ParserBase(LemonModelImpl model, boolean ignoreErrors) {
+        defaultAccepter = new ReaderVisitor(model,ignoreErrors);
     }
     
     public ParserBase(Visitor visitor) {

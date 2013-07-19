@@ -45,18 +45,20 @@ public class AccepterFactory {
     final LemonModelImpl model;
     final LinguisticOntology lingOnto;
     LexicalEntryImpl firstEntry = null;
+    final boolean ignoreErrors;
 
-    public AccepterFactory(HashMap<Object, ReaderAccepter> accepters, LinguisticOntology lingOnto, LemonModelImpl model) {
+    public AccepterFactory(HashMap<Object, ReaderAccepter> accepters, LinguisticOntology lingOnto, LemonModelImpl model, boolean ignoreErrors) {
         this.accepters = accepters;
         this.lingOnto = lingOnto;
         this.model = model;
+        this.ignoreErrors = ignoreErrors;
     }
 
     private void addAccepter(Object value, ReaderAccepter accept) {
         if (accept != null) {
             if (!accepters.containsKey(value)) {
                 accepters.put(value, accept);
-            } else if (accepters.get(value) instanceof UnactualizedAccepter) {
+            } else if (accepters.get(value) instanceof UnactualizedAccepter && !(accept instanceof UnactualizedAccepter)) {
                 final Map<Object, ReaderAccepter> actualizedAs = ((UnactualizedAccepter) accepters.get(value)).actualizedAs(accept, lingOnto, this);
                 for (Map.Entry<Object, ReaderAccepter> entry : actualizedAs.entrySet()) {
                     addAccepter(entry.getKey(), entry.getValue());
@@ -77,7 +79,12 @@ public class AccepterFactory {
                 addAccepter(uri, accepter);
                 return accepter;
             } else {
-                throw new IllegalStateException("Model already contains object of type " + accepters.get(uri).getClass().getName() + " for URI: " + uri + " but was attempted to create as " + clazz.getName());
+                if(!ignoreErrors) {
+                    throw new IllegalStateException("Model already contains object of type " + accepters.get(uri).getClass().getName() + " for URI: " + uri + " but was attempted to create as " + clazz.getName());
+                } else {
+                    System.err.println("Model already contains object of type " + accepters.get(uri).getClass().getName() + " for URI: " + uri + " but was attempted to create as " + clazz.getName());
+                    return make(clazz, uri);
+                }
             }
         } else {
             return make(clazz, uri);

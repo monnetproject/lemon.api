@@ -795,12 +795,12 @@ public class TurtleParser extends ParserBase implements TurtleParserConstants {
    }
 
   /** Constructor with InputStream. */
-  public TurtleParser(java.io.InputStream stream, LemonModelImpl model) {
-     this(stream, null,model);
+  public TurtleParser(java.io.InputStream stream, LemonModelImpl model, boolean ignoreErrors) {
+     this(stream, null,model,ignoreErrors);
   }
   /** Constructor with InputStream and supplied encoding */
-  public TurtleParser(java.io.InputStream stream, String encoding, LemonModelImpl model) {
-      super(model);
+  public TurtleParser(java.io.InputStream stream, String encoding, LemonModelImpl model, boolean ignoreErrors) {
+      super(model,ignoreErrors);
     try { jj_input_stream = new JavaCharStream(stream, encoding, 1, 1); } catch(java.io.UnsupportedEncodingException e) { throw new RuntimeException(e); }
     token_source = new TurtleParserTokenManager(jj_input_stream);
     token = new Token();
@@ -834,8 +834,8 @@ public class TurtleParser extends ParserBase implements TurtleParserConstants {
   }
   
   /** Constructor. */
-  public TurtleParser(java.io.Reader stream, LemonModelImpl model) {
-      super(model);
+  public TurtleParser(java.io.Reader stream, LemonModelImpl model, boolean ignoreErrors) {
+      super(model,ignoreErrors);
     jj_input_stream = new JavaCharStream(stream, 1, 1);
     token_source = new TurtleParserTokenManager(jj_input_stream);
     token = new Token();
@@ -855,8 +855,8 @@ public class TurtleParser extends ParserBase implements TurtleParserConstants {
   }
 
   /** Constructor with generated Token Manager. */
-  public TurtleParser(TurtleParserTokenManager tm, LemonModelImpl model) {
-      super(model);
+  public TurtleParser(TurtleParserTokenManager tm, LemonModelImpl model, boolean ignoreErrors) {
+      super(model,ignoreErrors);
     token_source = tm;
     token = new Token();
     jj_ntk = -1;

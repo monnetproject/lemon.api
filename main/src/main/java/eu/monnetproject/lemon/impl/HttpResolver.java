@@ -40,7 +40,8 @@ import java.util.List;
  * @author John McCrae
  */
 public class HttpResolver implements RemoteResolver {
-
+    private final boolean ignoreErrors = false;
+    
     @Override
     public void resolveRemote(LemonModelImpl model, LemonElementImpl<?> element, int depth) {
         final URI uri = element.getURI();
@@ -61,12 +62,12 @@ public class HttpResolver implements RemoteResolver {
                 } catch (IOException x) {
                     throw new RuntimeException(x);
                 }
-                final RDFXMLReader rdfXMLReader = new RDFXMLReader(model);
+                final RDFXMLReader rdfXMLReader = new RDFXMLReader(model,ignoreErrors);
                 try {
                     rdfXMLReader.parse(new StringReader(sb.toString()));
                 } catch (Exception ex) {
                     try {
-                        final TurtleParser parser = new TurtleParser(new StringReader(sb.toString()), model);
+                        final TurtleParser parser = new TurtleParser(new StringReader(sb.toString()), model,ignoreErrors);
                         parser.parse();
                     } catch (Exception ex2) {
                         ex.printStackTrace();

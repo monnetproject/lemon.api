@@ -46,14 +46,14 @@ public class ReaderVisitor implements Visitor {
     private final HashMap<Object, ReaderAccepter> accepters = new HashMap<Object, ReaderAccepter>();
     private final AccepterFactory accepterFactory;
 
-    public ReaderVisitor(LemonModelImpl model) {
+    public ReaderVisitor(LemonModelImpl model, boolean ignoreErrors) {
         lingOnto = new LexInfo();
-        this.accepterFactory  = new AccepterFactory(accepters,lingOnto,model);
+        this.accepterFactory  = new AccepterFactory(accepters,lingOnto,model,ignoreErrors);
     }
 
-    public ReaderVisitor(LinguisticOntology lingOnto,LemonModelImpl model) {
+    public ReaderVisitor(LinguisticOntology lingOnto,LemonModelImpl model, boolean ignoreErrors) {
         this.lingOnto = lingOnto;
-        this.accepterFactory = new AccepterFactory(accepters,lingOnto,model);
+        this.accepterFactory = new AccepterFactory(accepters,lingOnto,model,ignoreErrors);
     }
 
     @Override
