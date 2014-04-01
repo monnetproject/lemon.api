@@ -81,6 +81,7 @@ public class LemonSerializerImpl extends LemonSerializer {
                 ((LexiconImpl) lexicon).accept(xmlWriter);
             }
             target.write(xmlWriter.getDocument());
+            target.flush();
         } catch (Exception ex) {
             throw new RuntimeException(ex);
         }
