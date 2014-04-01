@@ -30,7 +30,7 @@ package eu.monnetproject.lemon.model;
  * An argument of a syntactic frame/semantic predicate
  * @author John McCrae
  */
-public interface Argument extends PhraseTerminal {
+public interface Argument extends PhraseTerminal, LeafElement {
 	/** Get the marker that indicates the syntactic role */
 	SyntacticRoleMarker getMarker();
 	/** Set the marker that indicates the syntactic role */

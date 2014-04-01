@@ -30,9 +30,8 @@ import eu.monnetproject.lemon.LemonModel;
 import eu.monnetproject.lemon.LinguisticOntology;
 import eu.monnetproject.lemon.impl.io.ReaderAccepter;
 import eu.monnetproject.lemon.model.Component;
-import eu.monnetproject.lemon.model.LexicalEntry;
+import eu.monnetproject.lemon.model.LeafElement;
 import java.net.URI;
-import java.util.Collection;
 
 /**
  * Instantiated via {@link LemonFactoryImpl}
@@ -51,12 +50,12 @@ public class ComponentImpl extends LemonElementImpl<ComponentImpl> implements Co
     }
 
     @Override
-    public LexicalEntry getElement() {
-        return (LexicalEntry) getStrElem(ELEMENT);
+    public LeafElement getElement() {
+        return (LeafElement) getStrElem(ELEMENT);
     }
 
     @Override
-    public void setElement(final LexicalEntry element) {
+    public void setElement(final LeafElement element) {
         setStrElem(ELEMENT, element);
     }
 
