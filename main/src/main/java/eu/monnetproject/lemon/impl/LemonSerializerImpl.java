@@ -261,6 +261,7 @@ public class LemonSerializerImpl extends LemonSerializer {
                     ((LexiconImpl) lexicon).accept(turtleWriter);
                 }
                 dt.write(turtleWriter.getDocument());
+                dt.flush();
             } catch (Exception ex) {
                 if (ex instanceof RuntimeException) {
                     throw (RuntimeException) ex;
@@ -283,6 +284,7 @@ public class LemonSerializerImpl extends LemonSerializer {
                 le.getForms(); // resolve remote
                 ((LexicalEntryImpl) le).accept(turtleWriter);
                 dt.write(turtleWriter.getDocument());
+                dt.flush();
             } catch (Exception ex) {
                 throw new RuntimeException(ex);
             }
@@ -305,6 +307,7 @@ public class LemonSerializerImpl extends LemonSerializer {
                 final TurtleWriter turtleWriter = new TurtleWriter(lingOnto);
                 ((LexiconImpl) lxcn).accept(turtleWriter);
                 dt.write(turtleWriter.getDocument());
+                dt.flush();
             } catch (Exception ex) {
                 throw new RuntimeException(ex);
             }
