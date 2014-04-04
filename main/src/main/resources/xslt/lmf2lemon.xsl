@@ -89,7 +89,7 @@
     </xsl:template>
     
     <xsl:template match="Lemma">
-        <xsl:if test="feat/@att='writtenForm' and ../WordForm">
+        <xsl:if test="(feat/@att='writtenForm' or FormRepresentation/feat/@att='writtenForm') and ../WordForm">
             <lemon:canonicalForm>
                 <lemon:Form>
                     <xsl:apply-templates select="feat"/>
@@ -105,12 +105,21 @@
                                 <xsl:value-of select="FormRepresentation/@xml:lang"/>
                             </xsl:attribute>
                         </xsl:if>    
-                        <xsl:value-of select="feat/@val"/>
+                        <xsl:choose>
+                            <xsl:when test="feat/@att='writtenForm'">                                
+                                <xsl:value-of select="feat[@att='writtenForm']/@val"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="FormRepresentation/feat[@att='writtenForm']/@val"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </lemon:writtenRep>
+                    <xsl:apply-templates select="feat"/>
+                    <xsl:apply-templates select="FormRepresentation/feat"/>
                 </lemon:Form>
             </lemon:canonicalForm>
         </xsl:if>
-        <xsl:if test="feat/@att='writtenForm' and not(../WordForm)">
+        <xsl:if test="(feat/@att='writtenForm' or FormRepresentation/feat/@att='writtenForm') and not(../WordForm)">
             <lemon:canonicalForm>
                 <lemon:Form>
                     <xsl:apply-templates select="feat"/>
@@ -125,9 +134,18 @@
                                 <xsl:value-of select="FormRepresentation/@xml:lang"/>
                             </xsl:attribute>
                         </xsl:if>    
-                        <xsl:value-of select="feat/@val"/>
+                        <xsl:choose>
+                            <xsl:when test="feat/@att='writtenForm'">                                
+                                <xsl:value-of select="feat[@att='writtenForm']/@val"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="FormRepresentation/feat[@att='writtenForm']/@val"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </lemon:writtenRep>
-                </lemon:Form>
+                    <xsl:apply-templates select="feat"/>
+                    <xsl:apply-templates select="FormRepresentation/feat"/>
+                 </lemon:Form>
             </lemon:canonicalForm>
         </xsl:if>
     </xsl:template>
