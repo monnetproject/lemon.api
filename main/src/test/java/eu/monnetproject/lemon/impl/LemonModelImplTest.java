@@ -11,8 +11,11 @@ import eu.monnetproject.lemon.LemonSerializer;
 import eu.monnetproject.lemon.LinguisticOntology;
 import eu.monnetproject.lemon.model.Component;
 import eu.monnetproject.lemon.model.LexicalEntry;
+import eu.monnetproject.lemon.model.LexicalForm;
 import eu.monnetproject.lemon.model.Lexicon;
 import eu.monnetproject.lemon.model.MorphPattern;
+import eu.monnetproject.lemon.model.Text;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.URI;
 import java.net.URL;
@@ -248,5 +251,31 @@ public class LemonModelImplTest {
         model.merge(thiz2, thiz);
         assertTrue(testThis.getDecompositions().iterator().next().get(1).getElement().getURI().toString().endsWith("this"));
         
+    }
+
+    @Test
+    public void testFromReadme() throws Exception {
+        final LemonSerializer serializer = LemonSerializer.newInstance();
+        final LemonModel model = serializer.create();
+        final Lexicon lexicon = model.addLexicon(
+                URI.create("http://www.example.com/mylexicon"),
+                "en" /*English*/);
+        final LexicalEntry entry = LemonModels.addEntryToLexicon(
+                lexicon,
+                URI.create("http://www.example.com/mylexicon/cat"),
+                "cat",
+                URI.create("http://dbpedia.org/resource/Cat"));
+
+        final LemonFactory factory = model.getFactory();
+        final LexicalForm pluralForm = factory.makeForm();
+        pluralForm.setWrittenRep(new Text("cats", "en"));
+        final LinguisticOntology lingOnto = new LexInfo();
+        pluralForm.addProperty(
+                lingOnto.getProperty("number"),
+                lingOnto.getPropertyValue("plural"));
+        entry.addOtherForm(pluralForm);
+
+        serializer.writeEntry(model, entry, lingOnto, 
+                new OutputStreamWriter(System.out));
     }
 }
