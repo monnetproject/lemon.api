@@ -92,7 +92,7 @@ public class RDFXMLWriter extends AbstractVisitor {
         }
         final LemonElementImpl<?> element = (LemonElementImpl) _element;
         if (!nodes.containsKey(element)) {
-            final Element node = document.createElementNS(LemonModel.LEMON_URI, element.getModelName());
+            final Element node = document.createElementNS(LemonModel.NEW_LEMON_URI, element.getModelName());
             node.setPrefix("lemon");
             nodes.put(element, node);
             if (rootClass.isAssignableFrom(element.getClass())) {
@@ -106,9 +106,9 @@ public class RDFXMLWriter extends AbstractVisitor {
             @SuppressWarnings("unchecked")
             Collection<Object> objs = ((Map.Entry<URI, Collection<Object>>) entry).getValue();
             String prefix, suffix;
-            if (uri.toString().startsWith(LemonModel.LEMON_URI)) {
-                prefix = LemonModel.LEMON_URI;
-                suffix = uri.toString().substring(LemonModel.LEMON_URI.length());
+            if (uri.toString().startsWith(LemonModel.NEW_LEMON_URI)) {
+                prefix = LemonModel.NEW_LEMON_URI;
+                suffix = uri.toString().substring(LemonModel.NEW_LEMON_URI.length());
             } else {
                 final int idx = Math.max(uri.toString().lastIndexOf("/"), uri.toString().lastIndexOf("#"));
                 if (idx >= 0) {
@@ -120,7 +120,7 @@ public class RDFXMLWriter extends AbstractVisitor {
                 }
             }
             for (Object obj : objs) {
-                if (uri.toString().equals(RDF + "type") && obj instanceof URI && obj.toString().equals(LemonModel.LEMON_URI + element.getModelName())) {
+                if (uri.toString().equals(RDF + "type") && obj instanceof URI && obj.toString().equals(LemonModel.NEW_LEMON_URI + element.getModelName())) {
                     continue;
                 }
                 final Element predNode;
@@ -130,7 +130,7 @@ public class RDFXMLWriter extends AbstractVisitor {
                     System.err.println(prefix + "::" + suffix);
                     throw x;
                 }
-                if (prefix != null && prefix.equals(LemonModel.LEMON_URI)) {
+                if (prefix != null && prefix.equals(LemonModel.NEW_LEMON_URI)) {
                     predNode.setPrefix("lemon");
                 } else if (prefix != null && prefix.equals(LexInfo.LEXINFO_URI)) {
                     predNode.setPrefix("lexinfo");
@@ -142,7 +142,7 @@ public class RDFXMLWriter extends AbstractVisitor {
                     LemonElementImpl<?> element2 = (LemonElementImpl) obj;
                     Node childNode;
                     if (!nodes.containsKey(element2)) {
-                        childNode = document.createElementNS(LemonModel.LEMON_URI, element2.getModelName());
+                        childNode = document.createElementNS(LemonModel.NEW_LEMON_URI, element2.getModelName());
                         childNode.setPrefix("lemon");
                         nodes.put(element2, childNode);
                         predNode.appendChild(childNode);
@@ -202,7 +202,7 @@ public class RDFXMLWriter extends AbstractVisitor {
                     for (LemonElementImpl<?> element2 : elems) {
                         Node childNode;
                         if (!nodes.containsKey(element2)) {
-                            childNode = document.createElementNS(LemonModel.LEMON_URI, element2.getModelName());
+                            childNode = document.createElementNS(LemonModel.NEW_LEMON_URI, element2.getModelName());
                             childNode.setPrefix("lemon");
                             nodes.put(element2, childNode);
                             predNode.appendChild(childNode);
@@ -210,14 +210,14 @@ public class RDFXMLWriter extends AbstractVisitor {
                             if (nodes.get(element2).getParentNode() == null) {
                                 predNode.appendChild(nodes.get(element2));
                             } else if (element2.getURI() != null) {
-                                childNode = document.createElementNS(LemonModel.LEMON_URI, element2.getModelName());
+                                childNode = document.createElementNS(LemonModel.NEW_LEMON_URI, element2.getModelName());
                                 final Attr attr = document.createAttributeNS(RDF, "resource");
                                 attr.setPrefix("rdf");
                                 attr.setTextContent(element2.getURI().toString());
                                 childNode.getAttributes().setNamedItemNS(attr);
                                 predNode.appendChild(childNode);
                             } else {
-                                childNode = document.createElementNS(LemonModel.LEMON_URI, element2.getModelName());
+                                childNode = document.createElementNS(LemonModel.NEW_LEMON_URI, element2.getModelName());
                                 final Attr attr = document.createAttributeNS(RDF, "nodeID");
                                 attr.setPrefix("rdf");
                                 attr.setTextContent(element2.getID());

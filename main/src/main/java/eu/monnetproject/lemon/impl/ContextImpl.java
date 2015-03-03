@@ -58,9 +58,15 @@ public class ContextImpl extends LemonElementImpl<SenseContext> implements Sense
         return defaultAccept(pred, bNode);
     }
 
+    private boolean isPredLemon(URI pred, String name) {
+        return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+            pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+    }
+
+
     @Override
     public void accept(URI pred, String value, String lang, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"value")) {
+        if(isPredLemon(pred, "value")) {
             setStrTextDirect("value",new Text(value, lang));
         } else {
             defaultAccept(pred, value, lang);

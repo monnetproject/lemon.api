@@ -1,10 +1,10 @@
-equivalent	http://www.monnet-project.eu/lemon#equivalent
-broader	http://www.monnet-project.eu/lemon#broader
-senseRelation	http://www.monnet-project.eu/lemon#senseRelation
+equivalent	http://lemon-model.net/lemon#equivalent
+broader	http://lemon-model.net/lemon#broader
+senseRelation	http://lemon-model.net/lemon#senseRelation
 synonym	http://www.lexinfo.net/ontology/2.0/lexinfo#synonym
-incompatible	http://www.monnet-project.eu/lemon#incompatible
+incompatible	http://lemon-model.net/lemon#incompatible
 exact	http://www.lexinfo.net/ontology/2.0/lexinfo#exact
-narrower	http://www.monnet-project.eu/lemon#narrower
+narrower	http://lemon-model.net/lemon#narrower
 translation	http://www.lexinfo.net/ontology/2.0/lexinfo#translation
 hypernym	http://www.lexinfo.net/ontology/2.0/lexinfo#hypernym
 hyponym	http://www.lexinfo.net/ontology/2.0/lexinfo#hyponym

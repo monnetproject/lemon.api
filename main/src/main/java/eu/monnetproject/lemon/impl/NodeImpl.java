@@ -109,29 +109,35 @@ public class NodeImpl extends LemonElementImpl implements Node {
         if(model.allowUpdate()) {
             if(this.separator != null) {
                 if(getURI() != null) {
-                    model.updater().remove(getURI(), URI.create(LemonModel.LEMON_URI+"language"), this.separator.value, this.separator.language);
+                    model.updater().remove(getURI(), URI.create(LemonModel.NEW_LEMON_URI+"language"), this.separator.value, this.separator.language);
                 } else {
-                    model.updater().remove(getID(), URI.create(LemonModel.LEMON_URI+"language"), this.separator.value, this.separator.language);
+                    model.updater().remove(getID(), URI.create(LemonModel.NEW_LEMON_URI+"language"), this.separator.value, this.separator.language);
                 }
             }
             if(separator != null) {
                 if(getURI() != null) {
-                    model.updater().add(getURI(), URI.create(LemonModel.LEMON_URI+"language"), separator.value, separator.language);
+                    model.updater().add(getURI(), URI.create(LemonModel.NEW_LEMON_URI+"language"), separator.value, separator.language);
                 } else {
-                    model.updater().add(getID(), URI.create(LemonModel.LEMON_URI+"language"), separator.value, separator.language);
+                    model.updater().add(getID(), URI.create(LemonModel.NEW_LEMON_URI+"language"), separator.value, separator.language);
                 }
             }
         }
         this.separator = separator;
     }
 
+    private boolean isPredLemon(URI pred, String name) {
+        return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+            pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+    }
+
+
     @Override
     public ReaderAccepter accept(URI pred, URI value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"constituent")) {
+        if(isPredLemon(pred, "constituent")) {
             final ConstituentImpl constituentImpl = factory.getConstituentImpl(value);
             setStrElemDirect("constituent",constituentImpl);
             return constituentImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"leaf")) {
+        } else if(isPredLemon(pred, "leaf")) {
             return new UnactualizedAccepter() {
 
                 @Override
@@ -157,11 +163,11 @@ public class NodeImpl extends LemonElementImpl implements Node {
 
     @Override
     public ReaderAccepter accept(URI pred, String value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"constituent")) {
+        if(isPredLemon(pred, "constituent")) {
             final ConstituentImpl constituentImpl = factory.getConstituentImpl(value);
             setStrElemDirect("constituent",constituentImpl);
             return constituentImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"leaf")) {
+        } else if(isPredLemon(pred, "leaf")) {
             return new UnactualizedAccepter() {
 
                 @Override
@@ -189,7 +195,7 @@ public class NodeImpl extends LemonElementImpl implements Node {
 
     @Override
     public void accept(URI pred, String value, String lang, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"separator")) {
+        if(isPredLemon(pred, "separator")) {
             separator = new Text(value,lang);
         } else {
             defaultAccept(pred, value, lang);

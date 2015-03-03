@@ -1,3 +1,3 @@
-condition	http://www.monnet-project.eu/lemon#condition
-propertyDomain	http://www.monnet-project.eu/lemon#propertyDomain
-propertyRange	http://www.monnet-project.eu/lemon#propertyRange
+condition	http://lemon-model.net/lemon#condition
+propertyDomain	http://lemon-model.net/lemon#propertyDomain
+propertyRange	http://lemon-model.net/lemon#propertyRange

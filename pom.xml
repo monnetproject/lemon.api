@@ -28,11 +28,6 @@
     
     <repositories>
         <repository>
-            <id>aduna</id>
-            <name>Aduna Repository</name>
-            <url>http://repo.aduna-software.org/maven2/releases/</url>
-        </repository>
-        <repository>
             <id>monnet01</id>
             <name>Monnet repository</name>
             <url>http://monnet01.sindice.net/mvn</url>

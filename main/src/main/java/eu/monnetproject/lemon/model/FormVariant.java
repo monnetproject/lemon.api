@@ -35,7 +35,7 @@ import java.net.URI;
  */
 public interface FormVariant extends LemonPredicate {
 	/** The lemon super-property for form variants */
-	final FormVariant formVariant = new FormVariantImpl(URI.create(LemonModel.LEMON_URI + "formVariant"));
+	final FormVariant formVariant = new FormVariantImpl(URI.create(LemonModel.NEW_LEMON_URI + "formVariant"));
 }
 
 class FormVariantImpl extends URIValue implements FormVariant {

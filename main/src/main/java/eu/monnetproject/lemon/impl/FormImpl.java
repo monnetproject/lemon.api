@@ -202,9 +202,15 @@ public class FormImpl extends LemonElementImpl implements LexicalForm {
         return defaultAccept(pred, value);
     }
 
+    private boolean isPredLemon(URI pred, String name) {
+        return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+            pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+    }
+
+
     @Override
     public void accept(URI pred, String value, String lang, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if (pred.toString().equals(LemonModel.LEMON_URI + "writtenRep")) {
+        if (isPredLemon(pred, "writtenRep")) {
             setStrTextDirect("writtenRep", new Text(value, lang));
             return;
         } else {

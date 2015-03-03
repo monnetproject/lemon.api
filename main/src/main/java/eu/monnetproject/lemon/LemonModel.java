@@ -44,7 +44,8 @@ import java.util.Iterator;
 public interface LemonModel {
 	
 	/** The URI for lemon */
-	static final String LEMON_URI = "http://www.monnet-project.eu/lemon#";
+	static final String MONNET_LEMON_URI = "http://www.monnet-project.eu/lemon#";
+	static final String NEW_LEMON_URI = "http://lemon-model.net/lemon#";
 	/**
 	 * Get the set of lexica contained by this model
 	 * @return The set of lexica

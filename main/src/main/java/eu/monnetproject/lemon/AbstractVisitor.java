@@ -46,16 +46,26 @@ public abstract class AbstractVisitor implements ElementVisitor {
     
     private static HashSet<String> getNoFollow(LinguisticOntology lingOnto) {
         HashSet<String> noFollow = new HashSet<String>();
-        noFollow.add(LemonModel.LEMON_URI + "lexicalVariant");
-        noFollow.add(LemonModel.LEMON_URI + "formVariant");
-        noFollow.add(LemonModel.LEMON_URI + "senseRelation");
-        noFollow.add(LemonModel.LEMON_URI + "broader");
-        noFollow.add(LemonModel.LEMON_URI + "narrower");
-        noFollow.add(LemonModel.LEMON_URI + "equivalent");
-        noFollow.add(LemonModel.LEMON_URI + "incompatible");
-        noFollow.add(LemonModel.LEMON_URI + "element");
-        noFollow.add(LemonModel.LEMON_URI + "marker");
-        noFollow.add(LemonModel.LEMON_URI + "isSenseOf");
+        noFollow.add(LemonModel.NEW_LEMON_URI + "lexicalVariant");
+        noFollow.add(LemonModel.NEW_LEMON_URI + "formVariant");
+        noFollow.add(LemonModel.NEW_LEMON_URI + "senseRelation");
+        noFollow.add(LemonModel.NEW_LEMON_URI + "broader");
+        noFollow.add(LemonModel.NEW_LEMON_URI + "narrower");
+        noFollow.add(LemonModel.NEW_LEMON_URI + "equivalent");
+        noFollow.add(LemonModel.NEW_LEMON_URI + "incompatible");
+        noFollow.add(LemonModel.NEW_LEMON_URI + "element");
+        noFollow.add(LemonModel.NEW_LEMON_URI + "marker");
+        noFollow.add(LemonModel.NEW_LEMON_URI + "isSenseOf");
+        noFollow.add(LemonModel.MONNET_LEMON_URI + "lexicalVariant");
+        noFollow.add(LemonModel.MONNET_LEMON_URI + "formVariant");
+        noFollow.add(LemonModel.MONNET_LEMON_URI + "senseRelation");
+        noFollow.add(LemonModel.MONNET_LEMON_URI + "broader");
+        noFollow.add(LemonModel.MONNET_LEMON_URI + "narrower");
+        noFollow.add(LemonModel.MONNET_LEMON_URI + "equivalent");
+        noFollow.add(LemonModel.MONNET_LEMON_URI + "incompatible");
+        noFollow.add(LemonModel.MONNET_LEMON_URI + "element");
+        noFollow.add(LemonModel.MONNET_LEMON_URI + "marker");
+        noFollow.add(LemonModel.MONNET_LEMON_URI + "isSenseOf");
         for (FormVariant var : lingOnto.getFormVariant()) {
             noFollow.add(var.getURI().toString());
         }

@@ -79,7 +79,7 @@ public abstract class URIElement extends URIValue implements LemonElement {
         LinkedList<URI> types = new LinkedList<URI>();
         for (Class c : this.getClass().getInterfaces()) {
             if (c.getName().matches("eu\\.monnetproject\\.lemon\\.[a-z]+")) {
-                types.add(URI.create("http://www.monnet-project.eu/lemon#" + c.getSimpleName()));
+                types.add(URI.create("http://lemon-model.net/lemon#" + c.getSimpleName()));
             }
         }
         return types;

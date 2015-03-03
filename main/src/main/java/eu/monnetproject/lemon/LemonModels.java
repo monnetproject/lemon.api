@@ -65,7 +65,7 @@ public final class LemonModels {
      */
     public static List<LexicalEntry> getEntriesByForm(LemonModel model, String form, String lang) {
         LinkedList<LexicalEntry> rval = new LinkedList<LexicalEntry>();
-        String query = "PREFIX lemon: <" + LemonModel.LEMON_URI + ">  "
+        String query = "PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + ">  "
                 + "SELECT DISTINCT ?entry { "
                 + "?form lemon:writtenRep \"" + form + "\"@" + lang.toString() + " ."
                 + "{ ?entry lemon:canonicalForm ?form } UNION "
@@ -88,7 +88,7 @@ public final class LemonModels {
      */
     public static List<LexicalEntry> getEntriesByFormApprox(LemonModel model, String form) {
         LinkedList<LexicalEntry> rval = new LinkedList<LexicalEntry>();
-        String query = "PREFIX lemon: <" + LemonModel.LEMON_URI + ">  "
+        String query = "PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + ">  "
                 + "SELECT DISTINCT ?entry { "
                 + "?form lemon:writtenRep ?rep ."
                 + "FILTER(regex(str(?rep),\"" + form + "\",\"i\")) ."
@@ -121,7 +121,7 @@ public final class LemonModels {
             } else {
                 formSparql = "_:" + form.getID();
             }
-            String query = "PREFIX lemon: <" + LemonModel.LEMON_URI + ">  "
+            String query = "PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + ">  "
                     + "SELECT DISTINCT ?entry { "
                     + "{ ?entry lemon:canonicalForm " + formSparql + " } UNION "
                     + "{ ?entry lemon:otherForm " + formSparql + " } UNION "
@@ -138,7 +138,7 @@ public final class LemonModels {
                 if (form.getURI() == null) {
                     LinkedList<LexicalEntry> rval = new LinkedList<LexicalEntry>();
                     // Work around for sesame bug
-                    String query = "PREFIX lemon: <" + LemonModel.LEMON_URI + "> "
+                    String query = "PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + "> "
                             + "SELECT DISTINCT ?entry { "
                             + "{ ?entry lemon:canonicalForm ?x . ?x lemon:writtenRep \"" + form.getWrittenRep().value + "\"@" + form.getWrittenRep().language + " } UNION "
                             + "{ ?entry lemon:otherForm ?x . ?x lemon:writtenRep \"" + form.getWrittenRep().value + "\"@" + form.getWrittenRep().language + " } UNION "
@@ -188,7 +188,7 @@ public final class LemonModels {
             } else {
                 entrySparql = "_:" + entry.getID();
             }
-            String query = "PREFIX lemon: <" + LemonModel.LEMON_URI + ">  "
+            String query = "PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + ">  "
                     + "SELECT DISTINCT ?lexicon { "
                     + "?lexicon lemon:entry " + entrySparql + " }";
             Iterator<Lexicon> iter = model.query(Lexicon.class, query);
@@ -216,7 +216,7 @@ public final class LemonModels {
     public static List<LexicalEntry> getEntryByReference(LemonModel model, URI reference) {
         LinkedList<LexicalEntry> rval = new LinkedList<LexicalEntry>();
         try {
-            String query = "PREFIX lemon: <" + LemonModel.LEMON_URI + ">  "
+            String query = "PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + ">  "
                     + "SELECT DISTINCT ?entry { "
                     + "?entry lemon:sense ?sense ."
                     + "?sense lemon:reference <" + reference + "> }";
@@ -243,7 +243,7 @@ public final class LemonModels {
     public static List<LexicalEntry> getEntryByReference(Lexicon lexicon, URI reference) {
         LinkedList<LexicalEntry> rval = new LinkedList<LexicalEntry>();
         try {
-            String query = "PREFIX lemon: <" + LemonModel.LEMON_URI + ">  "
+            String query = "PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + ">  "
                     + "SELECT DISTINCT ?entry { "
                     + "<" + lexicon.getURI() + "> lemon:entry ?entry ."
                     + "?entry lemon:sense ?sense ."
@@ -284,7 +284,7 @@ public final class LemonModels {
             } else {
                 senseSparql = "_:" + sense.getID();
             }
-            String query = "PREFIX lemon: <" + LemonModel.LEMON_URI + ">  "
+            String query = "PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + ">  "
                     + "SELECT DISTINCT ?entry { "
                     + "?entry lemon:sense " + senseSparql + " }";
             System.err.println(query);
@@ -326,7 +326,7 @@ public final class LemonModels {
         };
         try {
             TreeSet<LexicalEntry> rval = new TreeSet<LexicalEntry>(entryIDComp);
-            final String query = "PREFIX lemon: <" + LemonModel.LEMON_URI + "> "
+            final String query = "PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + "> "
                     + "SELECT DISTINCT ?entry {"
                     + "<" + lexicon.getURI() + "> lemon:entry ?entry . } "
                     + "ORDER BY ?entry "
@@ -426,7 +426,7 @@ public final class LemonModels {
                 }
             });
             Iterator<LexicalEntry> iter = model.query(LexicalEntry.class,
-                    "PREFIX lemon: <" + LemonModel.LEMON_URI + "> "
+                    "PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + "> "
                     + "SELECT DISTINCT ?entry {"
                     + "<" + lexicon.getURI() + "> lemon:entry ?entry . "
                     + "OPTIONAL { ?entry lemon:sense ?sense ."
@@ -511,7 +511,7 @@ public final class LemonModels {
         try {
             LinkedList<LexicalEntry> rval = new LinkedList<LexicalEntry>();
             StringBuilder query = new StringBuilder(100);
-            query.append("PREFIX lemon: <" + LemonModel.LEMON_URI + ">  " + "SELECT DISTINCT ?entry { " + "?form lemon:writtenRep \"").append(form).append("\"@").append(lang.toString()).append(" ."
+            query.append("PREFIX lemon: <" + LemonModel.NEW_LEMON_URI + ">  " + "SELECT DISTINCT ?entry { " + "?form lemon:writtenRep \"").append(form).append("\"@").append(lang.toString()).append(" ."
                     + "{ ?entry lemon:canonicalForm ?form } UNION "
                     + "{ ?entry lemon:otherForm ?form } UNION "
                     + "{ ?entry lemon:abstractForm ?form } UNION "

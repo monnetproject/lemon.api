@@ -152,7 +152,7 @@ public abstract class LemonSerializer {
         try {
             target.append("<?xml version=\"1.0\" encoding=\"US-ASCII\"?>"+LS
                     + "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">"+LS
-                    + "  <lemon:Lexicon rdf:about=\"" + lexicon.getURI() + "\" xmlns:lemon=\"http://www.monnet-project.eu/lemon#\">"+LS);
+                    + "  <lemon:Lexicon rdf:about=\"" + lexicon.getURI() + "\" xmlns:lemon=\"http://lemon-model.net/lemon#\">"+LS);
             if(lexicon.getLanguage() != null) {
                 target.append("    <lemon:language>" + lexicon.getLanguage()+"</lemon:language>"+LS);
             } 

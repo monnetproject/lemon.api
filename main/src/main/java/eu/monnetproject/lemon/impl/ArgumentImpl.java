@@ -76,10 +76,16 @@ public class ArgumentImpl extends LemonElementImpl<ArgumentImpl> implements Argu
     }
 
     
+    private boolean isPredLemon(URI pred, String name) {
+        return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+            pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+    }
+
+
     
     @Override
     public ReaderAccepter accept(URI pred, URI value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if (pred.toString().equals(LemonModel.LEMON_URI + "marker")) {
+        if (isPredLemon(pred, "marker")) {
             setStrElemDirect("marker",new UntypedMarker(value));
             return new UnactualizedAccepter() {
 
@@ -96,7 +102,7 @@ public class ArgumentImpl extends LemonElementImpl<ArgumentImpl> implements Argu
 
     @Override
     public ReaderAccepter accept(URI pred, String bNode, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if (pred.toString().equals(LemonModel.LEMON_URI + "marker")) {
+        if (isPredLemon(pred, "marker")) {
             setStrElemDirect("marker",new UntypedMarker(bNode));
             return new UnactualizedAccepter() {
 
@@ -113,7 +119,7 @@ public class ArgumentImpl extends LemonElementImpl<ArgumentImpl> implements Argu
 
     @Override
     public void accept(URI pred, String value, String lang, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI + "optional")) {
+        if(isPredLemon(pred, "optional")) {
             optional = Boolean.parseBoolean(value);
         }
         super.defaultAccept(pred, value, lang);
@@ -128,7 +134,7 @@ public class ArgumentImpl extends LemonElementImpl<ArgumentImpl> implements Argu
     public Map<URI, Collection<Object>> getElements() {
         final Map<URI, Collection<Object>> elements = super.getElements();
         if(optional) {
-            elements.put(URI.create(LemonModel.LEMON_URI + "optional"), Collections.singletonList((Object)"true"));
+            elements.put(URI.create(LemonModel.NEW_LEMON_URI + "optional"), Collections.singletonList((Object)"true"));
         }
         return elements;
     }

@@ -36,7 +36,7 @@ import java.net.URI;
  */
 public interface LexicalVariant extends LemonPredicate {
 	/** The lemon super-property for lexical variants */
-	final LexicalVariant lexicalVariant = new LexicalVariantImpl(URI.create(LemonModel.LEMON_URI + "lexicalVariant"));
+	final LexicalVariant lexicalVariant = new LexicalVariantImpl(URI.create(LemonModel.NEW_LEMON_URI + "lexicalVariant"));
 }
 
 class LexicalVariantImpl extends URIElement implements LexicalVariant {

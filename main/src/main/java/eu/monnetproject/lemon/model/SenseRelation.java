@@ -37,15 +37,15 @@ import java.net.URI;
 public interface SenseRelation extends LemonPredicate {
 
     /** The lemon super-property of all relations */
-    final SenseRelation senseRelation = new SenseRelationImpl(LemonModel.LEMON_URI + "senseRelation");
+    final SenseRelation senseRelation = new SenseRelationImpl(LemonModel.NEW_LEMON_URI + "senseRelation");
     /** Indicates equivalence between the senses */
-    final SenseRelation equivalent = new SenseRelationImpl(LemonModel.LEMON_URI + "equivalent");
+    final SenseRelation equivalent = new SenseRelationImpl(LemonModel.NEW_LEMON_URI + "equivalent");
     /** Indicates incompatibility (disjointness) between the senses */
-    final SenseRelation incompatible = new SenseRelationImpl(LemonModel.LEMON_URI + "incompatible");
+    final SenseRelation incompatible = new SenseRelationImpl(LemonModel.NEW_LEMON_URI + "incompatible");
     /** Indicates that the target sense is narrower */
-    final SenseRelation narrower = new SenseRelationImpl(LemonModel.LEMON_URI + "narrower");
+    final SenseRelation narrower = new SenseRelationImpl(LemonModel.NEW_LEMON_URI + "narrower");
     /** Indicates that the target sense is broader */
-    final SenseRelation broader = new SenseRelationImpl(LemonModel.LEMON_URI + "broader");
+    final SenseRelation broader = new SenseRelationImpl(LemonModel.NEW_LEMON_URI + "broader");
 }
 
 class SenseRelationImpl extends URIValue implements SenseRelation {

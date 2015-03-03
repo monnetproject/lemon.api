@@ -35,7 +35,7 @@ import java.net.URI;
  */
 public interface Edge extends LemonPredicate {
 	/** The lemon super-property for edges */
-	final Edge edge = new EdgeImpl(LemonModel.LEMON_URI + "edge");
+	final Edge edge = new EdgeImpl(LemonModel.NEW_LEMON_URI + "edge");
 }
 
 class EdgeImpl extends URIValue implements Edge {

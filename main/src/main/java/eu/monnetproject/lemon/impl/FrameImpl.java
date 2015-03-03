@@ -129,9 +129,9 @@ public class FrameImpl extends LemonElementImpl implements Frame {
                 compIds.add(comp.getURI() == null ? comp.getID() : comp.getURI());
             }
             if(getURI() != null) {
-                model.updater().addList(getURI(), URI.create(LemonModel.LEMON_URI+"decompositon"), compIds);
+                model.updater().addList(getURI(), URI.create(LemonModel.NEW_LEMON_URI+"decompositon"), compIds);
             } else {
-                model.updater().addList(getID(), URI.create(LemonModel.LEMON_URI+"decompositon"), compIds);
+                model.updater().addList(getID(), URI.create(LemonModel.NEW_LEMON_URI+"decompositon"), compIds);
             }
         }
         components.add(comps);
@@ -146,9 +146,9 @@ public class FrameImpl extends LemonElementImpl implements Frame {
                 compIds.add(comp.getURI() == null ? comp.getID() : comp.getURI());
             }
             if(getURI() != null) {
-                model.updater().removeList(getURI(), URI.create(LemonModel.LEMON_URI+"decompositon"), compIds);
+                model.updater().removeList(getURI(), URI.create(LemonModel.NEW_LEMON_URI+"decompositon"), compIds);
             } else {
-                model.updater().removeList(getID(), URI.create(LemonModel.LEMON_URI+"decompositon"), compIds);
+                model.updater().removeList(getID(), URI.create(LemonModel.NEW_LEMON_URI+"decompositon"), compIds);
             }
         }
         for (Component comp : comps) {
@@ -174,7 +174,7 @@ public class FrameImpl extends LemonElementImpl implements Frame {
     @Override
     public Map<URI, Collection<Object>> getElements() {
         final Map<URI, Collection<Object>> elements = super.getElements();
-        final URI decomposition = URI.create(LemonModel.LEMON_URI+"decomposition");
+        final URI decomposition = URI.create(LemonModel.NEW_LEMON_URI+"decomposition");
         final Collection<List<Component>> decompositions = getDecompositions();
         if(!decompositions.isEmpty()) {
             elements.put(decomposition,new LinkedList());
@@ -198,13 +198,19 @@ public class FrameImpl extends LemonElementImpl implements Frame {
         super.clearAll();
     }
 
+    private boolean isPredLemon(URI pred, String name) {
+        return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+            pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+    }
+
+
     @Override
     public ReaderAccepter accept(URI pred, URI value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if (pred.toString().equals(LemonModel.LEMON_URI + "decomposition")) {
+        if (isPredLemon(pred, "decomposition")) {
             final ListAccepter listAccepter = new ListAccepter(value);
             addDecomposition((List<Component>) listAccepter);
             return listAccepter;
-        } else if (pred.toString().equals(LemonModel.LEMON_URI + "tree")) {
+        } else if (isPredLemon(pred, "tree")) {
             final NodeImpl nodeImpl = factory.getNodeImpl(value);//new NodeImpl(value,model);
             addStrElemDirect("tree",nodeImpl);
             return nodeImpl;
@@ -222,11 +228,11 @@ public class FrameImpl extends LemonElementImpl implements Frame {
 
     @Override
     public ReaderAccepter accept(URI pred, String value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if (pred.toString().equals(LemonModel.LEMON_URI + "decomposition")) {
+        if (isPredLemon(pred, "decomposition")) {
             final ListAccepter listAccepter = new ListAccepter(value);
             components.add((List<Component>) listAccepter);
             return listAccepter;
-        } else if (pred.toString().equals(LemonModel.LEMON_URI + "tree")) {
+        } else if (isPredLemon(pred, "tree")) {
             final NodeImpl nodeImpl = factory.getNodeImpl(value);
             addStrElemDirect("tree",nodeImpl);
             return nodeImpl;

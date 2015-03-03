@@ -8,9 +8,9 @@ http://www.lexinfo.net/ontology/2.0/lexinfo#DitransitiveFrame http://www.lexinfo
 http://www.lexinfo.net/ontology/2.0/lexinfo#RaisingSubject http://www.lexinfo.net/ontology/2.0/lexinfo#subject
 http://www.lexinfo.net/ontology/2.0/lexinfo#PrepositionFrame
 http://www.lexinfo.net/ontology/2.0/lexinfo#SubjectlessTransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
-http://www.lexinfo.net/ontology/2.0/lexinfo#GerundFrame http://www.monnet-project.eu/lemon#synArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#GerundFrame http://lemon-model.net/lemon#synArg
 http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
-http://www.lexinfo.net/ontology/2.0/lexinfo#GerundACFrame http://www.monnet-project.eu/lemon#synArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#GerundACFrame http://lemon-model.net/lemon#synArg
 http://www.lexinfo.net/ontology/2.0/lexinfo#InterrogativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativeClause
 http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveInfinitiveSCFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause
 http://www.lexinfo.net/ontology/2.0/lexinfo#ImpersonalIntransitiveFrame
@@ -87,5 +87,5 @@ http://www.lexinfo.net/ontology/2.0/lexinfo#SententialFrame http://www.lexinfo.n
 http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveInterrogativeInfinitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativeInfinitiveClause http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
 http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveSententialFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#sententialClause
 http://www.lexinfo.net/ontology/2.0/lexinfo#ImpersonalIntransitiveSententialFrame http://www.lexinfo.net/ontology/2.0/lexinfo#sententialClause
-http://www.lexinfo.net/ontology/2.0/lexinfo#GerundSCFrame http://www.monnet-project.eu/lemon#synArg
-http://www.lexinfo.net/ontology/2.0/lexinfo#GerundOCFrame http://www.monnet-project.eu/lemon#synArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#GerundSCFrame http://lemon-model.net/lemon#synArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#GerundOCFrame http://lemon-model.net/lemon#synArg

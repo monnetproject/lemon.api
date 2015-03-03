@@ -66,9 +66,9 @@ public class MorphTransformImpl extends LemonElementImpl<MorphTransform> impleme
         checkRemote = false;
         if(model.allowUpdate()) {
             if(getURI() != null) {
-                model.updater().add(getURI(), URI.create(LemonModel.LEMON_URI+"rule"), string, (String)null);
+                model.updater().add(getURI(), URI.create(LemonModel.NEW_LEMON_URI+"rule"), string, (String)null);
             } else {
-                model.updater().add(getID(), URI.create(LemonModel.LEMON_URI+"rule"), string, (String)null);
+                model.updater().add(getID(), URI.create(LemonModel.NEW_LEMON_URI+"rule"), string, (String)null);
             }
         }
         return rules.add(string);
@@ -80,9 +80,9 @@ public class MorphTransformImpl extends LemonElementImpl<MorphTransform> impleme
         checkRemote = false;
         if(model.allowUpdate()) {
             if(getURI() != null) {
-                model.updater().remove(getURI(), URI.create(LemonModel.LEMON_URI+"rule"), string, (String)null);
+                model.updater().remove(getURI(), URI.create(LemonModel.NEW_LEMON_URI+"rule"), string, (String)null);
             } else {
-                model.updater().remove(getID(), URI.create(LemonModel.LEMON_URI+"rule"), string, (String)null);
+                model.updater().remove(getID(), URI.create(LemonModel.NEW_LEMON_URI+"rule"), string, (String)null);
             }
         }
         return rules.remove(string);
@@ -131,17 +131,23 @@ public class MorphTransformImpl extends LemonElementImpl<MorphTransform> impleme
         return removeStrElem("nextTransform",mt);
     }
 
+    private boolean isPredLemon(URI pred, String name) {
+        return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+            pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+    }
+
+
     @Override
     public ReaderAccepter accept(URI pred, URI value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"generates")) {
+        if(isPredLemon(pred, "generates")) {
             final PrototypeImpl prototypeImpl = factory.getPrototypeImpl(value);
             addStrElemDirect("generates", prototypeImpl);
             return prototypeImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"nextTransform")) {
+        } else if(isPredLemon(pred, "nextTransform")) {
             final MorphTransformImpl morphTransformImpl = factory.getMorphTransformImpl(value);
             addStrElemDirect("nextTransform", morphTransformImpl);
             return morphTransformImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"onStem")) {
+        } else if(isPredLemon(pred, "onStem")) {
             final PrototypeImpl prototypeImpl = factory.getPrototypeImpl(value);
             setStrElemDirect("onStem", prototypeImpl);
             return prototypeImpl;
@@ -152,15 +158,15 @@ public class MorphTransformImpl extends LemonElementImpl<MorphTransform> impleme
 
     @Override
     public ReaderAccepter accept(URI pred, String value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"generates")) {
+        if(isPredLemon(pred, "generates")) {
             final PrototypeImpl prototypeImpl = factory.getPrototypeImpl(value);
             addStrElemDirect("generates", prototypeImpl);
             return prototypeImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"nextTransform")) {
+        } else if(isPredLemon(pred, "nextTransform")) {
             final MorphTransformImpl morphTransformImpl = factory.getMorphTransformImpl(value);
             addStrElemDirect("nextTransform", morphTransformImpl);
             return morphTransformImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"onStem")) {
+        } else if(isPredLemon(pred, "onStem")) {
             final PrototypeImpl prototypeImpl = factory.getPrototypeImpl(value);
             setStrElemDirect("onStem", prototypeImpl);
             return prototypeImpl;
@@ -171,7 +177,7 @@ public class MorphTransformImpl extends LemonElementImpl<MorphTransform> impleme
 
     @Override
     public void accept(URI pred, String value, String lang, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"rule")) {
+        if(isPredLemon(pred, "rule")) {
             rules.add(value);
         } else {
             defaultAccept(pred, value, lang);

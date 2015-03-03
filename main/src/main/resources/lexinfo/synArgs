@@ -16,7 +16,7 @@ possesiveAdjunct	http://www.lexinfo.net/ontology/2.0/lexinfo#possesiveAdjunct
 prepositionalInterrogativeClause	http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalInterrogativeClause
 possesiveInfinitiveClause	http://www.lexinfo.net/ontology/2.0/lexinfo#possesiveInfinitiveClause
 objectComplement	http://www.lexinfo.net/ontology/2.0/lexinfo#objectComplement
-synArg	http://www.monnet-project.eu/lemon#synArg
+synArg	http://lemon-model.net/lemon#synArg
 postPositiveArg	http://www.lexinfo.net/ontology/2.0/lexinfo#postPositiveArg
 sententialClause	http://www.lexinfo.net/ontology/2.0/lexinfo#sententialClause
 predicativeAdjective	http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeAdjective

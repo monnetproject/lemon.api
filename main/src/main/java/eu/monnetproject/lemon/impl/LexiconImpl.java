@@ -41,7 +41,7 @@ import eu.monnetproject.lemon.model.Lexicon;
  * @author John McCrae
  */
 public class LexiconImpl extends LemonElementImpl implements Lexicon {
-    public static final URI LANGUAGE = URI.create(LemonModel.LEMON_URI+"language");
+    public static final URI LANGUAGE = URI.create(LemonModel.NEW_LEMON_URI+"language");
 
     private static final long serialVersionUID = 2163929528117965687L;
     private String language;
@@ -108,7 +108,7 @@ public class LexiconImpl extends LemonElementImpl implements Lexicon {
     public Collection<LexicalEntry> getEntrys() {
         if (checkRemoteEntry) {
             checkRemoteEntry = false;
-            model.resolver().resolveRemoteFiltered(model, URI.create(LemonModel.LEMON_URI+"entry"), this);
+            model.resolver().resolveRemoteFiltered(model, URI.create(LemonModel.NEW_LEMON_URI+"entry"), this);
         }
         return (Collection<LexicalEntry>) getStrElems("entry");
     }
@@ -127,7 +127,7 @@ public class LexiconImpl extends LemonElementImpl implements Lexicon {
     public Collection<LexicalTopic> getTopics() {
         if (checkRemoteTopic) {
             checkRemoteTopic = false;
-            model.resolver().resolveRemoteFiltered(model, URI.create(LemonModel.LEMON_URI+"topic"), this);
+            model.resolver().resolveRemoteFiltered(model, URI.create(LemonModel.NEW_LEMON_URI+"topic"), this);
         }
         return (Collection<LexicalTopic>) getStrElems("topic");
     }
@@ -147,13 +147,19 @@ public class LexiconImpl extends LemonElementImpl implements Lexicon {
         return model;
     }
 
+    private boolean isPredLemon(URI pred, String name) {
+        return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+            pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+    }
+
+
     @Override
     public ReaderAccepter accept(URI pred, URI value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if (pred.toString().equals(LemonModel.LEMON_URI + "entry")) {
+        if (isPredLemon(pred, "entry")) {
             final LexicalEntryImpl lexicalEntryImpl = factory.getLexicalEntryImpl(value);
             addStrElemDirect("entry", lexicalEntryImpl);
             return lexicalEntryImpl;
-        } else if (pred.toString().equals(LemonModel.LEMON_URI + "topic")) {
+        } else if (isPredLemon(pred, "topic")) {
             final TopicImpl topicImpl = factory.getTopicImpl(value);
             addStrElemDirect("topic", topicImpl);
             return topicImpl;
@@ -163,11 +169,11 @@ public class LexiconImpl extends LemonElementImpl implements Lexicon {
 
     @Override
     public ReaderAccepter accept(URI pred, String value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if (pred.toString().equals(LemonModel.LEMON_URI + "entry")) {
+        if (isPredLemon(pred, "entry")) {
             final LexicalEntryImpl lexicalEntryImpl = factory.getLexicalEntryImpl(value);
             addStrElemDirect("entry", lexicalEntryImpl);
             return lexicalEntryImpl;
-        } else if (pred.toString().equals(LemonModel.LEMON_URI + "topic")) {
+        } else if (isPredLemon(pred, "topic")) {
             final TopicImpl topicImpl = factory.getTopicImpl(value);
             addStrElemDirect("topic", topicImpl);
             return topicImpl;
@@ -177,7 +183,7 @@ public class LexiconImpl extends LemonElementImpl implements Lexicon {
 
     @Override
     public void accept(URI pred, String value, String lang, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if (pred.toString().equals(LemonModel.LEMON_URI + "language")) {
+        if (isPredLemon(pred, "language")) {
             language = value;
         } else {
             defaultAccept(pred, value, lang);

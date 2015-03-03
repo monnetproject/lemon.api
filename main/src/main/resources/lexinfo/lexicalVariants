@@ -12,7 +12,7 @@ shortFormFor	http://www.lexinfo.net/ontology/2.0/lexinfo#shortFormFor
 fullFormFor	http://www.lexinfo.net/ontology/2.0/lexinfo#fullFormFor
 lexicalComplement	http://www.lexinfo.net/ontology/2.0/lexinfo#lexicalComplement
 contractionFor	http://www.lexinfo.net/ontology/2.0/lexinfo#contractionFor
-lexicalVariant	http://www.monnet-project.eu/lemon#lexicalVariant
+lexicalVariant	http://lemon-model.net/lemon#lexicalVariant
 initialismFor	http://www.lexinfo.net/ontology/2.0/lexinfo#initialismFor
 clippedTermFor	http://www.lexinfo.net/ontology/2.0/lexinfo#clippedTermFor
 head	http://www.lexinfo.net/ontology/2.0/lexinfo#head

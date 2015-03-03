@@ -115,25 +115,30 @@ public class ReaderVisitor implements Visitor {
         }
     }
 
+	private boolean isPredLemon(URI pred, String name) {
+		return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+		pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+	}
+	
     ReaderAccepter getAccepter(Object subj, URI pred, URI value) {
         if (accepters.containsKey(subj) && !(accepters.get(subj) instanceof UnactualizedAccepter)) {
             return accepters.get(subj);
         } else {
             ReaderAccepter accepter = null;
             if (pred.toString().equals("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")) {
-                if (value.toString().equals(LemonModel.LEMON_URI + "Lexicon")) {
+                if (isPredLemon(value, "Lexicon")) {
                     if (subj instanceof URI) {
                         accepter = accepterFactory.getLexiconImpl((URI) subj);
                     } else {
                         accepter = accepterFactory.getLexiconImpl((String)subj);
                     }
-                } else if (value.toString().equals(LemonModel.LEMON_URI + "LexicalEntry")) {
+                } else if (isPredLemon(value, "LexicalEntry")) {
                     if(subj instanceof URI) {
                         accepter = accepterFactory.getLexicalEntryImpl((URI) subj);
                     } else {
                         accepter = accepterFactory.getLexicalEntryImpl((String)subj);
                     }
-                } else if(value.toString().equals(LemonModel.LEMON_URI + "MorphPattern")) {
+                } else if(isPredLemon(value, "MorphPattern")) {
                     if(subj instanceof URI) {
                         accepter = accepterFactory.getMorphPatternImpl((URI)subj);
                     } else {

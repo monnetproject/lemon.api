@@ -36,7 +36,7 @@ import java.net.URI;
  */
 public interface Property extends LemonPredicate {
 	/** The lemon super-property of all properties */
-	final Property property = new PropertyImpl(URI.create(LemonModel.LEMON_URI + "property"));
+	final Property property = new PropertyImpl(URI.create(LemonModel.NEW_LEMON_URI + "property"));
 }
 
 class PropertyImpl extends URIValue implements Property {

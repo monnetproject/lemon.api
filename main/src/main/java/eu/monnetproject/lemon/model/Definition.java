@@ -36,7 +36,7 @@ import java.net.URI;
  */
 public interface Definition extends LemonPredicate {
 	/** The lemon super-property for definition predicates */
-	final Definition definition = new DefinitionImpl(LemonModel.LEMON_URI + "definition");
+	final Definition definition = new DefinitionImpl(LemonModel.NEW_LEMON_URI + "definition");
 }
 
 class DefinitionImpl extends URIValue implements Definition {

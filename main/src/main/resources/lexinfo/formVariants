@@ -25,6 +25,6 @@ secondPersonForm	http://www.lexinfo.net/ontology/2.0/lexinfo#secondPersonForm
 indicativeMoodForm	http://www.lexinfo.net/ontology/2.0/lexinfo#indicativeMoodForm
 pluralNumberForm	http://www.lexinfo.net/ontology/2.0/lexinfo#pluralNumberForm
 imperfectTenseForm	http://www.lexinfo.net/ontology/2.0/lexinfo#imperfectTenseForm
-formVariant	http://www.monnet-project.eu/lemon#formVariant
+formVariant	http://lemon-model.net/lemon#formVariant
 futureTenseForm	http://www.lexinfo.net/ontology/2.0/lexinfo#futureTenseForm
 imperativeMoodForm	http://www.lexinfo.net/ontology/2.0/lexinfo#imperativeMoodForm

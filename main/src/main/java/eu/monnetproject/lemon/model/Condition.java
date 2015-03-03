@@ -36,11 +36,11 @@ import java.net.URI;
  */
 public interface Condition extends LemonPredicate {
 	/** The lemon super-property for condition predicates */
-	final Condition condition = new ConditionImpl(LemonModel.LEMON_URI + "condition");
+	final Condition condition = new ConditionImpl(LemonModel.NEW_LEMON_URI + "condition");
 	/** Indicate a restriction on the domain of the property */
-	final Condition propertyDomain = new ConditionImpl(LemonModel.LEMON_URI + "propertyDomain");
+	final Condition propertyDomain = new ConditionImpl(LemonModel.NEW_LEMON_URI + "propertyDomain");
 	/** Indicates a restriction on the range of the property */
-	final Condition propertyRange = new ConditionImpl(LemonModel.LEMON_URI + "propertyRange");
+	final Condition propertyRange = new ConditionImpl(LemonModel.NEW_LEMON_URI + "propertyRange");
 }
 
 class ConditionImpl extends URIValue implements Condition {

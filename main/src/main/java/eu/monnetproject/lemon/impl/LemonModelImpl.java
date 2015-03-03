@@ -109,7 +109,7 @@ public class LemonModelImpl implements LemonModel {
     public Lexicon addLexicon(URI uri, String language) {
         Lexicon lexicon = new LexiconImpl(uri, this);
         if(updater != null) {
-            updater.add(uri, URI.create("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URI.create(LemonModel.LEMON_URI+"Lexicon"));
+            updater.add(uri, URI.create("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URI.create(LemonModel.NEW_LEMON_URI+"Lexicon"));
         } 
         lexicon.setLanguage(language);
         lexica.add(lexicon);

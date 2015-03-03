@@ -60,9 +60,15 @@ public class ComponentImpl extends LemonElementImpl<ComponentImpl> implements Co
         setStrElem(ELEMENT, element);
     }
 
+    private boolean isPredLemon(URI pred, String name) {
+        return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+            pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+    }
+
+
     @Override
     public ReaderAccepter accept(URI pred, URI value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+ELEMENT)) {
+        if(isPredLemon(pred, ELEMENT)) {
             final LexicalEntryImpl lexicalEntryImpl = factory.getLexicalEntryImpl(value);//new LexicalEntryImpl(value,model);
             setStrElemDirect(ELEMENT,lexicalEntryImpl);
             return lexicalEntryImpl;
@@ -74,7 +80,7 @@ public class ComponentImpl extends LemonElementImpl<ComponentImpl> implements Co
     @Override
     public ReaderAccepter accept(URI pred, String bNode, LinguisticOntology lingOnto, AccepterFactory factory) {
         
-        if(pred.toString().equals(LemonModel.LEMON_URI+ELEMENT)) {
+        if(isPredLemon(pred, ELEMENT)) {
             final LexicalEntryImpl lexicalEntryImpl = factory.getLexicalEntryImpl(bNode);//new LexicalEntryImpl(bNode,model);
             setStrElemDirect(ELEMENT, lexicalEntryImpl);
             return lexicalEntryImpl;

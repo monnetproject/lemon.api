@@ -5,7 +5,7 @@ verbFormMood	http://www.lexinfo.net/ontology/2.0/lexinfo#verbFormMood
 modificationType	http://www.lexinfo.net/ontology/2.0/lexinfo#modificationType
 tense	http://www.lexinfo.net/ontology/2.0/lexinfo#tense
 mood	http://www.lexinfo.net/ontology/2.0/lexinfo#mood
-property	http://www.monnet-project.eu/lemon#property
+property	http://lemon-model.net/lemon#property
 number	http://www.lexinfo.net/ontology/2.0/lexinfo#number
 morphosyntacticProperty	http://www.lexinfo.net/ontology/2.0/lexinfo#morphosyntacticProperty
 frequency	http://www.lexinfo.net/ontology/2.0/lexinfo#frequency

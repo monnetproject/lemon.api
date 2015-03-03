@@ -148,7 +148,7 @@ public class SPARQLResolver implements RemoteResolver, LexiconResolver {
             for (URI graph : graphs) {
                 query.append(" FROM <").append(graph.toString()).append(">");
             }
-            query.append(" WHERE { <").append(lexicon.getURI().toString()).append("> <http://www.monnet-project.eu/lemon#entry> ?entry }");
+            query.append(" WHERE { <").append(lexicon.getURI().toString()).append("> <http://lemon-model.net/lemon#entry> ?entry }");
             final URL queryURL = new URL(endpoint + "?query=" + URLEncoder.encode(query.toString(), "UTF-8"));
             final URLConnection connection = queryURL.openConnection();
             connection.setRequestProperty("Accept", "application/sparql-results+xml");
@@ -173,7 +173,7 @@ public class SPARQLResolver implements RemoteResolver, LexiconResolver {
             for (URI graph : graphs) {
                 query.append(" FROM <").append(graph.toString()).append(">");
             }
-            query.append(" WHERE { ?lexicon a <http://www.monnet-project.eu/lemon#Lexicon> }");
+            query.append(" WHERE { ?lexicon a <http://lemon-model.net/lemon#Lexicon> }");
             final URL queryURL = new URL(endpoint + "?query=" + URLEncoder.encode(query.toString(), "UTF-8"));
             final URLConnection connection = queryURL.openConnection();
             connection.setRequestProperty("Accept", "application/sparql-results+xml");

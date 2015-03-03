@@ -60,14 +60,14 @@ public class LemonSerializerImplTest {
     @After
     public void tearDown() {
     }
-    private final String testTurtleDoc = "@prefix lemon: <http://www.monnet-project.eu/lemon#> . "
+    private final String testTurtleDoc = "@prefix lemon: <http://lemon-model.net/lemon#> . "
             + "@prefix : <file:test#> . "
             + ":lexicon a lemon:Lexicon ; "
             + " lemon:entry :Cat . "
             + ":Cat a lemon:Word ; "
             + " lemon:canonicalForm [ lemon:writtenRep \"cat\"@en ] ; "
             + " lemon:sense [ lemon:reference <http://dbpedia.org/resource/Cat> ] . ";
-    private final String testXMLDoc = "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:lemon=\"http://www.monnet-project.eu/lemon#\">"
+    private final String testXMLDoc = "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:lemon=\"http://lemon-model.net/lemon#\">"
             + " <lemon:Lexicon rdf:about=\"file:test#lexicon\">"
             + "  <lemon:entry> "
             + "   <lemon:Word rdf:about=\"file:test#Cat\"> "
@@ -102,23 +102,23 @@ public class LemonSerializerImplTest {
      */
     @Test
     public void testWrite_LemonModel_Writer() {
-        String expResult = "<?xml version=\"1.0\" encoding=\"US-ASCII\"?>" + ls
+        String expResult = "<?xml version=\"1.0\" encoding=\"us-ascii\"?>" + ls
                 + "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">" + ls
-                + "  <lemon:Lexicon rdf:about=\"file:test#lexicon\" xmlns:lemon=\"http://www.monnet-project.eu/lemon#\">" + ls
+                + "  <lemon:Lexicon rdf:about=\"file:test#lexicon\" xmlns:lemon=\"http://lemon-model.net/lemon#\">" + ls
                 + "    <lemon:language>en</lemon:language>" + ls
                 + "    <lemon:entry>" + ls
                 + "      <lemon:LexicalEntry rdf:about=\"file:test#Cat\">" + ls
+               + "        <lemon:canonicalForm>" + ls
+                + "          <lemon:Form rdf:about=\"file:test#Cat/canonicalForm\">" + ls
+                + "            <lemon:writtenRep xml:lang=\"en\">cat</lemon:writtenRep>" + ls
+                + "          </lemon:Form>" + ls
+                + "        </lemon:canonicalForm>" + ls
                 + "        <lemon:sense>" + ls
                 + "          <lemon:LexicalSense rdf:about=\"file:test#Cat/sense\">" + ls
                 + "            <lemon:reference rdf:resource=\"http://dbpedia.org/resource/Cat\"/>" + ls
                 + "          </lemon:LexicalSense>" + ls
                 + "        </lemon:sense>" + ls
-                + "        <lemon:canonicalForm>" + ls
-                + "          <lemon:Form rdf:about=\"file:test#Cat/canonicalForm\">" + ls
-                + "            <lemon:writtenRep xml:lang=\"en\">cat</lemon:writtenRep>" + ls
-                + "          </lemon:Form>" + ls
-                + "        </lemon:canonicalForm>" + ls
-                + "      </lemon:LexicalEntry>" + ls
+                 + "      </lemon:LexicalEntry>" + ls
                 + "    </lemon:entry>" + ls
                 + "  </lemon:Lexicon>" + ls
                 + "</rdf:RDF>";
@@ -225,7 +225,7 @@ public class LemonSerializerImplTest {
     @Test
     public void testWrite_3args() {
         String expResult = "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . " + ls
-                + "@prefix lemon: <http://www.monnet-project.eu/lemon#> . " + ls
+                + "@prefix lemon: <http://lemon-model.net/lemon#> . " + ls
                 + "" + ls
                 + "<file:test#Cat> lemon:sense [  a lemon:LexicalSense ;" + ls
                 + " lemon:reference <http://dbpedia.org/resource/Cat> ] ;" + ls
@@ -249,8 +249,8 @@ public class LemonSerializerImplTest {
      */
     @Test
     public void testWriteEntry_5args() {
-        String expResult = "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . " + ls
-                + "@prefix lemon: <http://www.monnet-project.eu/lemon#> . " + ls
+        String expResult = "@prefix lemon: <http://lemon-model.net/lemon#> . " + ls
+                + "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . " + ls
                 + "" + ls
                 + "<file:test#Cat/sense> a lemon:LexicalSense ;" + ls
                 + " lemon:reference <http://dbpedia.org/resource/Cat> ." + ls
@@ -277,8 +277,8 @@ public class LemonSerializerImplTest {
      */
     @Test
     public void testWriteLexicon_5args() {
-        String expResult = "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . " + ls
-                + "@prefix lemon: <http://www.monnet-project.eu/lemon#> . " + ls
+        String expResult = "@prefix lemon: <http://lemon-model.net/lemon#> . " + ls
+                + "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . " + ls
                 + "" + ls
                 + "<file:test#Cat/sense> a lemon:LexicalSense ;" + ls
                 + " lemon:reference <http://dbpedia.org/resource/Cat> ." + ls
@@ -305,7 +305,7 @@ public class LemonSerializerImplTest {
     private final String input = "@prefix MusicBrainzLexicon: <http://monnetproject.deri.ie/lemonsource/user/httpswwwgooglecomaccountso8ididAItOawnRWNkyXGW_lk5kD1JgLCzU9MCwC_R8TY/MusicBrainzLexicon#>." + ls
             + "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>." + ls
             + "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>." + ls
-            + "@prefix lemon: <http://www.monnet-project.eu/lemon#>." + ls
+            + "@prefix lemon: <http://lemon-model.net/lemon#>." + ls
             + "@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#>."
             + "@prefix : <http://monnetproject.deri.ie/lemonsource/user/httpswwwgooglecomaccountso8ididAItOawnRWNkyXGW_lk5kD1JgLCzU9MCwC_R8TY/MusicBrainzLexicon#>.\n" + ls
             + "MusicBrainzLexicon:lexicon a lemon:Lexicon ; lemon:entry MusicBrainzLexicon:collaborationOf." + ls
@@ -363,7 +363,7 @@ public class LemonSerializerImplTest {
         assertEquals(2, frame.getTypes().size());
         for (URI frameType : frame.getTypes()) {
             assertTrue(URI.create("http://www.lexinfo.net/ontology/2.0/lexinfo#NounPPFrame").equals(frameType)
-                    || URI.create("http://www.monnet-project.eu/lemon#Frame").equals(frameType));
+                    || URI.create("http://lemon-model.net/lemon#Frame").equals(frameType));
         }
         assertFalse(entry.getOtherForms().isEmpty());
         final LexicalForm otherForm = entry.getOtherForms().iterator().next();
@@ -374,7 +374,7 @@ public class LemonSerializerImplTest {
     @Test
     public void testLoadUnicode() {
         //System.out.println("testloadUnicode");
-        final String xmlDoc = "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:lemon=\"http://www.monnet-project.eu/lemon#\">"
+        final String xmlDoc = "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:lemon=\"http://lemon-model.net/lemon#\">"
                 + " <lemon:Lexicon rdf:about=\"file:test#lexicon\">"
                 + "  <lemon:entry> "
                 + "   <lemon:Word rdf:about=\"file:test#Baer\"> "
@@ -408,7 +408,7 @@ public class LemonSerializerImplTest {
     @Test
     public void testReadEntry() {
         //System.out.println("testReadEntry");
-        final String xmlDoc = "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:lemon=\"http://www.monnet-project.eu/lemon#\">"
+        final String xmlDoc = "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:lemon=\"http://lemon-model.net/lemon#\">"
                 + " <lemon:LexicalEntry rdf:about=\"http://www.example.com/test\">"
                 + "   <lemon:canonicalForm>"
                 + "     <lemon:LexicalForm rdf:about=\"http://www.example.com/test#form\">"
@@ -436,7 +436,7 @@ public class LemonSerializerImplTest {
         instance.writeLexiconDescription(model, lexicon, out);
         final String xmlDoc = "<?xml version=\"1.0\" encoding=\"US-ASCII\"?>" + ls
                 + "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">" + ls
-                + "  <lemon:Lexicon rdf:about=\"http://www.example.com/lexicon/\" xmlns:lemon=\"http://www.monnet-project.eu/lemon#\">" + ls
+                + "  <lemon:Lexicon rdf:about=\"http://www.example.com/lexicon/\" xmlns:lemon=\"http://lemon-model.net/lemon#\">" + ls
                 + "    <lemon:language>en</lemon:language>" + ls
                 + "    <lemon:entry rdf:resource=\"http://www.example.com/lexicon/example\"/>" + ls
                 + "  </lemon:Lexicon>" + ls
@@ -448,20 +448,20 @@ public class LemonSerializerImplTest {
     @Test
     public void testConstituent() {
         //System.out.println("testConstituent");
-        String expResult = "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . " + ls
-                + "@prefix lemon: <http://www.monnet-project.eu/lemon#> . " + ls
-                + "" + ls
-                + "<file:test#Cat/node> lemon:constituent  <file:test#NP>  ;" + ls
-                + " a lemon:Node ." + ls
+        String expResult = "@prefix lemon: <http://lemon-model.net/lemon#> . " + ls
+				+ "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . " + ls
                 + "" + ls
                 + "<file:test#Cat/sense> a lemon:LexicalSense ;" + ls
                 + " lemon:reference <http://dbpedia.org/resource/Cat> ." + ls
+				+ "" + ls
+                + "<file:test#Cat/node> lemon:constituent  <file:test#NP>  ;" + ls
+                + " a lemon:Node ." + ls
                 + "" + ls
                 + "<file:test#Cat/canonicalForm> lemon:writtenRep \"cat\"@en ;" + ls
                 + " a lemon:Form ." + ls
                 + "" + ls
-                + "<file:test#Cat> lemon:phraseRoot <file:test#Cat/node> ;" + ls
-                + " lemon:sense <file:test#Cat/sense> ;" + ls
+                + "<file:test#Cat> lemon:sense <file:test#Cat/sense> ;" + ls
+				+ " lemon:phraseRoot <file:test#Cat/node> ;" + ls
                 + " lemon:canonicalForm <file:test#Cat/canonicalForm> ;" + ls
                 + " a lemon:LexicalEntry ." + ls
                 + "" + ls
@@ -507,18 +507,18 @@ public class LemonSerializerImplTest {
     public void testWriteEntry_utf8() {
         String expResult = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + ls
                 + "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">" + ls
-                + "  <lemon:LexicalEntry rdf:about=\"file:test#Sa\u00edocht\" xmlns:lemon=\"http://www.monnet-project.eu/lemon#\">" + ls
-                + "    <lemon:sense>" + ls
-                + "      <lemon:LexicalSense rdf:about=\"file:test#Sa\u00edocht/sense\">" + ls
-                + "        <lemon:reference rdf:resource=\"http://ga.dbpedia.org/resource/Sa\u00edocht\"/>" + ls
-                + "      </lemon:LexicalSense>" + ls
-                + "    </lemon:sense>" + ls
+                + "  <lemon:LexicalEntry rdf:about=\"file:test#Sa\u00edocht\" xmlns:lemon=\"http://lemon-model.net/lemon#\">" + ls
                 + "    <lemon:canonicalForm>" + ls
                 + "      <lemon:Form rdf:about=\"file:test#Sa\u00edocht/canonicalForm\">" + ls
                 + "        <lemon:writtenRep xml:lang=\"ga\">Sa\u00edocht</lemon:writtenRep>" + ls
                 + "      </lemon:Form>" + ls
                 + "    </lemon:canonicalForm>" + ls
-                + "  </lemon:LexicalEntry>" + ls
+                 + "    <lemon:sense>" + ls
+                + "      <lemon:LexicalSense rdf:about=\"file:test#Sa\u00edocht/sense\">" + ls
+                + "        <lemon:reference rdf:resource=\"http://ga.dbpedia.org/resource/Sa\u00edocht\"/>" + ls
+                + "      </lemon:LexicalSense>" + ls
+                + "    </lemon:sense>" + ls
+               + "  </lemon:LexicalEntry>" + ls
                 + "</rdf:RDF>";
         System.setProperty("lemon.api.xml.encoding", "UTF-8");
         LemonSerializerImpl instance = new LemonSerializerImpl(null);
@@ -537,7 +537,7 @@ public class LemonSerializerImplTest {
     public void testWriteSenseRealtion() {
         String expResult = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + ls
                 + "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">" + ls
-                + "  <lemon:LexicalEntry rdf:about=\"file:test#Sa\u00edocht\" xmlns:lemon=\"http://www.monnet-project.eu/lemon#\">" + ls
+                + "  <lemon:LexicalEntry rdf:about=\"file:test#Sa\u00edocht\" xmlns:lemon=\"http://lemon-model.net/lemon#\">" + ls
                 + "    <lemon:sense>" + ls
                 + "      <lemon:LexicalSense rdf:about=\"file:test#Sa\u00edocht/sense\">" + ls
                 + "        <lemon:reference rdf:resource=\"http://ga.dbpedia.org/resource/Sa\u00edocht\"/>" + ls

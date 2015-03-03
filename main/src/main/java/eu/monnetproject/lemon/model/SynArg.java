@@ -37,7 +37,7 @@ import java.net.URI;
  */
 public interface SynArg extends LemonPredicate { 
 	/** The lemon super-property of all syntactic arguments */
-	final SynArg synArg = new SynArgImpl(URI.create(LemonModel.LEMON_URI + "synArg"));
+	final SynArg synArg = new SynArgImpl(URI.create(LemonModel.NEW_LEMON_URI + "synArg"));
 }
 
 class SynArgImpl extends URIValue implements SynArg {

@@ -36,7 +36,7 @@ import java.net.URI;
  */
 public interface Representation extends LemonPredicate {
 	/** The lemon super-property of all representation properties */
-	final Representation representation = new RepresentationImpl(URI.create(LemonModel.LEMON_URI + "representation"));
+	final Representation representation = new RepresentationImpl(URI.create(LemonModel.NEW_LEMON_URI + "representation"));
 }
 
 class RepresentationImpl extends URIElement implements Representation {

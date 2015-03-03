@@ -27,7 +27,7 @@ import java.util.Collection;
  */
 public class LemonOilsImpl implements LemonOils {
 
-    public static final String LEMON_OILS = "http://www.monnetproject.eu/lemon-oils#";
+    public static final String LEMON_OILS = "http://lemon-model.net/oils#";
     
     public CovariantScalar makeCovariantScalar(Ontology ontlg, URI uri, DatatypeProperty dp, Degree degree) {
         OntologyFactory factory = ontlg.getFactory();

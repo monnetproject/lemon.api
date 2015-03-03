@@ -67,9 +67,15 @@ public class MorphPatternImpl extends LemonElementImpl<MorphPattern> implements 
         return removeStrElem("transform", mt);
     }
 
+    private boolean isPredLemon(URI pred, String name) {
+        return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+            pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+    }
+
+
     @Override
     public ReaderAccepter accept(URI pred, URI value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"transform")) {
+        if(isPredLemon(pred, "transform")) {
             final MorphTransformImpl morphTransformImpl = factory.getMorphTransformImpl(value);
             addStrElemDirect("transform", morphTransformImpl);
             return morphTransformImpl;
@@ -80,7 +86,7 @@ public class MorphPatternImpl extends LemonElementImpl<MorphPattern> implements 
 
     @Override
     public ReaderAccepter accept(URI pred, String bNode, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"transform")) {
+        if(isPredLemon(pred, "transform")) {
             final MorphTransformImpl morphTransformImpl = factory.getMorphTransformImpl(bNode);
             addStrElemDirect("transform", morphTransformImpl);
             return morphTransformImpl;
@@ -123,16 +129,16 @@ public class MorphPatternImpl extends LemonElementImpl<MorphPattern> implements 
         if(model.allowUpdate()) {
             if(this.language != null) {
                 if(getURI() != null) {
-                    model.updater().remove(getURI(), URI.create(LemonModel.LEMON_URI+"language"), this.language, (String)null);
+                    model.updater().remove(getURI(), URI.create(LemonModel.NEW_LEMON_URI+"language"), this.language, (String)null);
                 } else {
-                    model.updater().remove(getID(), URI.create(LemonModel.LEMON_URI+"language"), this.language, (String)null);
+                    model.updater().remove(getID(), URI.create(LemonModel.NEW_LEMON_URI+"language"), this.language, (String)null);
                 }
             }
             if(language != null) {
                 if(getURI() != null) {
-                    model.updater().add(getURI(), URI.create(LemonModel.LEMON_URI+"language"), language, (String)null);
+                    model.updater().add(getURI(), URI.create(LemonModel.NEW_LEMON_URI+"language"), language, (String)null);
                 } else {
-                    model.updater().add(getID(), URI.create(LemonModel.LEMON_URI+"language"), this.language, (String)null);
+                    model.updater().add(getID(), URI.create(LemonModel.NEW_LEMON_URI+"language"), this.language, (String)null);
                 }
             }
         }
@@ -142,7 +148,7 @@ public class MorphPatternImpl extends LemonElementImpl<MorphPattern> implements 
     @Override
     public Map<URI, Collection<Object>> getElements() {
         Map<URI, Collection<Object>> rv =  super.getElements();
-        final URI uri = URI.create(LemonModel.LEMON_URI+"language");
+        final URI uri = URI.create(LemonModel.NEW_LEMON_URI+"language");
         if(!rv.containsKey(uri)) {
             rv.put(uri, new LinkedList<Object>());
         }

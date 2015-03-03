@@ -70,7 +70,8 @@ public class ExampleImpl extends LemonElementImpl implements Example {
 
     @Override
     public void accept(URI pred, String value, String lang, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"value")) {
+        if(pred.toString().equals(LemonModel.NEW_LEMON_URI+"value") ||
+                pred.toString().equals(LemonModel.MONNET_LEMON_URI+"value")) {
             setStrTextDirect("value",new Text(value, lang));
         } else {
             defaultAccept(pred, value, lang);

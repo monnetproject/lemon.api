@@ -77,16 +77,16 @@ public class LexicalSenseImpl extends LemonElementImpl<LexicalSense> implements 
         if(model.allowUpdate()) {
             if(this.reference != null) {
                 if(getURI() != null) {
-                    model.updater().remove(getURI(), URI.create(LemonModel.LEMON_URI+"reference"), this.reference);
+                    model.updater().remove(getURI(), URI.create(LemonModel.NEW_LEMON_URI+"reference"), this.reference);
                 } else {
-                    model.updater().remove(getID(), URI.create(LemonModel.LEMON_URI+"reference"), this.reference);
+                    model.updater().remove(getID(), URI.create(LemonModel.NEW_LEMON_URI+"reference"), this.reference);
                 }
             }
             if(reference != null) {
                 if(getURI() != null) {
-                    model.updater().add(getURI(), URI.create(LemonModel.LEMON_URI+"reference"), reference);
+                    model.updater().add(getURI(), URI.create(LemonModel.NEW_LEMON_URI+"reference"), reference);
                 } else {
-                    model.updater().add(getID(), URI.create(LemonModel.LEMON_URI+"reference"), reference);
+                    model.updater().add(getID(), URI.create(LemonModel.NEW_LEMON_URI+"reference"), reference);
                 }
             }
         }
@@ -107,16 +107,16 @@ public class LexicalSenseImpl extends LemonElementImpl<LexicalSense> implements 
         if(model.allowUpdate()) {
             if(this.refPref != null) {
                 if(getURI() != null) {
-                    model.updater().remove(reference, URI.create(LemonModel.LEMON_URI+this.refPref.toString()), getURI());
+                    model.updater().remove(reference, URI.create(LemonModel.NEW_LEMON_URI+this.refPref.toString()), getURI());
                 } else {
-                    model.updater().remove(reference, URI.create(LemonModel.LEMON_URI+this.refPref.toString()), getID());
+                    model.updater().remove(reference, URI.create(LemonModel.NEW_LEMON_URI+this.refPref.toString()), getID());
                 }
             } 
             if(refPref != null) {
                 if(getURI() != null) {
-                    model.updater().add(reference, URI.create(LemonModel.LEMON_URI+refPref.toString()), getURI());
+                    model.updater().add(reference, URI.create(LemonModel.NEW_LEMON_URI+refPref.toString()), getURI());
                 } else {
-                    model.updater().add(reference, URI.create(LemonModel.LEMON_URI+refPref.toString()), getID());
+                    model.updater().add(reference, URI.create(LemonModel.NEW_LEMON_URI+refPref.toString()), getID());
                 }
             }
         }
@@ -341,44 +341,49 @@ public class LexicalSenseImpl extends LemonElementImpl<LexicalSense> implements 
         return !(predicate instanceof SenseRelation);
     }
 
+    private boolean isPredLemon(URI pred, String name) {
+        return pred.toString().equals(LemonModel.NEW_LEMON_URI + name) ||
+            pred.toString().equals(LemonModel.MONNET_LEMON_URI + name);
+    }
+
     @Override
     public ReaderAccepter accept(URI pred, URI value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"context")) {
+        if(isPredLemon(pred, "context")) {
             final ContextImpl contextImpl = factory.getContextImpl(value);
             addStrElemDirect("context",contextImpl);
             return contextImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"example")) {
+        } else if(isPredLemon(pred, "example")) {
             final ExampleImpl exampleImpl = factory.getExampleImpl(value);
             addStrElemDirect("example",exampleImpl);
             return exampleImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"isA")) {
+        } else if(isPredLemon(pred, "isA")) {
             final ArgumentImpl argumentImpl = factory.getArgumentImpl(value);
             addStrElemDirect("isA",argumentImpl);
             return argumentImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"subjOfProp")) {
+        } else if(isPredLemon(pred, "subjOfProp")) {
             final ArgumentImpl argumentImpl = factory.getArgumentImpl(value);
             addStrElemDirect("subjOfProp",argumentImpl);
             return argumentImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"objOfProp")) {
+        } else if(isPredLemon(pred, "objOfProp")) {
             final ArgumentImpl argumentImpl = factory.getArgumentImpl(value);
             addStrElemDirect("objOfProp",argumentImpl);
             return argumentImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"reference")) {
+        } else if(isPredLemon(pred, "reference")) {
             reference = value;
             return null;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"prefRef")) {
+        } else if(isPredLemon(pred, "prefRef")) {
             reference = value;
             refPref = ReferencePreference.prefRef;
             return null;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"altRef")) {
+        } else if(isPredLemon(pred, "altRef")) {
             reference = value;
             refPref = ReferencePreference.altRef;
             return null;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"hiddenRef")) {
+        } else if(isPredLemon(pred, "hiddenRef")) {
             reference = value;
             refPref = ReferencePreference.hiddenRef;
             return null;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"subsense")) {
+        } else if(isPredLemon(pred, "subsense")) {
             final LexicalSenseImpl lexicalSenseImpl = factory.getLexicalSenseImpl(value);
             addStrElemDirect("subsense",lexicalSenseImpl);
             return lexicalSenseImpl;
@@ -410,27 +415,27 @@ public class LexicalSenseImpl extends LemonElementImpl<LexicalSense> implements 
 
     @Override
     public ReaderAccepter accept(URI pred, String value, LinguisticOntology lingOnto, AccepterFactory factory) {
-        if(pred.toString().equals(LemonModel.LEMON_URI+"context")) {
+        if(isPredLemon(pred, "context")) {
             final ContextImpl contextImpl = factory.getContextImpl(value);
             addStrElemDirect("context",contextImpl);
             return contextImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"example")) {
+        } else if(isPredLemon(pred, "example")) {
             final ExampleImpl exampleImpl = factory.getExampleImpl(value);
             addStrElemDirect("example",exampleImpl);
             return exampleImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"isA")) {
+        } else if(isPredLemon(pred, "isA")) {
             final ArgumentImpl argumentImpl = factory.getArgumentImpl(value);
             addStrElemDirect("isA",argumentImpl);
             return argumentImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"subjOfProp")) {
+        } else if(isPredLemon(pred, "subjOfProp")) {
             final ArgumentImpl argumentImpl = factory.getArgumentImpl(value);
             addStrElemDirect("subjOfProp",argumentImpl);
             return argumentImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"objOfProp")) {
+        } else if(isPredLemon(pred, "objOfProp")) {
             final ArgumentImpl argumentImpl = factory.getArgumentImpl(value);
             addStrElemDirect("objOfProp",argumentImpl);
             return argumentImpl;
-        } else if(pred.toString().equals(LemonModel.LEMON_URI+"subsense")) {
+        } else if(isPredLemon(pred, "subsense")) {
             final LexicalSenseImpl lexicalSenseImpl = factory.getLexicalSenseImpl(value);
             addStrElemDirect("subsense",lexicalSenseImpl);
             return lexicalSenseImpl;
@@ -487,7 +492,7 @@ public class LexicalSenseImpl extends LemonElementImpl<LexicalSense> implements 
     public Map<URI,Collection<Object>> getElements() {
         Map<URI,Collection<Object>> rval = super.getElements();
         if(reference != null) {
-            rval.put(URI.create(LemonModel.LEMON_URI+"reference"), Collections.singletonList((Object)reference));
+            rval.put(URI.create(LemonModel.NEW_LEMON_URI+"reference"), Collections.singletonList((Object)reference));
         }
         return rval;
     }
