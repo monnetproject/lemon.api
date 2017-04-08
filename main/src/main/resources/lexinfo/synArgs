@@ -12,9 +12,9 @@ complement	http://www.lexinfo.net/ontology/2.0/lexinfo#complement
 attributiveArg	http://www.lexinfo.net/ontology/2.0/lexinfo#attributiveArg
 clausalArg	http://www.lexinfo.net/ontology/2.0/lexinfo#clausalArg
 copulativeSubject	http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject
-possesiveAdjunct	http://www.lexinfo.net/ontology/2.0/lexinfo#possesiveAdjunct
+possessiveAdjunct	http://www.lexinfo.net/ontology/2.0/lexinfo#possessiveAdjunct
 prepositionalInterrogativeClause	http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalInterrogativeClause
-possesiveInfinitiveClause	http://www.lexinfo.net/ontology/2.0/lexinfo#possesiveInfinitiveClause
+possessiveInfinitiveClause	http://www.lexinfo.net/ontology/2.0/lexinfo#possessiveInfinitiveClause
 objectComplement	http://www.lexinfo.net/ontology/2.0/lexinfo#objectComplement
 synArg	http://lemon-model.net/lemon#synArg
 postPositiveArg	http://www.lexinfo.net/ontology/2.0/lexinfo#postPositiveArg

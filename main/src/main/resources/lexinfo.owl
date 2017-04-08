@@ -1061,18 +1061,18 @@ In 1951: Any editorial comment.</rdfs:comment>
     
 
 
-    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#possesiveAdjunct -->
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#possessiveAdjunct -->
 
-    <owl:ObjectProperty rdf:about="&lexinfo;possesiveAdjunct">
-        <rdfs:range rdf:resource="&lexinfo;PossesiveAdjunct"/>
+    <owl:ObjectProperty rdf:about="&lexinfo;possessiveAdjunct">
+        <rdfs:range rdf:resource="&lexinfo;possessiveAdjunct"/>
         <rdfs:subPropertyOf rdf:resource="&lexinfo;adjunct"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#possesiveInfinitiveClause -->
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#possessiveInfinitiveClause -->
 
-    <owl:ObjectProperty rdf:about="&lexinfo;possesiveInfinitiveClause">
+    <owl:ObjectProperty rdf:about="&lexinfo;possessiveInfinitiveClause">
         <rdfs:subPropertyOf rdf:resource="&lexinfo;clausalArg"/>
     </owl:ObjectProperty>
     
@@ -3325,9 +3325,9 @@ he GAVE a present TO his mother</example>
     
 
 
-    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossesiveFrame -->
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame -->
 
-    <owl:Class rdf:about="&lexinfo;NounPossesiveFrame">
+    <owl:Class rdf:about="&lexinfo;NounPossessiveFrame">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -3337,8 +3337,8 @@ he GAVE a present TO his mother</example>
                         <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&lexinfo;possesiveAdjunct"/>
-                        <owl:onClass rdf:resource="&lexinfo;PossesiveAdjunct"/>
+                        <owl:onProperty rdf:resource="&lexinfo;possessiveAdjunct"/>
+                        <owl:onClass rdf:resource="&lexinfo;PossessiveAdjunct"/>
                         <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -3485,9 +3485,9 @@ he GAVE a present TO his mother</example>
     
 
 
-    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#PossesiveAdjunct -->
+    <!-- http://www.lexinfo.net/ontology/2.0/lexinfo#PossessiveAdjunct -->
 
-    <owl:Class rdf:about="&lexinfo;PossesiveAdjunct">
+    <owl:Class rdf:about="&lexinfo;PossessiveAdjunct">
         <rdfs:subClassOf rdf:resource="&lexinfo;Adjunct"/>
     </owl:Class>
     

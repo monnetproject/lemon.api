@@ -24,7 +24,7 @@ http://www.lexinfo.net/ontology/2.0/lexinfo#DitransitiveDoubleAccusativeFrame	de
 http://www.lexinfo.net/ontology/2.0/lexinfo#ReflexiveDativeTransitiveFrame	de	ich TUE mir WEH
 http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveInfinitiveFrame	en	she was ABLE [to climb the mountain]
 http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame	en	he TOOK CARE OF her
-http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossesiveFrame	en	the CAPITAL OF france is paris
+http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame	en	the CAPITAL OF france is paris
 http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveInfinitiveSCFrame	en	john PROMISED mary [to resign]
 http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveAdjectivalComplementFrame	en	his reputation SANK low
 http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveComparativeFrame	en	new york is BIGGER THAN berlin
