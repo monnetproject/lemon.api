@@ -28,7 +28,7 @@ DitransitiveDoubleAccusativeFrame	http://www.lexinfo.net/ontology/2.0/lexinfo#Di
 TransitiveDeclarativeFrame	http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveDeclarativeFrame
 ReflexiveTransitiveFrame	http://www.lexinfo.net/ontology/2.0/lexinfo#ReflexiveTransitiveFrame
 TransitiveNominalComplementFrame	http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveNominalComplementFrame
-NounPossesiveFrame	http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossesiveFrame
+NounPossessiveFrame	http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame
 ReflexiveTransitivePPFrame	http://www.lexinfo.net/ontology/2.0/lexinfo#ReflexiveTransitivePPFrame
 PrepositionFrame	http://www.lexinfo.net/ontology/2.0/lexinfo#PrepositionFrame
 TransitiveSententialFrame	http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveSententialFrame

@@ -27,7 +27,7 @@ http://www.lexinfo.net/ontology/2.0/lexinfo#ReflexiveDativeTransitiveFrame http:
 http://www.lexinfo.net/ontology/2.0/lexinfo#DitransitiveDoubleAccusativeFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject
 http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitivePPFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#prepositionalAdjunct
 http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveInfinitiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeSubject
-http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossesiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#possesiveAdjunct http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg
+http://www.lexinfo.net/ontology/2.0/lexinfo#NounPossessiveFrame http://www.lexinfo.net/ontology/2.0/lexinfo#possessiveAdjunct http://www.lexinfo.net/ontology/2.0/lexinfo#copulativeArg
 http://www.lexinfo.net/ontology/2.0/lexinfo#AdjectiveFrame
 http://www.lexinfo.net/ontology/2.0/lexinfo#TransitiveInfinitiveSCFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#directObject http://www.lexinfo.net/ontology/2.0/lexinfo#infinitiveClause
 http://www.lexinfo.net/ontology/2.0/lexinfo#IntransitiveAdjectivalComplementFrame http://www.lexinfo.net/ontology/2.0/lexinfo#subject http://www.lexinfo.net/ontology/2.0/lexinfo#predicativeAdjective
