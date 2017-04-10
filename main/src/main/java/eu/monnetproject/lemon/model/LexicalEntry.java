@@ -34,7 +34,7 @@ import java.util.Map;
  * The lexical entry is the main representation of a term or word
  * @author John McCrae
  */
-public interface LexicalEntry extends SyntacticRoleMarker {
+public interface LexicalEntry extends SyntacticRoleMarker, LeafElement {
 	/** Get the canonical form of the entry */
 	LexicalForm getCanonicalForm();
 	/** Set the canonical form of the entry */

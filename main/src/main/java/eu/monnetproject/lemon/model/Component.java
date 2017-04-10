@@ -32,7 +32,7 @@ package eu.monnetproject.lemon.model;
  */
 public interface Component extends PhraseTerminal {
 	/** Get the base lexical entry for this component */ 
-	LexicalEntry getElement();
+	LeafElement getElement();
 	/** Set the base lexical entry for this component */ 
-	void setElement(final LexicalEntry element);
+	void setElement(final LeafElement element);
 }
