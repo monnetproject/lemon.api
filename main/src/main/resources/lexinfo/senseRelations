@@ -19,3 +19,4 @@ substanceHolonym	http://www.lexinfo.net/ontology/2.0/lexinfo#substanceHolonym
 memberHolonym	http://www.lexinfo.net/ontology/2.0/lexinfo#memberHolonym
 partHolonym	http://www.lexinfo.net/ontology/2.0/lexinfo#partHolonym
 relatedTerm	http://www.lexinfo.net/ontology/2.0/lexinfo#relatedTerm
+collocation	http://www.lexinfo.net/ontology/2.0/lexinfo#collocation
