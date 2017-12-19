@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>eu.monnetproject</groupId>
+    <groupId>com.github.monnetproject</groupId>
     <artifactId>lemon.api.project</artifactId>
     <version>1.13.3</version>
     <packaging>pom</packaging>
@@ -11,36 +11,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <scala.version>2.9.0</scala.version>
     </properties>
-    
-    <distributionManagement>
-        <repository>
-            <id>internal.repo</id>
-            <name>Monnet01 Repository</name>
-            <url>file:///var/www/mvn/</url>
-        </repository>
-        <snapshotRepository>
-            <id>internal.repo</id>
-            <name>Monnet01 Repository</name>
-            <url>file:///var/www/mvn/</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
-    </distributionManagement>
-    
-    <repositories>
-        <repository>
-            <id>monnet01</id>
-            <name>Monnet repository</name>
-            <url>http://monnet01.sindice.net/mvn</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>monnet01</id>
-            <name>Monnet plug-in repository</name>
-            <url>http://monnet01.sindice.net/mvn</url>
-        </pluginRepository>
-    </pluginRepositories>
     
     <modules>
         <module>main</module>    
@@ -80,12 +50,12 @@
                 <version>2.7</version>
             </plugin>
             <plugin>
-                <groupId>eu.monnetproject</groupId>
+                <groupId>com.github.monnetproject</groupId>
                 <artifactId>osgirun</artifactId>
                 <version>1.12.2</version>
             </plugin>
             <plugin>
-                <groupId>eu.monnetproject</groupId>
+                <groupId>com.github.monnetproject</groupId>
                 <artifactId>bndannotation</artifactId>
                 <version>1.12.2</version>
                 <executions>
@@ -111,7 +81,7 @@
                                 <pluginExecution>
                                     <pluginExecutionFilter>
                                         <groupId>
-                                            eu.monnetproject
+                                            com.github.monnetproject
                                         </groupId>
                                         <artifactId>
                                             bndannotation

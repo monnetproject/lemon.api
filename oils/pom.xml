@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>eu.monnetproject</groupId>
+        <groupId>com.github.monnetproject</groupId>
         <artifactId>lemon.api.project</artifactId>
         <version>1.13.3</version>
         <relativePath>..</relativePath>
@@ -12,7 +12,7 @@
     <artifactId>lemon.api.oils</artifactId>
     <packaging>bundle</packaging>
 
-    <name>eu.monnetproject.lemon.api.oils OSGi Bundle</name>
+    <name>com.github.monnetproject.lemon.api.oils OSGi Bundle</name>
 
     <dependencies>
         <dependency>

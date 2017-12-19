@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-        <groupId>eu.monnetproject</groupId>
+        <groupId>com.github.monnetproject</groupId>
         <version>1.13.3</version>
     <artifactId>lemon.api</artifactId>
     <packaging>bundle</packaging>
 
-    <name>eu.monnetproject.lemon.api OSGi Bundle</name>
+    <name>com.github.monnetproject.lemon.api OSGi Bundle</name>
 
     <distributionManagement>
         <repository>
