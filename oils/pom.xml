@@ -1,47 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.monnetproject</groupId>
+  <artifactId>lemon.api.oils</artifactId>
+  <version>1.18.4</version>
+  <packaging>jar</packaging>
 
-    <parent>
-        <groupId>com.github.monnetproject</groupId>
-        <artifactId>lemon.api.project</artifactId>
-        <version>1.13.3</version>
-        <relativePath>..</relativePath>
-    </parent>
-    <artifactId>lemon.api.oils</artifactId>
-    <packaging>bundle</packaging>
+  <name>com.github.monnetproject.lemon.api.oils OSGi Bundle</name>
+  <description>com.github.monnetproject.lemon.api.oils OSGi Bundle from the Monnet Project's lemon.api.project project.</description>
+  <url>https://github.com/monnetproject/lemon.api.project</url>
 
-    <name>com.github.monnetproject.lemon.api.oils OSGi Bundle</name>
+  <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <scala.version>2.9.0</scala.version>
+  </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.apache.felix</groupId>
-            <artifactId>org.osgi.compendium</artifactId>
-            <version>1.4.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>ontology</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
+  <licenses>
+    <license>
+      <name>BSD 3-clause "New" or "Revised" License</name>
+      <url>https://github.com/monnetproject/lemon.api.project/blob/master/LICENSE</url>
+    </license>
+  </licenses>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-bundle-plugin</artifactId>
-                <version>2.3.6</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <instructions>
-                        <Export-Package>eu.monnetproject.lemon.oils</Export-Package>
-                        <Private-Package>eu.monnetproject.lemon.oils.impl</Private-Package>
-                    </instructions>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+  <developers>
+    <developer>
+      <name>John P. McCrae</name>
+      <email>john@mccr.ae</email>
+      <organization>Insight Centre for Data Analytics, NUI Galway</organization>
+      <organizationUrl>http://www.insight-centre.org/</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+      <connection>scm:git:git://github.com/monnetproject/lemon.api.project.git</connection>
+      <developerConnection>scm:git:ssh://github.com:monnetproject/lemon.api.project.git</developerConnection>
+      <url>http://github.com/monnetproject/lemon.api.project/tree/master</url>
+   </scm>
+
+   <build>
+       <plugins>
+           <plugin>
+               <groupId>org.sonatype.plugins</groupId>
+               <artifactId>nexus-staging-maven-plugin</artifactId>
+               <version>1.6.7</version>
+               <extensions>true</extensions>
+               <configuration>
+                   <serverId>ossrh</serverId>
+                   <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                   <autoReleaseAfterClose>true</autoReleaseAfterClose>
+               </configuration>
+           </plugin>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-source-plugin</artifactId>
+               <version>2.2.1</version>
+               <executions>
+                   <execution>
+                       <id>attach-sources</id>
+                       <goals>
+                           <goal>jar-no-fork</goal>
+                       </goals>
+                   </execution>
+               </executions>
+           </plugin>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-javadoc-plugin</artifactId>
+               <version>2.9.1</version>
+               <executions>
+                   <execution>
+                       <id>attach-javadocs</id>
+                       <goals>
+                           <goal>jar</goal>
+                       </goals>
+                   </execution>
+               </executions>
+           </plugin>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-gpg-plugin</artifactId>
+               <version>1.5</version>
+               <executions>
+                   <execution>
+                       <id>sign-artifacts</id>
+                       <phase>verify</phase>
+                       <goals>
+                           <goal>sign</goal>
+                       </goals>
+                   </execution>
+               </executions>
+           </plugin>
+
+
+       </plugins>
+   </build>
+
+   <dependencies>
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.8.2</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.apache.felix</groupId>
+    <artifactId>org.osgi.compendium</artifactId>
+    <version>1.4.0</version>
+    <scope>test</scope>
+</dependency><dependency>
+    <groupId>${project.groupId}</groupId>
+    <artifactId>ontology</artifactId>
+    <version>${project.version}</version>
+</dependency>
+   </dependencies>
 </project>
+
